@@ -39,7 +39,7 @@ When you open the <a data-toggle="tooltip" data-original-title="{{site.data.char
 
 <!--------------------------------------------- EXTENDED starts -->
 
-{% include /charting_space/viewport.md heading="more" icon="150-" adding="" configuring="" charts="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /charting_space/viewport.md heading="more" icon="150" adding="" configuring="" charts="" content="yes" definition="bold" table="yes" more="yes"%}
 
 <!--------------------------------------------- EXTENDED ends -->
 

@@ -45,6 +45,6 @@ Panels tend to self organize on any of the four corners of the screen.
 
 **6. To minimize a panel** left-click on the small triangle on the right-hand side of the label. To bring it back, left-click the triangle again.
 
-{% include /charting_space/layers-manager.md heading="more" icon="150-" adding="####" configuring="####" charts="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /charting_space/layers-manager.md heading="more" icon="150" adding="####" configuring="####" charts="" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /charting_space/layer.md heading="more" icon="150-" adding="####" configuring="####" charts="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /charting_space/layer.md heading="more" icon="150" adding="####" configuring="####" charts="" content="yes" definition="bold" table="yes" more="yes"%}

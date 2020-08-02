@@ -4,7 +4,7 @@ IMAGES:
 
 {% include image-ext.html file='how-to/go-to-the-workspace-node-00.gif' url='yes' max-width='100' caption='Flick the mouse wheel while pressing the Ctrl or Command key.' %}
 
-{% include inline_image.html file="icons/12-expand.png" %}
+{% include inline_image.html file="icons/menu'png12/expand.png" %}
 
 
 INCLUDES:

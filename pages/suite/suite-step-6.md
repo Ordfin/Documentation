@@ -28,7 +28,7 @@ The following instructions teach you how to monitor the progress of the data min
 
 {% include /how_to/find-a-hierarchy.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
 
-**3. Hover the mouse over the network <a data-toggle="tooltip" data-original-title="{{site.data.concepts.node}}">node</a>** and click the {% include inline_image.html file="icons/12-expand.png" %} button on the menu. This action expands the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.hierarchy}}">hierarchy</a>.
+**3. Hover the mouse over the network <a data-toggle="tooltip" data-original-title="{{site.data.concepts.node}}">node</a>** and click the {% include inline_image.html file="icons/menu'png12/expand.png" %} button on the menu. This action expands the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.hierarchy}}">hierarchy</a>.
 
 {% include image.html file='how-to/data-mining-progress-00.gif' url='yes' max-width='100' caption='The image illustrates points 3 to 5, showing the path to find the data mining node, and the indication of how many exchange tasks and task managers are running. In your case, it will be 1 out of 3.' %}
 

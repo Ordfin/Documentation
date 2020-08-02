@@ -3,10 +3,12 @@
 topnav:
 - title: Topnav
   items:
+    - title: Documentation
+      url: /index.html
+    - title: Contribute
+      url: /contributing-to-superalgos.html
     - title: FAQs
       url: /suite-frequently-asked-questions.html
-    - title: Issues
-      external_url: https://github.com/Superalgos/Superalgos/issues
     - title: Help
       external_url: https://t.me/superalgoscommunity
     - title: Superalgos Project

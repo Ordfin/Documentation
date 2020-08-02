@@ -523,8 +523,8 @@ entries:
       output: web
       class: childItem
 
-    - title: How to contribute an indicator
-      url: /suite-how-to-contribute-an-indicator.html
+    - title: Contribute an indicator!
+      url: /contributing-indicators.html
       output: web
 
   - title: Trading farms

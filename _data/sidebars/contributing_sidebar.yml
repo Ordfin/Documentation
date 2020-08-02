@@ -1,0 +1,53 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Superalgos
+  version: Beta
+  folders:
+
+#  - title:
+#    output: pdf
+#    type: frontmatter
+#    folderitems:
+#    - title:
+#      url: /titlepage.html
+#      output: pdf
+#      type: frontmatter
+#    - title:
+#      url: /tocpage.html
+#      output: pdf
+#      type: frontmatter
+
+  - title: New to Superalgos?
+    output: web
+    folderitems:
+
+    - title: Welcome!
+      url: /index.html
+      output: web
+      type: homepage
+
+  - title: How may I help?
+    output: web
+    folderitems:
+
+    - title: Get involved!
+      url: /contributing-to-superalgos.html
+      output: web
+
+  - title: Designers
+    output: web
+    folderitems:
+
+    - title: Designing icons
+      url: /contributing-icons.html
+      output: web
+
+  - title: Developers
+    output: web
+    folderitems:
+
+    - title: Building indicators
+      url: /contributing-indicators.html
+      output: web

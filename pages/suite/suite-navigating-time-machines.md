@@ -27,6 +27,6 @@ permalink: suite-navigating-time-machines.html
 
 {% include /reuse/zoom-levels.md content="yes" extended="no" %}
 
-{% include /charting_space/time-machine.md heading="more" icon="150-" adding="" configuring="" charts="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /charting_space/time-machine.md heading="more" icon="150" adding="" configuring="" charts="" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /charting_space/timeline-chart.md heading="more" icon="150-" adding="" configuring="" charts="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /charting_space/timeline-chart.md heading="more" icon="150" adding="" configuring="" charts="" content="yes" definition="bold" table="yes" more="yes"%}

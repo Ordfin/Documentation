@@ -17,4 +17,4 @@ Time machines may feature one or more <a data-toggle="tooltip" data-original-tit
 
 **4. To adjust the aspect ratio of a time machine to fit your screen** use the following hot-key combination when the mouse pointer is over the chart: <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>.
 
-{% include /charting_space/dashboard.md heading="more" icon="150-" adding="####" configuring="" charts="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /charting_space/dashboard.md heading="more" icon="150" adding="####" configuring="" charts="" content="yes" definition="bold" table="yes" more="yes"%}

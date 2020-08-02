@@ -26,12 +26,13 @@ This section of the documentation provides you with the technical understanding 
 
 Let's start with a basic definition...
 
-{% include /data_mine/data-mine.md heading="" icon="150-" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="yes" %}
+{% include /data_mine/data-mine.md heading="" icon="150" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="yes" %}
 
-<table class='hierarchyTable'><thead><tr><th><a href='#data-mine' data-toggle='tooltip' data-original-title='{{site.data.data_mine.data_mine}}'><img src='images/icons/data-mine.png' /><br />Data Mine</a></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
-<tr><td><img src='images/icons/tree-connector-fork.png' /></td><td><a href='#indicator-bot' data-toggle='tooltip' data-original-title='{{site.data.data_mine.indicator_bot}}'><img src='images/icons/indicator-bot.png' /><br />Indicator Bot</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td><img src='images/icons/tree-connector-elbow.png' /></td><td><a href='#plotter' data-toggle='tooltip' data-original-title='{{site.data.data_mine.plotter}}'><img src='images/icons/plotter.png' /><br />Plotter</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table class='hierarchyTable'><thead><tr><th><a href='#data-mine' data-toggle='tooltip' data-original-title='{{site.data.data_mine.data_mine}}'><img src='images/icons/nodes/png50/data-mine.png' /><br />Data Mine</a></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
+<tr><td><img src='images/icons/various/png/tree-connector-fork.png' /></td><td><a href='#indicator-bot' data-toggle='tooltip' data-original-title='{{site.data.data_mine.indicator_bot}}'><img src='images/icons/nodes/png50/indicator-bot.png' /><br />Indicator Bot</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#plotter' data-toggle='tooltip' data-original-title='{{site.data.data_mine.plotter}}'><img src='images/icons/nodes/png50/plotter.png' /><br />Plotter</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
-{% include /data_mine/indicator-bot.md heading="###" icon="" adding="" configuring="" starting="" content="no" definition="yes" table="yes" more="no" %}
 
-{% include /data_mine/plotter.md heading="###" icon="" adding="" configuring="" starting="" content="no" definition="yes" table="yes" more="no" %}
+{% include /data_mine/indicator-bot.md heading="###" icon="50" adding="" configuring="" starting="" content="no" definition="yes" table="yes" more="no" %}
+
+{% include /data_mine/plotter.md heading="###" icon="50" adding="" configuring="" starting="" content="no" definition="yes" table="yes" more="no" %}

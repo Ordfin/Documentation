@@ -19,12 +19,12 @@ Both the time scale and the rate scale may be set to different automatic modes o
 
 {% include /charting_space/time-scale.md heading="" icon="no" adding="" configuring="" charts="###" content="no" definition="no" table="no" more="no"%}
 
-{% include /charting_space/time-scale.md heading="more" icon="150-" adding="####" configuring="####" charts="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /charting_space/time-scale.md heading="more" icon="150" adding="####" configuring="####" charts="" content="yes" definition="bold" table="yes" more="yes"%}
 
 {% include /charting_space/rate-scale.md heading="" icon="no" adding="" configuring="" charts="###" content="no" definition="no" table="no" more="no"%}
 
-{% include /charting_space/rate-scale.md heading="more" icon="150-" adding="####" configuring="####" charts="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /charting_space/rate-scale.md heading="more" icon="150" adding="####" configuring="####" charts="" content="yes" definition="bold" table="yes" more="yes"%}
 
 {% include /charting_space/time-frame-scale.md heading="" icon="no" adding="" configuring="" charts="###" content="no" definition="no" table="no" more="no"%}
 
-{% include /charting_space/time-frame-scale.md heading="more" icon="150-" adding="####" configuring="####" charts="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /charting_space/time-frame-scale.md heading="more" icon="150" adding="####" configuring="####" charts="" content="yes" definition="bold" table="yes" more="yes"%}

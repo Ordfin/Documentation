@@ -5,8 +5,8 @@ sidebar: suite_sidebar
 permalink: suite-situations-conditions-formulas.html
 ---
 
-{% include /trading_system/situation.md heading="##" icon="150-" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /trading_system/situation.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /trading_system/condition.md heading="##" icon="150-" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /trading_system/condition.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /trading_system/formula.md heading="##" icon="150-" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /trading_system/formula.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}

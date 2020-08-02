@@ -9,14 +9,14 @@ permalink: suite-hierarchies.html
 
 {% include note.html content="In the design space, the head or parent node of each hierarchy is represented by the corresponding icon surrounded by an ever-present white ring, so that they are easier to locate within the workspace." %}
 
-{% include /charting_space/charting-space.md heading="##" icon="150-" adding="" configuring="" charts="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /charting_space/charting-space.md heading="##" icon="150" adding="" configuring="" charts="" content="yes" definition="bold" table="yes" more="no"%}
 
-{% include /trading_system/trading-system.md heading="##" icon="150-" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /trading_system/trading-system.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /crypto_ecosystem/crypto-ecosystem.md heading="##" icon="150-" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /crypto_ecosystem/crypto-ecosystem.md heading="##" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
-{% include /network/network.md heading="##" icon="150-" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /network/network.md heading="##" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
-{% include /data_mine/data-mine.md heading="##" icon="150-" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /data_mine/data-mine.md heading="##" icon="150" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /super_scripts/super-scripts.md heading="##" icon="150-" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="yes"%}
+{% include /super_scripts/super-scripts.md heading="##" icon="150" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="yes"%}

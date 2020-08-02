@@ -22,7 +22,7 @@
 <table class='definitionTable'><tr><td>
 {% endif %}
 
-<img src='images/icons/{{include.icon}}{{ title | downcase | replace: " ", "-" }}.png' />
+<img src='images/icons/nodes/png{{include.icon}}/{{ title | downcase | replace: " ", "-" }}.png' />
 
 {% if include.table == "yes" and include.icon != "no" %}
 </td><td>
