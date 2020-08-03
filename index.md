@@ -14,7 +14,7 @@ toc: false
 
 ## Getting Started
 
-Getting started with Superalgos is really easy: you may choose to follow a [series of video tutorials](suite-step-1-video.html), or follow [written instructions](suite-step-0.html) instead. The video series is richer in explanations, while the written series is more concise and to-the-point. Using both is probably the smartest thing to do!
+Getting started with Superalgos is easy: you may choose to follow a [series of video tutorials](suite-step-1-video.html), or follow [written instructions](suite-step-0.html) instead. The video series is richer in explanations, while the written series is more concise and to-the-point. Using both is probably the smartest thing to do!
 
 The *Getting Started Guide* quickly shows you the very basics of Superalgos so that you may rapidly grasp the system's potential. It takes you through a sequence of instructions to download and install the system, run it for the first time, fetch some data from exchanges, browse markets on the charts, run a first backtest with an existing strategy, and even try a live trading session, for demonstration purposes.
 
