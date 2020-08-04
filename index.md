@@ -24,6 +24,10 @@ If you have any questions or issues running the system, or need help getting sta
 
 We love it when people show up to say hi, or offer feedback as well. Also, the community is the place where you want to be to stay up to date with recent developments and with what is cooking for the next release. It's also the place where users discuss building strategies, share work in progress, and help each other learn faster. Don't be shy! Drop by, say hi, tell us how you are using Superalgos, or let us know if you are missing any features.
 
+## Contribute Your Skills
+
+Superalgos is an open-source community project and relies on users' contributions to grow and provide the solutions we all benefit from. If you find Superalgos brings value to your trading or research, please consider contributing some time and effort to the project. [There is something you may do to give back](contributing-to-superalgos.html), regardless of what your skill set may be.
+
 ## Important Announcements
 
 The official <a href="https://t.me/superalgos" rel="nofollow" rel="noopener" target="_blank">Superalgos Announcements</a> channel is where new releases and important bug reports are announced. Make sure you are in the channel to stay in the loop.
