@@ -19,35 +19,44 @@ entries:
 #      output: pdf
 #      type: frontmatter
 
-  - title: New to Superalgos?
+  - title: How to contribute
     output: web
     folderitems:
 
-    - title: Welcome!
+    - title: We want your help!
+      url: /contributing-to-superalgos.html
+      output: web
+
+    - title: New to Superalgos?
       url: /index.html
       output: web
       type: homepage
-
-  - title: How may I help?
-    output: web
-    folderitems:
-
-    - title: Get involved!
-      url: /contributing-to-superalgos.html
-      output: web
 
   - title: Designers
     output: web
     folderitems:
 
-    - title: Designing icons
+    - title: Contribute icons
       url: /contributing-icons.html
       output: web
+
+  - title: Writers
+    output: web
+    folderitems:
+
+    - title: Contribute documentation
+      url: /contributing-documentation.html
+      output: web
+
+    - title: Node definitions
+      url: /contributing-documentation-node-definitions.html
+      output: web
+      class: childItem
 
   - title: Developers
     output: web
     folderitems:
 
-    - title: Building indicators
+    - title: Contribute indicators
       url: /contributing-indicators.html
       output: web

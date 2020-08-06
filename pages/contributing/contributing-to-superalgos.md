@@ -1,6 +1,6 @@
 ---
 title:  Contributing to Superalgos
-summary: We need your help! If you are into graphic design, have a knack for explaining complex matters in English, are a power user of Superalgos, or a developer, you can help!
+summary: We need your help! If you are into graphics design, have a knack for writing in English, are a power user of Superalgos, or are developer, you can help!
 sidebar: contributing_sidebar
 permalink: contributing-to-superalgos.html
 ---

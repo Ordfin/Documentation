@@ -1,5 +1,5 @@
 ---
-title:  How to Contribute Indicators
+title:  Contributing Indicators
 summary: Set up your data mine, document both the on-chart features and the data products made available to other bots, and submit a PR to the corresponding repository.
 sidebar: contributing_sidebar
 permalink: contributing-indicators.html

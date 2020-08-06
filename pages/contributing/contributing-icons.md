@@ -1,5 +1,5 @@
 ---
-title:  Designing Icons
+title:  Contributing Icons
 summary: Fork the Graphics repository, coordinate with the design team, work locally, share your progress, and submit your contributions when you are done!
 sidebar: contributing_sidebar
 permalink: contributing-icons.html
