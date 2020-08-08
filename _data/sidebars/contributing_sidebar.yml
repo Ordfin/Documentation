@@ -53,6 +53,11 @@ entries:
       output: web
       class: childItem
 
+    - title: Including node definitions
+      url: /contributing-documentation-including-node-definitions.html
+      output: web
+      class: childItem
+
   - title: Developers
     output: web
     folderitems:

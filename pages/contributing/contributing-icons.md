@@ -35,7 +35,7 @@ We use a restricted palette, with a playful selection of colors that work well b
 
 ### Look & Feel
 
-Superalgos is a large and rather complex system aimed at all sorts of user profiles. The ultimate goal of the project is to massify the use of system, thus, the Superalgos should be accessible to a wide user base: from professional traders to crypto-holders, and everything in between.
+Superalgos is a large and rather complex system aimed at all sorts of user profiles. The ultimate goal of the project is to massify the use of the system, thus, Superalgos should be accessible to a wide user base: from professional traders to crypto-holders, and everything in between.
 
 The choice of a playful look and feel responds to the underlying strategy to achieve massification: to gamify the user experience, in the sense that building profitable trading strategies may be turned into a strategy game in and of itself.
 
@@ -77,6 +77,18 @@ A stylistic resource that we favour and that helps to create depth and richness 
 | execution algorithm | scripts library | super action | polygon condition | super scripts |
 | :---: | :---: | :---: | :---: | :---: |
 | ![color-palette](images/icons/nodes/png150/execution-algorithm.png) | ![color-palette](images/icons/nodes/png150/scripts-library.png) | ![color-palette](images/icons/nodes/png150/super-action.png) | ![color-palette](images/icons/nodes/png150/polygon-condition.png)| ![color-palette](images/icons/nodes/png150/super-scripts.png) |
+
+#### Non-Realistic Proportions
+
+It's one of the characteristics of the cartoonish look and feel:
+
+![color-palette](images/icons/nodes/png512/workspace.png)
+
+#### Rounded Corners
+
+Again, one other typical characteristic:
+
+![color-palette](images/icons/nodes/png512/shapes.png)
 
 #### Level of Detail
 

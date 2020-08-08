@@ -1,5 +1,5 @@
 ---
-title:  "Contributing Documentation: Node Definitions"
+title:  Node Definitions
 summary: "Node definitions are atomized into individual MD pages designed to be included in other pages."
 sidebar: contributing_sidebar
 permalink: contributing-documentation-node-definitions.html
