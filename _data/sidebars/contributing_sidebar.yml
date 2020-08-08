@@ -48,6 +48,11 @@ entries:
       url: /contributing-documentation.html
       output: web
 
+    - title: Introduction
+      url: /contributing-documentation-introduction.html
+      output: web
+      class: childItem
+
     - title: Node definitions
       url: /contributing-documentation-node-definitions.html
       output: web

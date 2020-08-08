@@ -11,37 +11,30 @@ These pages cover everything you need to know to become proficient at documentin
 
 {% include important.html content="All contributions are subject to the terms of the <a href='https://github.com/Superalgos/Superalgos/blob/master/LICENSE' rel='nofollow' rel='noopener' target='_blank'>Apache License 2.0</a>. " %}
 
-## Generalities
+## New to Superalgos?
 
-The documentation site is a <a href='https://en.wikipedia.org/wiki/Static_web_page' rel='nofollow' rel='noopener' target='_blank'>static site</a> created with <a href='https://jekyllrb.com/' rel='nofollow' rel='noopener' target='_blank'>Jekyll</a> and hosted by <a href='https://pages.github.com/' rel='nofollow' rel='noopener' target='_blank'>GitHub Pages</a> directly from the <a href='https://github.com/Superalgos/Documentation' target='_blank'>Documentation repository</a>.
+If you are just getting started with Superalgos, you may help by taking notes on what may be improved in the Getting Started Guide and the overall experience of your first contact with the system and the documentation.
 
-## Attribution
+Once you gain a little bit of experience with Superalgos, you may be able to formulate concise proposals on how to improve the experience for new users.
 
-The site uses an adapted version of the <a href='https://idratherbewriting.com/documentation-theme-jekyll/' rel='noopener' target='_blank'>Jekyll Doc Theme 6.0</a> by <a href='https://idratherbewriting.com/documentation-theme-jekyll/' rel='noopener' target='_blank'>Tom Johnson</a>.
+Also, this is the stage in which you will be reading the existing documentation and likely spotting errors, inconsistencies, or outdated content. You can help by fixing those issues yourself!
 
-The authorship of each piece of content is indicated by the contributor's identity in the <a href='https://github.com/Superalgos/Documentation' rel='noopener' target='_blank'>Documentation repository</a>.
+## Advanced Users
 
-## Documentation Goals
+If you've been using Superalgos for a while, have thoroughly studied the documentation gaining a good understanding of how the system works, and have a knack for explaining complex concepts in English, then you may help document new, unreleased functionality.
 
-Needless to say, the documentation must pursue the ultimate goal of making Superalgos usable by explaining what the system is, what it does, how it works, and how it may be used.
+## Getting Started
 
-However, with a vast and complex system, the above is not enough. The documentation must also constantly evolve and innovate to substantially soften the learning curve and lower barriers of entry.
+To get started contributing to the documentation, follow the next few steps:
 
-## Information Structure
+**1. Fork the <a href='https://github.com/Superalgos/Documentation' rel='noopener' target='_blank'>Documentation repository</a>**. If you are not familiar with <a href='https://github.com/' rel='nofollow' rel='noopener' target='_blank'>GitHub</a>, you should start with opening an account and going through some <a href='https://www.youtube.com/results?search_query=github+basics+tutorial' rel='nofollow' rel='noopener' target='_blank'>basic tutorials</a>. Learning GitHub is a great investment of your time, as it will open the doors to a universe of open-source projects you may contribute to!
 
-Conceptually, information is structured in horizontal layers. The bottom layers of information provide the substance that layers built on top feed from by reusing content and further elaborating on it.
+Do not *clone* or *download* the repository. It is important that you *fork* it instead. When you fork the repository, GitHub creates a fork (a live copy) of the repository under your GitHub account. This allows GitHub to keep track of your fork and allows you to maintain your fork in sync with the upstream (original) repository, as well as submitting your contributions, via *Pull Requests* (PR).
 
-At a glance, these are the layers that make up the current documentation:
+Once you have an account, simply click the *Fork* button while standing on the <a href='https://github.com/Superalgos/Documentation' rel='noopener' target='_blank'>Documentation repository</a> page.
 
-1. **Node definitions**: The layer provides an atomized explanation of what the system does at the scope of each node in each of the hierarchies.
+{% include image.html file='contributing/documentation-fork-repository.png' url='yes' max-width='100' caption='Find the Fork button on the top-right corner of the screen.' %}
 
-1. **Hierarchy definitions**: The scope of this layer expands to the hierarchy level, providing context on how nodes interact, integrating the definitions of each node, presenting them in a logical sequence, and explaining how each hierarchy interacts with the rest.
+**2. Join us on the <a href='https://t.me/superalgosdocs' rel='nofollow' rel='noopener' target='_blank'>Superalgos Documentation Telegram Group</a>**. This is where people working on the docs meet, exchange ideas, and coordinate work. Needless to say, we are waiting for you and appreciate all the help you may offer!
 
-1. **How to**: The layer features step-by-step tutorials for both specific and broad operations, many of which transcend a single hierarchy. This layer may include written guides and video tutorials.
-
-1. **Special features**: Provides extensive detail on certain system capabilities and their potential uses.
-
-On top of these four layers, more layers may and should eventually be built to fulfill the goals declared earlier, such as:
-
-5. **Use cases**: The layer analyzes specific use cases and provides solutions for specific user needs.
-
+**3. Keep reading about how the docs are built**. The next few pages help with your education about how the docs are built and the criteria we follow to make it consistent. While you read them, dive into your fork of the documentation to start acquiring some hands-on experience.

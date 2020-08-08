@@ -82,13 +82,13 @@ A stylistic resource that we favour and that helps to create depth and richness 
 
 It's one of the characteristics of the cartoonish look and feel:
 
-![color-palette](images/icons/nodes/png512/workspace.png)
+![color-palette](images/icons/nodes/png150/workspace.png)
 
 #### Rounded Corners
 
 Again, one other typical characteristic:
 
-![color-palette](images/icons/nodes/png512/shapes.png)
+![color-palette](images/icons/nodes/png150/shapes.png)
 
 #### Level of Detail
 
@@ -137,13 +137,31 @@ Save for a few exceptions, all icons are squared.
 
 Files inherit the name of the node, asset, exchange, or whatever the icon represents, and are named in lower case, each word separated by a hyphen, and with a lower-case extension. For example, the PNG file for the Initial Take Profit node is ```initial-take-profit.png```.
 
-## Workflow
+### Repository Data Structure
+
+* ```assets```: icons representing the logo of cryptocurrencies.
+
+* ```color-palette```: a single SVG file featuring the design brief's color palette.
+
+* ```exchanges```:icons representing the logo of cryptocurrency exchanges.
+
+* ```layers```: icons representing the type of content displayed by indicator's layers.
+
+* ```menu```: icons representing controls and features accessed through node's menu.
+
+* ```mouse```: icons representing mouse and keyboard controls used by screen video capture features.
+
+* ```replaced```: icons not currently in use, which may at some point have been replaced by new ones.
+
+* ```various```: icons of unusual sizes and format used for specific purpouses.
+
+## Getting Started
 
 ### 1. Get Familiar with GitHub
 
 A basic understanding of GitHub is required to participate in the collaboration. GitHub administers file versions, keeps a historic record of who made what changes, and properly attributes authorship.
 
-If you are not familiar with Git in general and GitHub in particular, we suggest using <a href='https://desktop.github.com/' rel='nofollow' rel='noopener' target='_blank'>GitHub Desktop</a> and to go through a <a href='https://www.youtube.com/results?search_query=github+basics' rel='nofollow' rel='noopener' target='_blank'>a few basic GitHub tutorials</a>, as well as a few <a href='https://www.youtube.com/results?search_query=basic+github+desktop+tutorial' rel='nofollow' rel='noopener' target='_blank'>tutorials on GitHub Desktop</a>.
+If you are not familiar with Git in general and GitHub in particular, we suggest using <a href='https://desktop.github.com/' rel='nofollow' rel='noopener' target='_blank'>GitHub Desktop</a>. Go through a <a href='https://www.youtube.com/results?search_query=github+basics' rel='nofollow' rel='noopener' target='_blank'>a few basic GitHub tutorials</a>, as well as a few <a href='https://www.youtube.com/results?search_query=basic+github+desktop+tutorial' rel='nofollow' rel='noopener' target='_blank'>tutorials on GitHub Desktop</a>.
 
 {% include important.html content="You will need an account with GitHub to participate in the collaboration." %}
 
@@ -153,15 +171,25 @@ If you are not familiar with Git in general and GitHub in particular, we suggest
 
 The <a href='https://github.com/Superalgos/Graphics' rel='nofollow' rel='noopener' target='_blank'>Graphics repository</a> holds all the icons, including source vector files and PNG files in different sizes. The repo is organized by ```type of icon > file format / size```.
 
-Do not *clone* or *download* the repository. It is important that you *fork* it instead. When you fork the repository, GitHub creates a fork (a live copy) of the repository under your GitHub account. This allows GitHub to keep track of your fork and allows you to maintain your fork in sync with the upstream (original) repository, as well as submitting your contributions, via *Pull Requests* (PR).
+{% include important.html content="Do not *clone* or *download* the repository. It is important that you *fork* it instead. When you fork the repository, GitHub creates a fork (a live copy) of the repository under your GitHub account. This allows GitHub to keep track of your fork and allows you to maintain your fork in sync with the upstream (original) repository, as well as submitting your contributions, via *Pull Requests* (PR)." %}
+
+Once you have an account with GitHub, simply click the *Fork* button while standing on the <a href='https://github.com/Superalgos/Graphics' rel='nofollow' rel='noopener' target='_blank'>Graphics repository</a> page.
+
+{% include image.html file='contributing/icons-fork-repository.png' url='yes' max-width='100' caption='Find the Fork button on the top-right corner of the screen.' %}
 
 Once your fork is up and running under your GitHub account, then you will *clone* your fork to your local machine (using GitHub Desktop if you choose to), so that you may work on the files locally.
 
-### 3. Coordinate with the Design Group
+### 3. Clone the ```develop``` Branch of Your Fork
+
+The actual work is done in your machine, on a clone of your fork, more precisely on the ```develop``` branch. Use GitHub Desktop to make the clone, so that you may use the app to maintain both clone and fork in sync. Remember, do not clone the original Superalgos Grphics repository; you must clone your fork instead, and the ```develop``` branch in particular!
+
+### 4. Join the Design Group
 
 The <a href='https://t.me/superalgosuxui' rel='nofollow' rel='noopener' target='_blank'>Superalgos UX/UI Design</a> group is where you will coordinate with other designers which icons you will work on, so as not to duplicate efforts. Once you have a clear understanding of the task at hand, you may start creating!
 
-### 4. Work in Your Local Machine
+## Workflow
+
+### 1. Work in Your Local Machine
 
 You will produce all the work locally, using your preferred vector design software package. 
 
@@ -171,18 +199,18 @@ Feel free to start your designs using the ```color-palette.svg``` file as a temp
 
 {% include tip.html content="Remember to always rename the file as soon as you open it, saving it in the proper folder before you continue, to avoid accidentally rewriting the original file with your work. If you ever make a mistake and rewrite an existing file in your local clone, you may always choose to stash (discard) the changes in GitHub Desktop and pull the data from your fork to update your local clone. If you ever get to commit undesired changes to your fork, then you may choose to re-synchronize the fork with the upstream repository via a Pull Request (PR)." %}
 
-### 4. Share Your Progress
+### 2. Share Your Progress
 
 Feel free to discuss ideas and share your progress with other designers in the group. We are all happy to offer feedback, especially during your first few contributions.
 
-### 5. Submit a Pull Request to the Graphics Repository
+### 3. Submit a Pull Request to the Graphics Repository
 
-Once you are happy with the icon design, export each of the required sizes to the corresponding folder (each type of icon requires certain sizes of PNG images.) 
+Once you are happy with the icon design, export each of the required sizes to the corresponding folder. Each type of icon requires certain sizes of PNG images. You can tell which sizes are required by the name of the folders that exist for the specific kind of icon you are creating. 
 
 {% include tip.html content="Remember to follow the [naming convention](#naming-convention)!" %}
 
 Once all files are ready and double-checked, commit the changes and push them to your fork (using GitHub Desktop).
 
-Then, go to your fork on github.com and submit a PR to the upstream repository.
+Then, go to your fork on github.com and submit a PR to the ```develop``` branch of the upstream repository.
 
 The maintainer of the repository will review the work and respond to your PR accordingly. If everything seems OK, your PR will be merged. Otherwise, you will get an answer from the maintainer.
