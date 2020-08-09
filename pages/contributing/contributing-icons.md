@@ -203,13 +203,15 @@ Feel free to start your designs using the ```color-palette.svg``` file as a temp
 
 Feel free to discuss ideas and share your progress with other designers in the group. We are all happy to offer feedback, especially during your first few contributions.
 
-### 3. Submit a Pull Request to the Graphics Repository
+### 3. Produce the Required Files and Update You Fork
 
 Once you are happy with the icon design, export each of the required sizes to the corresponding folder. Each type of icon requires certain sizes of PNG images. You can tell which sizes are required by the name of the folders that exist for the specific kind of icon you are creating. 
 
 {% include tip.html content="Remember to follow the [naming convention](#naming-convention)!" %}
 
 Once all files are ready and double-checked, commit the changes and push them to your fork (using GitHub Desktop).
+
+### 4. Submit a Pull Request to the ```develop``` branch of the Graphics Repository
 
 Then, go to your fork on github.com and submit a PR to the ```develop``` branch of the upstream repository.
 

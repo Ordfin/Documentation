@@ -56,7 +56,7 @@ Everyone using Superalgos benefits from a larger user base: the more users testi
 
 Data mines and the indicators within are a crucial element of trading intelligence. Contributing a few indicators is currently the best way developers may help to realize the project's vision of a Collective Trading Intelligence. At the same time, it's the best way to dive under the hood and learn how the system works so that you may one day contribute to the code base.
 
-[Learn how to contribute a data mine](contributing-indicators.html)
+[Learn how to contribute a data mine!](contributing-indicators.html)
 
 ### Remove Bugs
 
