@@ -7,6 +7,8 @@ permalink: suite-execution-limitations.html
 
 At the current stage of development, users have no control whatsoever over the execution of orders.
 
+{% include tip.html content="All of the limitations detailed below will be lifted with the upcoming release of Superalgos Beta 6 featuring a brand new iteration of the trading engine. Superalgos Beta 6 gives you absolute control over trading execution." %}
+
 **The way order execution works at this stage is quite basic: once conditions are met for taking a position, or once a take profit or stop target is hit, one single market order is placed at the exchange**.
 
 When taking a position, the Take Position price shown in simulations is defined by the formula you use in your ```Open Stage > Initial Definition > Position Rate > Formula```. 
