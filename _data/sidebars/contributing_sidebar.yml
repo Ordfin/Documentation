@@ -32,6 +32,14 @@ entries:
       output: web
       type: homepage
 
+  - title: Advanced users
+    output: web
+    folderitems:
+
+    - title: Test the new version
+      url: /contributing-testing.html
+      output: web
+
   - title: Designers
     output: web
     folderitems:
