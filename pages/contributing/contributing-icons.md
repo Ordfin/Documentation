@@ -41,11 +41,15 @@ The choice of a playful look and feel responds to the underlying strategy to ach
 
 We choose to depart from realistic or corporate styles and lean towards cartoonish, joyful, and spirited ideas instead.
 
+#### What we Like
+
 The following are examples of icons we like among the existing batch:
 
 | charting space | data mine | crypto exchange | record property | trigger on |
 | :---: | :---: | :---: | :---: | :---: |
 | ![color-palette](images/icons/nodes/png150/charting-space.png) | ![color-palette](images/icons/nodes/png150/data-mine.png) | ![color-palette](images/icons/nodes/png150/crypto-exchange.png) | ![color-palette](images/icons/nodes/png150/record-property.png)| ![color-palette](images/icons/nodes/png150/trigger-on-event.png) |
+
+#### Abstract Icons
 
 The group above features icons representing ideas that directly or indirectly remind of the underlying concept they represent. However, icons may also be abstract, and have a loose or no obvious connection with the concept being represented:
 
@@ -53,13 +57,15 @@ The group above features icons representing ideas that directly or indirectly re
 | :---: | :---: | :---: | :---: | :---: |
 | ![color-palette](images/icons/nodes/png150/phase.png) | ![color-palette](images/icons/nodes/png150/situation.png) | ![color-palette](images/icons/nodes/png150/slippage.png) | ![color-palette](images/icons/nodes/png150/strategy.png)| ![color-palette](images/icons/nodes/png150/backtesting-session.png) |
 
+#### Figurative Icons
+
 Sometimes, the relationship between the drawing and the actual concept being represented may be figurative, such as when the icon illustrates an alternative interpretation of the word:
 
 | open stage | close stage | formula | plotter module | procedure initialization |
 | :---: | :---: | :---: | :---: | :---: |
 | ![color-palette](images/icons/nodes/png150/open-stage.png) | ![color-palette](images/icons/nodes/png150/close-stage.png) | ![color-palette](images/icons/nodes/png150/formula.png) | ![color-palette](images/icons/nodes/png150/plotter-module.png)| ![color-palette](images/icons/nodes/png150/procedure-initialization.png) |
 
-### Underperformers
+#### Underperformers
 
 Occasionally, we have produced icons that fail to maintain the playful, graceful, and light-spirited feel of the best ones. We hope to be able to&mdash;eventually&mdash;replace them with better versions. Such is the case of the following few, which we accompany with a brief note on what seem to not work so well in each case:
 
@@ -69,6 +75,8 @@ Occasionally, we have produced icons that fail to maintain the playful, graceful
 | The idea is that the letter X hinted by the crossing lines represents the word *eXecution*, and that the arrows pointing outwards represent the *exit* of the position. However, the icon feels too simple and void of character. | This is the opposite case: the icon tries hard to represent the idea of monetary exchange, as opposed to a test, creating an overly complex representation that looks too busy. | The idea of a hand taking the profit seems good, but the execution departs from the design style with the drawing of the hand leaning towards a realistic depiction instead of a cartoonish one. | This is a similar case to the previous one: the idea of using a firearm trigger to represent the concept of the trigger stage seems good, but the execution seems to depart from the cartoonish style. | The drawing merges the idea of the outer lid of an electrical panel with the existing representation of a plotter. The result feels a bit forced. The integration of the two ideas may be improved. |
 
 ### Design Tips
+
+Several design tricks make up the character of the collection of icons. The more of these tricks you use in your creations, the better they will integrate with the rest, and resonate with users.
 
 #### Split Colors
 
@@ -89,6 +97,18 @@ It's one of the characteristics of the cartoonish look and feel:
 Again, one other typical characteristic:
 
 ![color-palette](images/icons/nodes/png150/shapes.png)
+
+#### Highlights
+
+Occasionally, a simple drawing may be embellished with a playful highlight effect that brings light to the creation. Notice how an otherwise flat drawing comes to life with the simple light-reflection effect on the right hand side.
+
+![color-palette](images/icons/nodes/png150/slippage.png)
+
+#### Cutouts
+
+When multiple elements lie on top of each other, the drawing may loose clarity, probably due to the restricted color palette. In such cases, a cutout on the background object that creates a slight separation with the foreground object can look cool and help the visual interpretation. Notice the 20 pts wide cutout around the red arrow.
+
+![color-palette](images/icons/nodes/png150/limit-sell-order.png)
 
 #### Level of Detail
 
@@ -216,3 +236,31 @@ Once all files are ready and double-checked, commit the changes and push them to
 Then, go to your fork on github.com and submit a PR to the ```develop``` branch of the upstream repository.
 
 The maintainer of the repository will review the work and respond to your PR accordingly. If everything seems OK, your PR will be merged. Otherwise, you will get an answer from the maintainer.
+
+## The Extra Mile
+
+What you've done so far has made you an official contributor to the Superalgos Project. Thank you!
+
+In strict terms, you have contributed to the Graphics repository. But, wouldn't it be cool to contribute directly to the Documentation and even the main Superalgos repository as well? You've earned it, as your icons will be used on both of those repositories. However, for your GitHub account to be formally associated with those repositories, you'll need to upload your icons there as well.
+
+{% include note.html content="You may proceed with the following instructions only after your icons have been accepted in the Graphics repository, that is, after your Pull Request has been merged." %}
+
+### 1. Fork the Documentation Repository
+
+Go to the <a href='https://github.com/Superalgos/Documentation' rel='nofollow' rel='noopener' target='_blank'>Documentation repository</a> and click the fork button on the top-right side of the screen.
+
+### 2. Clone the ```develop``` Branch of Your Fork
+
+It's best to keep a clone of your fork in your machine, but the truth is you may also upload the icons directly to the online fork (it's a bit of a hassle). Your choice. Just make sure you clone/upload to the ```develop``` branch. Remember, do not clone the original Superalgos Documentation repository; you must clone your fork instead, and the ```develop``` branch in particular!
+
+### 3. Locate and Copy Icons
+
+Now locate the files you contributed to the Graphics repository. It's best if you get them directly from the Graphics repository clone in your machine, just to make sure it's the same files that have already been approved. 
+
+Copy each set of files (SVG and PNG in each size) to the corresponding folder within the ```/images/icons/``` folder in the Documentation repository. Make sure you copy all the right files and sizes.
+
+### 4. Submit a Pull Request to the ```develop``` Branch of the Docs Repo
+
+Then, go to your fork on github.com and submit a PR to the ```develop``` branch of the upstream repository. That's it! Your contribution has now reached the Documentation!
+
+{% include note.html content="Coming soon, the details on how to push your work to the Superalgos repository." %}
