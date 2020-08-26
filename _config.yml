@@ -6,7 +6,7 @@ output: web
 topnav_title: Superalgos Documentation
 # this appears on the top navigation bar next to the home button
 
-site_title: Crypto Trading Bots & Market Intelligence
+site_title: Open-Source Crypto Trading Bots
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users...)
 
 company_name: Superalgos.org
