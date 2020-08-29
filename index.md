@@ -28,6 +28,14 @@ We love it when people show up to say hi, or offer feedback as well. Also, the c
 
 Superalgos is an open-source community project and relies on users' contributions to grow and provide the solutions we all benefit from. If you find Superalgos brings value to your trading or research, please consider contributing some time and effort to the project. [There is something you may do to give back](contributing-to-superalgos.html), regardless of what your skill set may be.
 
+## Community Safety Policy
+
+1. We will never contact you in private unless you contact us first.
+2. We will never ask you to send us your exchange API keys or funds.
+3. We do not run bots for Community members.
+
+[Learn why!](/suite-community-safety-policy.html)
+
 ## Important Announcements
 
 The official <a href="https://t.me/superalgos" rel="nofollow" rel="noopener" target="_blank">Superalgos Announcements</a> channel is where new releases and important bug reports are announced. Make sure you are in the channel to stay in the loop.

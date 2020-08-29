@@ -36,6 +36,10 @@ entries:
       url: /suite-system-requirements.html
       output: web
 
+    - title: Community safety policy
+      url: /suite-community-safety-policy.html
+      output: web
+
   - title: Getting started
     output: web
     folderitems:
