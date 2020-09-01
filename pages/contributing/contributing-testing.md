@@ -32,6 +32,6 @@ The lead developer has been sharing some notes on what's new in Beta 6 and how t
 
 ## Documentation (WIP)
 
-The work-in-progress <a href='https://julian-molina.github.io/Documentation/suite-hierarchy-trading-engine.html' rel='nofollow' rel='noopener' target='_blank'>documentation site for Beta 6</a> is a fork of the official Beta 5 documentation, being updated with content related to Beta 6. New pages and pages that have been updated are marked as <span style="color: #fd6a33;">*&#8592; New*</span> on the menu.
+The work-in-progress <a href='https://julian-molina.github.io/Documentation/suite-trading-engine.html' rel='nofollow' rel='noopener' target='_blank'>documentation site for Beta 6</a> is a fork of the official Beta 5 documentation, being updated with content related to Beta 6. New pages and pages that have been updated are marked as <span style="color: #fd6a33;">*&#8592; New*</span> on the menu.
 
 {% include tip.html content="Keep in mind that some information in the documentation does not reflect how the system works in Beta 6. It's important to read the lead developer's notes in the Develop group to become aware of what are the main system areas that have changed." %}
