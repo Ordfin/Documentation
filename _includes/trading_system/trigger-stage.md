@@ -51,15 +51,19 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-A trading system may have multiple strategies designed for the same market, with the same base asset.
+A trading system may have multiple strategies designed for the same market.
 
-An important aspect of trading systems is that they are allocated a certain amount of capital (see the base asset parameter). As a consequence, strategies within a trading system have to share that capital allocation. 
+An important aspect of trading systems is that they are allocated a certain amount of capital (see the <a data-toggle="tooltip" data-original-title="{{site.data.network.base_asset}}">base asset</a> parameter of the trading session). As a consequence, strategies within a trading system share a certain capital allocation. 
 
-The logic behind the concept of the trigger stage assumes that different strategies within a trading system are specialized for trading in different market conditions. The trigger stage in each strategy is, therefore, the mechanism by which any particular strategy may be selected to trade, given any particular market situation.
+The logic behind the concept of the trigger stage assumes that different strategies within a trading system may be specialized for trading in different market situations. The trigger stage in each strategy is, therefore, the mechanism by which any particular strategy within the trading system may be selected to trade, given any particular market situation.
 
-The triggering-on of a strategy effectively blocks the selection of any other strategy in the trading system, and reserves the whole capital allocation for a potential trade, until the strategy is triggered-off.
+The triggering-on of a strategy effectively blocks the selection of any other strategy in the trading system and reserves the whole capital allocation for the one strategy selected, until the strategy is triggered-off.
 
-As a corollary, if certain strategies are meant to trade under the same market situations and open trades concurrently, then those strategies should be put in separate trading systems.
+Therefore, if certain strategies are meant to trade under the same market situations and open trades concurrently, then those strategies should be deployed in separate trading systems.
+
+Once a strategy is triggered, the strategy may decide&mdash;or not&mdash;to take a position. If a position is taken, then the rest of the stages eventually become active.
+
+However, the strategy may also be triggered off without taking a position. When a strategy is triggered off, the trading system goes back to monitoring the trigger-on definitions for all strategies, and capital is released to be used by whatever strategy is triggered-on next.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -80,7 +84,7 @@ To add a trigger stage node, select *Add Missing Stages* on the strategy node me
 
 {% include note.html content="Only one trigger stage may exist in each strategy." %}
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -88,7 +92,7 @@ To add a trigger stage node, select *Add Missing Stages* on the strategy node me
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 

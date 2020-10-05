@@ -45,7 +45,7 @@ The backend application runs independently from the frontend browser-based appli
 
 ## Start Here
 
-**1. Close all <a data-toggle="tooltip" data-original-title="{{site.data.network.data_mining}}">data-mining</a> tasks**. Select *Stop All Exchange Tasks* on the data mining node menu.
+**1. Close all <a data-toggle="tooltip" data-original-title="{{site.data.network.data_mining}}">data-mining</a> tasks**. Select *Stop All Exchange Data Tasks* on the data mining node menu.
 
 **2. Close all tasks in the <a data-toggle="tooltip" data-original-title="{{site.data.network.testing_environment}}">testing environment</a> and the <a data-toggle="tooltip" data-original-title="{{site.data.network.production_environment}}">production environment</a>**. Select *Stop All Task Managers* in the testing and production environment nodes menus.
 

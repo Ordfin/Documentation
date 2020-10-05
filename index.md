@@ -14,9 +14,9 @@ toc: false
 
 ## Getting Started
 
-Getting started with Superalgos is easy: you may choose to follow a [series of video tutorials](suite-step-1-video.html), or follow [written instructions](suite-step-0.html) instead. The video series is richer in explanations, while the written series is more concise and to-the-point. Using both is probably the smartest thing to do!
+The *Getting Started Guide* shows you how to download and install the app in three easy steps.
 
-The *Getting Started Guide* quickly shows you the very basics of Superalgos so that you may rapidly grasp the system's potential. It takes you through a sequence of instructions to download and install the system, run it for the first time, fetch some data from exchanges, browse markets on the charts, run a first backtest with an existing strategy, and even try a live trading session, for demonstration purposes.
+Once you fire up the system, an interactive tutorial walks you through the basic operation, including mining data from Binance, browsing markets on the charts, running a <a data-toggle="tooltip" data-original-title="{{site.data.network.backtesting_session}}">backtesting session</a> of a demo <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading system</a>, and even running a <a data-toggle="tooltip" data-original-title="{{site.data.network.live_trading_session}}">live trading session</a> to demonstrate how the system handles order execution.
 
 ## Community Support
 

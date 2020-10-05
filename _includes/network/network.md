@@ -51,19 +51,21 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
+The network hierarchy defines where in the network you run each of the bots you choose to run, and where the data they output is stored. 
+
 You will use the network hierarchy for the following purposes:
 
-* To control your data mining&mdash;that is, processes running <a data-toggle="tooltip" data-original-title="{{site.data.concepts.sensor_bot}}">sensor</a> and <a data-toggle="tooltip" data-original-title="{{site.data.concepts.sensor_bot}}">indicator bots</a>. These keep your data feeds up to date so that you may trade live with quality information.
+* To control your data mining operation&mdash;that is, tasks running <a data-toggle="tooltip" data-original-title="{{site.data.concepts.sensor_bot}}">sensor</a> and <a data-toggle="tooltip" data-original-title="{{site.data.concepts.sensor_bot}}">indicator bots</a>. Data mining tasks process data that may be consumed by others; for example, so that your trading systems may count with quality information.
 
-* To control your testing environment&mdash;that is, trading sessions including <a data-toggle="tooltip" data-original-title="{{site.data.network.backtesting_session}}">backtesting</a> and <a data-toggle="tooltip" data-original-title="{{site.data.network.paper_trading_session}}">paper trading</a>.
+* To control your testing environment&mdash;that is, trading sessions including <a data-toggle="tooltip" data-original-title="{{site.data.network.backtesting_session}}">backtesting</a> and <a data-toggle="tooltip" data-original-title="{{site.data.network.paper_trading_session}}">paper trading</a> sessions.
 
-* To control your production environment&mdash;that is, <a data-toggle="tooltip" data-original-title="{{site.data.network.forward_testing_session}}">forward testing</a>, and <a data-toggle="tooltip" data-original-title="{{site.data.network.live_trading_session}}">live trading sessions</a> running the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.trading_bot}}">trading bot</a>.
+* To control your production environment&mdash;that is, <a data-toggle="tooltip" data-original-title="{{site.data.network.forward_testing_session}}">forward testing</a>, and <a data-toggle="tooltip" data-original-title="{{site.data.network.live_trading_session}}">live trading sessions</a>.
 
-* To control your data storage&mdash;that is, to administer the physical location in which the data products produced by bots reside.
+* To manage the storage of the data produced by the bots you run as outputs. This includes administering the physical locations on which the data products produced by bots reside.
 
-{% include note.html content="These processes may run together on a single machine, or may be distributed across a network of machines, or what we call a *trading farm*. " %}
+{% include note.html content="These processes may run together on a single machine, or may be distributed across a network of machines, or what we call a [trading farm](suite-fundamental-trading-farms-concepts.html). " %}
 
-{% include warning.html content="At this stage, the system does not implement any form of security meassures, therefore, the system is to be used in the context of a restricted Local Area Network only." %}
+{% include warning.html content="At this stage, the system does not implement any form of security measures, therefore, Superalgos is to be run in the context of a restricted Local Area Network only, unless you implement your own network security." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

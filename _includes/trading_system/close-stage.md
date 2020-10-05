@@ -51,9 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-As explained earlier while discussing the open stage, the execution functionality is currently under development. Needless to say, execution of the closing orders is of the highest significance, but in the meantime some temporal <a href='suite-execution-limitations.html'>execution limitations</a> apply.
+The close stage is opened when either the stop loss or take profit targets are hit. 
 
-Also pending development is the keeping of a formal trading log. The current functionality allows you to see each trade on the screen, along with all the corresponding details, as well as a consolidated report on the live trading panel. This information is stored as a data product, thus, it is not lost. In the future, the system should incorporate a user-friendly feature to browse such logs, and even help analyze them in search for potential optimizations of your trading systems.
+In a way, the close stage is virtually a mirror of the open stage, as the same definitions are required to close a position. There are a few logical differences, though.
+
+For example, in the open stage, you probably defined the target size as a function of the capital allocated to the trading system. In the close stage, you will likely want to define the target size as a function of the size filled, that is, the amount of the orders placed that was filled during the open stage.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -74,7 +76,7 @@ To add a close stage node, select *Add Missing Stages* on the strategy node menu
 
 {% include note.html content="Only one close stage may exist in each strategy." %}
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -82,11 +84,11 @@ To add a close stage node, select *Add Missing Stages* on the strategy node menu
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-<!-- CONFIGURING ends -->
+<!--------------------------------------------- CONFIGURING ends -->
 
 {% endif %}
 
@@ -94,7 +96,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 {{include.starting}} Starting {{preposition}} {{title}}
 
-<!-- STARTING starts -->
+<!--------------------------------------------- STARTING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 

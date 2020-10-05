@@ -17,7 +17,7 @@ In other words, following this step-by-step troubleshooting guide will either le
 
 ### 1. Understand what you are doing and how the feature works
 
-* If you are following the Getting Started Guide, try complementing the information of the version of the guide you are following with the other version available. Remember there is a [video series](suite-step-1-video.html) and a [written series](suite-step-0.html), each with a slightly different communication approach and with&mdash;sometimes&mdash;complementary information.
+* If you are following the Getting Started Guide, try complementing the information of the version of the guide you are following with the other version available. Remember there is a [video series](suite-step-1-video.html) and a [written series](suite-step-1.html), each with a slightly different communication approach and with&mdash;sometimes&mdash;complementary information.
 
 * If you are past the Getting Started Guide and are already using the system, take some time to search the documentation and read the pages related to the matters you are working with. Use the search box on the top-right corner to search for the specific matter (i.e.: backtesting, data mining, etc.)
 

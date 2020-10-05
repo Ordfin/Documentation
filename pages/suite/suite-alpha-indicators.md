@@ -5,7 +5,7 @@ sidebar: suite_sidebar
 permalink: suite-alpha-indicators.html
 ---
 
-{% include callout.html type="primary" content="<strong>The Alpha data mine is brought to you by <a href='https://github.com/rico4dev' rel='nofollow' rel='noopener' target='_blank'>@rico4dev</a></strong>. Collaborate with this data mine and report issues directly at the <a href='https://github.com/rico4dev/Superalgos'  rel='nofollow' rel='noopener' target='_blank'>contributor's repository</a>." %}
+{% include callout.html type="success" content="The Alpha data mine is brought to you by <a href='https://github.com/rico4dev' rel='nofollow' rel='noopener' target='_blank'>@rico4dev</a>. Collaborate with this data mine and report issues directly at the <a href='https://github.com/rico4dev/Superalgos'  rel='nofollow' rel='noopener' target='_blank'>contributor's repository</a>." %}
 
 {% include note.html content="The following indicator is available under the Alpha task managers in the data mining section of the ```Simple Workspace.json``` in the ```develop``` branch." %}
 

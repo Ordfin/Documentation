@@ -68,7 +68,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -80,7 +80,11 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONFIGURING starts -->
 
+Select *Configure* on the menu to access the configuration.
+
+```json
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
 
 <!--------------------------------------------- CONFIGURING ends -->
 

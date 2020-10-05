@@ -9,7 +9,9 @@ permalink: suite-frequently-asked-questions.html
 
 ### Do I need to be a technical person to use Superalgos?
 
-There is extensive documentation and a step by step getting started guide available both as [written instructions](suite-step-0.html) and in [video tutorials](suite-step-1-video.html).
+At this stage, it is rather easy to get started with Superalgos.
+
+There is extensive documentation and a step by step [getting started guide](suite-step-1.html) to download and install the system. When you run the app for the first time, an interactive tutorial takes you by the hand and walks you around while you learn how to use all the basic tools.
 
 That said, Superalgos is in an open beta-stage, still under development. The early-stage pre-release intends to gather feedback from early adopters, who may help shape the software and evolve it into a robust product. We try our best to make installation and operation easy. At this point, the system is directed at tech-savvy individuals with a knack for learning a few PC operator tricks while installing and using the system.
 
@@ -33,7 +35,7 @@ Because the Superalgos Project is about building a Collective Trading Intelligen
 
 We do our best to make Superalgos as safe as it gets. This is how:
 
-1. **The software is open-source**. This means that any developer or technical person out there may read and audit the code and verify if there is hidden malware or anything of the sort. There are several developers in the Community, many of them conducting deep reviews of the code. Developers tend to engage with interesting code like regular people would engage with a piece of literary work. They do this to fully understand how the software is built so that the may figure out how to best build on top of it. This is the true spirit of open-source software. Developers ask questions and engage with the core team all the time.  
+1. **The software is open-source**. This means that any developer or technical person out there may read and audit the code and verify if there is hidden malware or anything of the sort. There are many developers in the Community, many of them conducting deep reviews of the code. Developers tend to engage with interesting code like regular people would engage with a piece of literary work. They do this to fully understand how the software is built so that the may figure out how to best build on top of it. This is the true spirit of open-source software. Developers ask questions and engage with the core team all the time.  
 
 1. **Do not mistake open-source with software given away for free**. While Superalgos is both open-source and free software, it is not the same as free software, period. Free software that is not open-source is shipped as a black-box. That is, no one knows what it does. It is the open-source nature of software that makes it transparent, therefore trustworthy.
 
@@ -61,13 +63,13 @@ There are many things you&mdash;as a user&mdash;may do to bring the risk down to
 
 1. **Create a specific exchange account or sub-account to use with Superalgos**. In this way, when you create an API key to access the account from within Superalgos, the key has access only to that sub-account. 
 
-1. **Deposit a minimal amount**. In your new sub-account with the exchange, deposit the minimum amount required to make a transaction. In the case of Binance, the minimum transaction amount is 10 USD or its equivalent in crypto. In this way, your whole risk is limited to 10 USD.
+1. **Deposit a minimal amount**. In your new sub-account with the exchange, deposit the minimum amount required to make a transaction. In the case of Binance, the minimum transaction amount is about 10 USD or its equivalent in crypto. In this way, your whole risk is limited to that amount.
 
 1. **Give the API key transaction rights only**. When you create a new API key to access the new sub-account from within Superalgos, make sure you grant the key transaction rights only. Do not grant withdrawal rights. In this manner, if for some reason your keys fall on the wrong hands, an attacker would not be able to withdraw funds.
 
 1. **Get started with a paper trading session**. Before starting trading live, you may get acquainted with the system running paper trading sessions instead of live trading sessions. Paper trading sessions are live simulations running with real-time data feeds from the exchange, without actually placing orders. They allow you to understand how strategies work and analyze their live performance without actually placing orders at the exchange. Paper trading sessions do not require setting up your exchange account keys in Superalgos. These types of sessions may also be used to get signals over Telegram and acting on them discretionarily instead of letting the system trade in an automated fashion.
 
-1. **Before you commit to trading live** study and learn as much as you can, both about how Superalgos work, and, in case you intend to use open-source strategies, about how your strategies of choice work. Ideally, you would understand which strategy may be used to achieve your own goals at trading, and which conforms to the level of risk you are willing to take. The more you know, the more educated decisions you will make.
+1. **Before you commit to trading live** study and learn as much as you can, both about how Superalgos work, and, in case you intend to use open-source strategies, about how your strategies of choice work. Ideally, you would understand which strategy may be used to achieve your own goals at trading, and which conforms to the level of risk you are willing to take. The more you know, the more educated the decisions you will make.
 
 
 
@@ -115,7 +117,7 @@ However, if you can code you may have an edge building more complex logic in Jav
 
 Yes. The strategies available to use in Superalgos are the ones you may create yourself and those open-sourced by the Community. If you intend to use a strategy you didn't create yourself, it is highly recommended that you study the strategy, test it, and understand how it works before committing to trading live with it.
 
-Superalgos ships with a few example strategies and the getting started guide teaches you how to run them in Superalgos.
+Superalgos ships with a few example strategies and the Welcome Tutorial teaches you how to run them in Superalgos.
 
 {% include live-trading-warning.html %}
 
@@ -131,9 +133,9 @@ The documentation discusses the strategies' performance in live trading and back
 
 You must adjust your expectations to reality. Trading strategies are not "get-rich-quick" schemes. Please, bear in mind the following well-known facts about trading strategies in general:
 
-1. **Performance in backtesting is not a direct indication of live trading performance**. Live performance may vary in relation to performance in backtesting, for better or for worse, most likely for worse. This happens because the design of trading strategies is done after the fact, with the hindsight of what happened in a certain range of the market. Patterns upon which strategies may be based on may keep occurring or not. Strategies attempt to interpret patterns and predict what may follow, but they are far from being perfect or accurate. The best-case scenario is a strategy being right more times than it is wrong.
+1. **Performance in backtesting is not an indication of live trading performance**. Live performance may vary in relation to performance in backtesting, for better or for worse, most likely for worse. This happens because the design of trading strategies is done after the fact, with the hindsight of what happened in a certain range of the market. Patterns upon which strategies may be based on may keep occurring or not. Strategies attempt to interpret patterns and predict what may follow, but they are far from being perfect or accurate. The best-case scenario is a strategy being right more times than it is wrong.
 
-1. **Live performance is not a direct indication of future performance**. Similarly, even when a strategy has delivered a certain performance trading live, there is no guarantee of what performance the strategy may achieve in the future. Live performance results are certainly more valuable than backtesting or simulated performance but still can't predict the future.
+1. **Live performance is not an indication of future performance**. Similarly, even when a strategy has delivered a certain performance trading live, there is no guarantee of what performance the strategy may achieve in the future. Live performance results are certainly more valuable than backtesting or simulated performance but still can't predict the future.
 
 1. **Strategies lose effectiveness with time**. How much time? No-one knows. Markets evolve, change, go through different cycles, both long and short-term, some of which may not have been tested. That is true for all markets, let alone crypto, which is a very young market, still in its very early stages. Crypto markets change dramatically fast, as the market cap increases, more pro-traders enter the space, more smart money pours larger capitals, more bots take over operations of ever-increasing volumes, more complexity is added to the ecosystem with the availability of derivative markets, and so on.
 

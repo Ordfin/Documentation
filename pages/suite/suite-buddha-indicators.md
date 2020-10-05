@@ -5,7 +5,7 @@ sidebar: suite_sidebar
 permalink: suite-buddha-indicators.html
 ---
 
-{% include callout.html type="primary" content="<strong>The Buddha data mine is brought to you by <a href='https://github.com/EduRemix' rel='nofollow' rel='noopener' target='_blank'>@EduRemix</a></strong>. Collaborate with this data mine and report issues directly at the <a href='https://github.com/EduRemix/Superalgos'  rel='nofollow' rel='noopener' target='_blank'>contributor's repository</a>." %}
+{% include callout.html type="success" content="The Buddha data mine is brought to you by <a href='https://github.com/EduRemix' rel='nofollow' rel='noopener' target='_blank'>@EduRemix</a></strong>. Collaborate with this data mine and report issues directly at the <a href='https://github.com/EduRemix/Superalgos'  rel='nofollow' rel='noopener' target='_blank'>contributor's repository</a>." %}
 
 {% include note.html content="The following indicator is available under the Buddha task managers in the data mining section of the ```Simple Workspace.json``` in the ```develop``` branch." %}
 

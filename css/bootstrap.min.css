@@ -1907,10 +1907,10 @@ code {
 
 kbd {
     padding: 2px 4px;
-    font-size: 90%;
+    font-size: 100%;
     color: #fff;
-    background-color: #333;
-    border-radius: 3px;
+    background-color: #fd6a33;
+    border-radius: 5px;
 }
 
 kbd kbd {

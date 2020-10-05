@@ -49,18 +49,7 @@ Right click anywhere on the design space to access the design space map.
 
 That should take you to the exact point you clicked on the map.
 
-For your information, the design space is organized over a square perimeter around the workspace node, and each hierarchy is located on one of the cardinal directions. Hierarchies feature an ever-present white ring. The ring hints the direction in which a hierarchy is located.
-
-| Hierarchy | Cardinal Direction | Direction | Keyboard Shortcut (Windows only) |
-| :--- | :---: | :---: | :--- |
-| **Sparta Data Mine** | North | &#8593; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> (*S for Sparta*) |
-| **BRR trading System** | North East | &#8599; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd> (*W for Weak Hands Buster*) |
-| **WHB Trading System** | East | &#8594; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd> (*B for Bull Run Rider*) |
-| **Super Scripts** | South East | &#8600; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Z</kbd> (*Z for, well...*) |
-| **Network** | South | &#8595; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>N</kbd> (*N for Network*) |
-| **Crypto Ecosystem** | South West | &#8601; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>E</kbd> (*E for Ecosystem*) |
-| **Charting System** | West | &#8592; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>C</kbd> (*C for Charting System*) |
-| **Masters Data Mine** | North West | &#8598; | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>M</kbd> (*M for Masters*) |
+For your information, the design space is organized over a square perimeter around the workspace node, and each hierarchy is located on one of the cardinal directions. Depending on the Workspace you are using, different hierarchies may be in different positions.
 
 <!--------------------------------------------- CONTENT ends -->
 

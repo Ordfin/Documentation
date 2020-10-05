@@ -55,7 +55,7 @@ The trigger-on event merely selects a strategy to be considered for trading unde
 
 Therefore, the take position event is defined with its own set of situations and conditions.
 
-Once the take position event is triggered, the decision to take a position has been made and there is nothing else to consider in that regard. Therefore, the system shifts from the trigger stage to the open stage. 
+Once the take position event is triggered, the decision to take a position has been made and there is nothing else to consider in that regard. Therefore, the runtime evaluation of the trading system shifts from the trigger stage to the open stage. 
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -74,7 +74,7 @@ Once the take position event is triggered, the decision to take a position has b
 
 To add a take position event node, select *Add Missing Events* on the trigger stage node menu. All events that may be missing are created along with the rest of the basic structure of nodes required to define each of them.
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -82,7 +82,7 @@ To add a take position event node, select *Add Missing Events* on the trigger st
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 

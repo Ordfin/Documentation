@@ -51,7 +51,15 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The management of a trade is performed&mdash;by default&mdash;in sequential phases. Each phase may define a new formula (either for stop loss or take profit targets). To move from one phase to the next, a certain situation associated with the next phase event must be validated. When that happens, the next phase event is triggered and system shifts the focus to evaluate the formulas and the event corresponding to the following phase in the sequence. 
+The management of a position is &mdash;by default&mdash;done in sequential phases, each phase with its formula. To move from one phase to the next, a situation you define must be validated. 
+
+When that happens, the next phase event is triggered, the current phase is abandoned, and the next phase is activated. From that instant on, the system evaluates the formula corresponding to the next phase.
+
+The sequence of phases may be as long as the number of phases you choose to add and define. There may be unlimited numbers of phases.
+
+{% include note.html content="Events are triggered by situations, which are defined by conditions. Both are explained in the <a href='suite-situations-conditions-formulas'>situations, conditions, and formulas</a> page." %}
+
+{% include tip.html content="To set up a next phase event, add the node and define the situation that should trigger the event." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

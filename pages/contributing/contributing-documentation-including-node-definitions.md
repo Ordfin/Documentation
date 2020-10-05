@@ -49,7 +49,7 @@ These parameters and their combinations may seem confusing, but some hands-on ex
 {% include /network/backtesting-session.md more="yes" heading="##" icon="150" definition="bold" table="yes" content="more" adding="####" configuring="####" starting="####" %}
 {% endraw %}
 ```
-{% include callout.html type="primary" content="The code above renders the Backtesting Session page with the title in an H2 heading style, the icon (at 150 px in size) and the short definition in bold, both side by side on an HTML table, and puts everything else into a collapsible block because the ```more``` parameter is set to ```yes``` and the ```content``` parameter is set to ```more```." %}
+{% include callout.html type="success" content="The code above renders the Backtesting Session page with the title in an H2 heading style, the icon (at 150 px in size) and the short definition in bold, both side by side on an HTML table, and puts everything else into a collapsible block because the ```more``` parameter is set to ```yes``` and the ```content``` parameter is set to ```more```." %}
 
 The code above results in the following content:
 
@@ -63,7 +63,7 @@ The code above results in the following content:
 {% endraw %}
 ```
 
-{% include callout.html type="primary" content="The above code renders the Backtesting Session page with the title in an H4 heading style, the icon (at 50 px in size) and the short definition in normal font, both side by side on an HTML table, and the content right below. There is no collapsible block because the ```more``` parameter is left empty, and the rest of the sections are not included because all other sections are left empty as well." %}
+{% include callout.html type="success" content="The above code renders the Backtesting Session page with the title in an H4 heading style, the icon (at 50 px in size) and the short definition in normal font, both side by side on an HTML table, and the content right below. There is no collapsible block because the ```more``` parameter is left empty, and the rest of the sections are not included because all other sections are left empty as well." %}
 
 The code above results in the following content:
 
@@ -77,7 +77,7 @@ The code above results in the following content:
 {% endraw %}
 ```
 
-{% include callout.html type="primary" content="The above code puts the whole page inside a collapsible block because the ```more``` parameter is set to ```yes``` and the ```heading``` parameter is set to ```more```." %}
+{% include callout.html type="success" content="The above code puts the whole page inside a collapsible block because the ```more``` parameter is set to ```yes``` and the ```heading``` parameter is set to ```more```." %}
 
 The code above results in the following content:
 
@@ -91,7 +91,7 @@ The code above results in the following content:
 {% endraw %}
 ```
 
-{% include callout.html type="primary" content="The above code renders the whole page without collapsible blocks as the ```more``` parameter is left empty, while all other parameters are set to include all sections." %}
+{% include callout.html type="success" content="The above code renders the whole page without collapsible blocks as the ```more``` parameter is left empty, while all other parameters are set to include all sections." %}
 
 The code above results in the following content:
 

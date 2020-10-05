@@ -53,9 +53,9 @@
 
 In conceptual terms, the trigger-off event is the mechanism you use to define the situation in which the corresponding strategy should stop considering the trading opportunity signaled by the trigger-on event. That is, you use the trigger off event to describe the scenario for the invalidation of the trading idea behind the strategy.
 
-Once a strategy is triggered-on, only two possible scenarios may follow. Either the take position event is triggered, thus, taking a position and opening a trade, or the trigger-off event is triggered first.
+Once a strategy is triggered-on, only two possible scenarios may follow. Either the take position event is triggered, thus, taking a position, or the trigger-off event is triggered first.
 
-In the first scenario, the strategy remains *on* until the trade is closed. As the trade is closed, the strategy is triggered-off. In the second scenario, the strategy is triggered-off immediately.
+In the first scenario, the strategy remains *on* until the position is closed. As the position is closed, the strategy is triggered-off. In the second scenario, the strategy is triggered-off immediately.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -74,7 +74,7 @@ In the first scenario, the strategy remains *on* until the trade is closed. As t
 
 To add a trigger-off event node, select *Add Missing Events* on the trigger stage node menu. All events that may be missing are created along with the rest of the basic structure of nodes required to define each of them.
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -82,7 +82,7 @@ To add a trigger-off event node, select *Add Missing Events* on the trigger stag
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 

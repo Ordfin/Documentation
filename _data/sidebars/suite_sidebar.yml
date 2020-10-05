@@ -39,91 +39,23 @@ entries:
     - title: Community safety policy
       url: /suite-community-safety-policy.html
       output: web
-
-  - title: Getting started
+      
+  - title: Getting started guide
     output: web
     folderitems:
 
-    - title: Video guide
-      url: /#
-      output: web
-
-    - title: "Step 1: Initial set up"
-      url: /suite-step-1-video.html
-      output: web
-      class: childItem
-
-    - title: "Step 2: Managing data"
-      url: /suite-step-2-video.html
-      output: web
-      class: childItem
-
-    - title: "Step 3: Charting space"
-      url: /suite-step-3-video.html
-      output: web
-      class: childItem
-
-    - title: "Step 4: Trading sessions"
-      url: /suite-step-4-video.html
-      output: web
-      class: childItem
-
-    - title: Written guide
-      url: /#
-      output: web
-
-    - title: "Step 0: Get ready"
-      url: /suite-step-0.html
-      output: web
-      class: childItem
-
-    - title: "Step 1: Download and set up"
+    - title: "Step 1: Get ready"
       url: /suite-step-1.html
       output: web
       class: childItem
 
-    - title: "Step 2: Run the system"
+    - title: "Step 2: Download and set-up"
       url: /suite-step-2.html
       output: web
       class: childItem
 
-    - title: "Step 3: First impression"
+    - title: "Step 3: Run the system"
       url: /suite-step-3.html
-      output: web
-      class: childItem
-
-    - title: "Step 4: Workspace"
-      url: /suite-step-4.html
-      output: web
-      class: childItem
-
-    - title: "Step 5: Quick overview"
-      url: /suite-step-5.html
-      output: web
-      class: childItem
-
-    - title: "Step 6: Monitor the data mining"
-      url: /suite-step-6.html
-      output: web
-      class: childItem
-
-    - title: "Step 7: Control the data mining"
-      url: /suite-step-7.html
-      output: web
-      class: childItem
-
-    - title: "Step 8: Learn the charting space"
-      url: /suite-step-8.html
-      output: web
-      class: childItem
-
-    - title: "Step 9: Run a backtesting session"
-      url: /suite-step-9.html
-      output: web
-      class: childItem
-
-    - title: "Step 10: Run a live trading session"
-      url: /suite-step-10.html
       output: web
       class: childItem
 
@@ -139,6 +71,16 @@ entries:
       url: /suite-design-space-interface.html
       output: web
 
+    - title: Nodes' menu
+      url: /suite-nodes-menu.html
+      output: web
+      class: childItem
+
+    - title: Node shortcuts
+      url: /suite-node-shortcuts.html
+      output: web
+      class: childItem
+
     - title: Hierarchies
       url: /suite-hierarchies.html
       output: web
@@ -146,12 +88,10 @@ entries:
     - title: Workflows
       url: /suite-workflows.html
       output: web
-      class:
 
     - title: Managing Workspaces
       url: /suite-managing-workspaces.html
       output: web
-      class:
 
     - title: How to...
       url: /#
@@ -184,31 +124,6 @@ entries:
 
     - title: ... safely close Superalgos
       url: /suite-how-to-safely-close-superalgos.html
-      output: web
-      class: childItem
-
-    - title: ... uninstall an existing market
-      url: /suite-how-to-uninstall-an-existing-market.html
-      output: web
-      class: childItem
-
-    - title: ... install a new market
-      url: /suite-how-to-install-a-new-market.html
-      output: web
-      class: childItem
-
-    - title: ... set up a new exchange
-      url: /suite-how-to-set-up-a-new-exchange.html
-      output: web
-      class: childItem
-
-    - title: ... test new exchanges
-      url: /suite-how-to-test-new-exchanges.html
-      output: web
-      class: childItem
-
-    - title: ... set up a trading task from scratch
-      url: /suite-how-to-set-up-a-trading-task-from-scratch.html
       output: web
       class: childItem
 
@@ -295,9 +210,34 @@ entries:
       url: /suite-trading-systems.html
       output: web
 
-    - title: Strategies
+    - title: Trading strategies
       url: /suite-strategies.html
       output: web
+
+    - title: Trigger stage
+      url: /suite-strategies-trigger.html
+      output: web
+      class: childItem
+
+    - title: Open stage | Targets
+      url: /suite-strategies-open-targets.html
+      output: web
+      class: childItem
+
+    - title: Open stage | Execution
+      url: /suite-strategies-open-execution.html
+      output: web
+      class: childItem
+
+    - title: Manage stage
+      url: /suite-strategies-manage.html
+      output: web
+      class: childItem
+
+    - title: Close stage
+      url: /suite-strategies-close.html
+      output: web
+      class: childItem
 
     - title: Situations, conditions and formulas
       url: /suite-situations-conditions-formulas.html
@@ -313,10 +253,41 @@ entries:
       output: web
       class: childItem
 
-    - title: Internal variables
-      url: /suite-internal-variables.html
+    - title: Trading sessions
+      url: /suite-trading-sessions.html
+      output: web
+
+    - title: Parameters
+      url: /suite-parameters.html
       output: web
       class: childItem
+
+    - title: Snapshots
+      url: /suite-snapshots.html
+      output: web
+      class: childItem
+
+    - title: Low-frequency trading
+      url: /suite-low-frequency-trading.html
+      output: web
+      class: childItem
+
+    - title: Accessing definitions and parameters
+      url: /suite-trading-system-definitions-parameters.html
+      output: web
+
+    - title: How to...
+      url: /#
+      output: web
+
+    - title: ... test a trading idea
+      url: /suite-how-to-test-a-trading-idea.html
+      output: web
+      class: childItem
+
+  - title: Indicators
+    output: web
+    folderitems:
 
     - title: Masters indicators
       url: /suite-masters-indicators.html
@@ -338,42 +309,142 @@ entries:
       output: web
       class: childItem
 
-    - title: Trading sessions
-      url: /suite-trading-sessions.html
+  - title: Trading engine
+    output: web
+    folderitems:
+
+    - title: Trading engine
+      url: /suite-trading-engine.html
       output: web
 
-    - title: Parameters
-      url: /suite-parameters.html
+    - title: Monitoring runtime data
+      url: /suite-trading-engine-monitoring-runtime-data.html
+      output: web
+
+    - title: Accessing runtime data
+      url: /suite-trading-engine-accessing-runtime-data.html
+      output: web
+
+    - title: Trading Bot Output
+      url: /suite-trading-engine-trading-bot-output.html
+      output: web
+
+    - title: Temporal context
+      url: /suite-trading-engine-temporal-context.html
+      output: web
+
+    - title: Current
+      url: /suite-trading-engine-current.html
       output: web
       class: childItem
 
-    - title: Setup for buying and selling
-      url: /suite-setup-for-buying-or-selling.html
+    - title: Last
+      url: /suite-trading-engine-last.html
       output: web
       class: childItem
 
-    - title: Snapshots
-      url: /suite-snapshots.html
+    - title: Conceptual context
+      url: /suite-trading-engine-conceptual-context.html
+      output: web
+
+    - title: Episode
+      url: /suite-trading-engine-episode.html
       output: web
       class: childItem
 
-    - title: Low-frequency trading
-      url: /suite-low-frequency-trading.html
+    - title: Strategy
+      url: /suite-trading-engine-strategy.html
       output: web
       class: childItem
 
-    - title: Execution limitations
-      url: /suite-execution-limitations.html
-      output: web
-
-    - title: How to...
-      url: /#
-      output: web
-
-    - title: ... test a trading idea
-      url: /suite-how-to-test-a-trading-idea.html
+    - title: Position
+      url: /suite-trading-engine-position.html
       output: web
       class: childItem
+
+    - title: Strategy stages
+      url: /suite-trading-engine-strategy-stages.html
+      output: web
+      class: childItem
+
+    - title: Exchange orders
+      url: /suite-trading-engine-exchange-orders.html
+      output: web
+      class: childItem
+
+    - title: Accounts, counters, and stats
+      url: /suite-trading-engine-accounts-counters-stats.html
+      output: web
+
+    - title: Base asset and quoted asset
+      url: /suite-trading-engine-base-asset-and-quoted-asset.html
+      output: web
+      class: childItem
+
+    - title: Counters
+      url: /suite-trading-engine-counters.html
+      output: web
+      class: childItem
+
+    - title: Statistics
+      url: /suite-trading-engine-statistics.html
+      output: web
+      class: childItem
+
+    - title: Distance to event
+      url: /suite-trading-engine-distance-to-event.html
+      output: web
+      class: childItem
+
+    - title: Common Metrics
+      url: /suite-trading-engine-common-metrics.html
+      output: web
+
+    - title: Balances
+      url: /suite-trading-engine-balances.html
+      output: web
+      class: childItem
+
+    - title: Hits, fails, and ratios
+      url: /suite-trading-engine-hits-fails-ratios.html
+      output: web
+      class: childItem
+
+    - title: Profit Loss
+      url: /suite-trading-engine-profit-loss.html
+      output: web
+      class: childItem
+
+    - title: ROI
+      url: /suite-trading-engine-roi.html
+      output: web
+      class: childItem
+
+    - title: Annualized Rate of Return
+      url: /suite-trading-engine-annualized-rate-of-return.html
+      output: web
+      class: childItem
+
+    - title: Stage-specific accounts
+      url: /suite-trading-engine-stage-specific.html
+      output: web
+
+    - title: Order-specific accounts
+      url: /suite-trading-engine-order-specific.html
+      output: web
+
+    - title: Market data
+      url: /suite-trading-engine-market-data.html
+      output: web
+
+    - title: Candle
+      url: /suite-trading-engine-candle.html
+      output: web
+      class: childItem
+
+    - title: Identity and status
+      url: /suite-trading-engine-identity-and-status.html
+      output: web
 
   - title: Community strategies
     output: web
@@ -429,6 +500,30 @@ entries:
       output: web
       class: childItem
 
+    - title: How to...
+      url: /#
+      output: web
+
+    - title: ... uninstall an existing market
+      url: /suite-how-to-uninstall-an-existing-market.html
+      output: web
+      class: childItem
+
+    - title: ... install a new market
+      url: /suite-how-to-install-a-new-market.html
+      output: web
+      class: childItem
+
+    - title: ... set up a new exchange
+      url: /suite-how-to-set-up-a-new-exchange.html
+      output: web
+      class: childItem
+
+    - title: ... test new exchanges
+      url: /suite-how-to-test-new-exchanges.html
+      output: web
+      class: childItem
+
   - title: Network
     output: web
     folderitems:
@@ -437,23 +532,33 @@ entries:
       url: /suite-network.html
       output: web
 
-    - title: Data storage
-      url: /suite-data-storage.html
+    - title: Sorting of tasks
+      url: /suite-sorting-of-tasks.html
       output: web
-      class: childItem
 
     - title: Data mining
       url: /suite-data-mining.html
       output: web
-      class: childItem
 
     - title: Testing environment
       url: /suite-testing-environment.html
       output: web
-      class: childItem
 
     - title: Production environment
       url: /suite-production-environment.html
+      output: web
+
+    - title: Data storage
+      url: /suite-data-storage.html
+      output: web
+
+    - title: Data mines data
+      url: /suite-data-mines-data.html
+      output: web
+      class: childItem
+
+    - title: Trading mines data
+      url: /suite-trading-mines-data.html
       output: web
       class: childItem
 
@@ -597,6 +702,10 @@ entries:
 
     - title: Trading system
       url: /suite-hierarchy-trading-system.html
+      output: web
+
+    - title: Trading engine
+      url: /suite-hierarchy-trading-engine.html
       output: web
 
     - title: Network

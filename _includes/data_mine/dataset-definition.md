@@ -90,8 +90,12 @@ Select *Configure Definition* on the menu to access the configuration.
     "type": "Market Files",
     "validTimeFrames": [ "24-hs", "12-hs", "08-hs", "06-hs", "04-hs", "03-hs", "02-hs", "01-hs" ],
     "filePath": "@Exchange/@BaseAsset-@QuotedAsset/@DataMine/@Bot/Output/@Product/@Dataset/@Period",
-    "fileName": "Data.json"
-  }
+    "fileName": "Data.json",
+    "timeFrames": {
+      "filePath": "",
+      "fileName": ""
+    }
+}
 ```
 
 **Multi-Period-Daily:**
@@ -106,8 +110,12 @@ Select *Configure Definition* on the menu to access the configuration.
     "dataRange": {
       "filePath": "@Exchange/@BaseAsset-@QuotedAsset/@DataMine/@Bot/Output/@Product/@Dataset",
       "fileName": "Data.Range.json"
+    },
+    "timeFrames": {
+      "filePath": "",
+      "fileName": ""
     }
-  }
+}
 ```
 
 
@@ -120,6 +128,8 @@ Select *Configure Definition* on the menu to access the configuration.
 * ```filePath``` sets the path on which files are stored; the proper name of the data mine, the bot and the product need to be entered.
 
 * ```fileName``` sets the name of the files that constitute the dataset.
+
+* ```timeFrames``` sets the name and path of the file indicating which time frames shall be filtered when the users sets a time frames filter.
 
 <!--------------------------------------------- CONFIGURING ends -->
 

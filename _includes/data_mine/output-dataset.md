@@ -76,9 +76,15 @@ The image above shows the typical references from output datasets to datasets de
 
 <!--------------------------------------------- ADDING starts -->
 
-To add an output dataset, select *Add Output Dataset* on the process output node menu.
+Output datasets may be added in bulk, for all defined products, or one by one.
 
-{% include tip.html content="Remember that an output dataset must reference a valid dataset definition after creating the output dataset." %}
+To add a single {{ title | downcase }} node, select *Add {{ title }}* on the process output menu. 
+
+{% include tip.html content="Remember that an output dataset must reference a valid dataset definition. Make sure you establish the reference after creating the output dataset." %}
+
+If you have defined multiple products, each with their dataset definitions, and wish to create all corresponding output datasets in bulk, select *Add All Output Datasets" on the process output menu. The system maps the product definition folder structure with output dataset folders, creates all required output datasets, and establishes the references with the corresponding dataset definitions, with a single click of the button.
+
+{% include note.html content="Make sure each product has properly defined dataset definitions before creating output datasets in bulk. You may always delete the output datasets and re-create them at will." %}
 
 <!--------------------------------------------- ADDING ends -->
 

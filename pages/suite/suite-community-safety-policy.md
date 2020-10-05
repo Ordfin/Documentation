@@ -6,7 +6,7 @@ permalink: suite-community-safety-policy.html
 toc: true
 ---
 
-As you probably know, cryptocurrency projects&mdash;and crypto trading in particular&mdash;attract a fair share of fraudsters and criminals. Needless to say, you need to be careful in your interactions in public forums, and the Superalgos Community Telegram group is no exception.
+As you probably already know, cryptocurrency projects&mdash;and crypto trading in particular&mdash;attract a fair share of fraudsters and criminals. Needless to say, you need to be careful in your interactions in public forums, and the Superalgos Community Telegram group is no exception.
 
 ## Be Vigilant
 

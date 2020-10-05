@@ -5,7 +5,7 @@ sidebar: suite_sidebar
 permalink: suite-alpha-bots-layers.html
 ---
 
-{% include callout.html type="primary" content="<strong>The Alpha data mine is brought to you by <a href='https://github.com/rico4dev' rel='nofollow' rel='noopener' target='_blank'>@rico4dev</a></strong>. Collaborate with this data mine and report issues directly at the <a href='https://github.com/rico4dev/Superalgos'  rel='nofollow' rel='noopener' target='_blank'>contributor's repository</a>." %}
+{% include callout.html type="success" content="The Alpha data mine is brought to you by <a href='https://github.com/rico4dev' rel='nofollow' rel='noopener' target='_blank'>@rico4dev</a>. Collaborate with this data mine and report issues directly at the <a href='https://github.com/rico4dev/Superalgos'  rel='nofollow' rel='noopener' target='_blank'>contributor's repository</a>." %}
 
 {% include note.html content="This page covers the use of Alpha indicators on the charts. To learn how to use these products from within strategies, see the [Alpha Indicators](suite-alpha-indicators.html) page." %}
 

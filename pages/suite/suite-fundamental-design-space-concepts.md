@@ -7,17 +7,17 @@ permalink: suite-fundamental-design-space-concepts.html
 
 Trading intelligence emerges from the effective use of information, strategies, technical resources, visualization tools, infrastructure, workflows, collaboration, and several other concepts.
 
-Superalgos structures these concepts in an attempt to make their use intuitive and efficient. However, each of the above are complex subjects in their own merit. The quest for the effective use of several complex concepts is titanic. 
+Superalgos structures these concepts in an attempt to make their use intuitive and efficient. However, each of the above is a complex subject in and of itself. The quest for the effective use of several complex concepts is titanic. 
 
-Therefore, it is necessary to acquire a basic level of understanding of the Superalgos paradigm for the desired intuition to emerge. Understanding the following concepts is a first step in that direction.
+Therefore, it is necessary to acquire a basic level of understanding of the Superalgos paradigm for the desired intuition to emerge. Understanding the following concepts is the first step in that direction.
 
 ## Design Space
 
 **{{site.data.concepts.design_space}}**
 
-In practical terms, the design space is the portion of the system you access when you pull up the sliding panel, hiding the charts in the process.
+In practical terms, the design space is the portion of the system you access when you pull up the slider, hiding the charts in the process.
 
-{% include /concepts/workspace.md heading="##" icon="no" extended="more" content="yes" definition="bold" table="no" more="yes"%}
+{% include /concepts/workspace.md heading="##" icon="no" extended="" content="yes" definition="bold" table="no" more="no"%}
 
 {% include /concepts/nodes.md heading="##" icon="no" extended="more" content="yes" definition="bold" table="no" more="yes"%}
 

@@ -75,7 +75,7 @@ The capture below shows the <a data-toggle="tooltip" data-original-title="{{site
 
 Notice that <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.polygon_vertex}}">vertices</a> under each polygon reference to <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.point}}">points</a> under the chart points node.
 
-This means that the node *shapes* feature several internal references.
+This means that the node *shapes* features several internal references.
 
 {% include note.html content="The *backup*, *clone* and *share* operations make different uses of the properties of references. We will cover the three of them extensively so that you may make the most of these features." %}
 
