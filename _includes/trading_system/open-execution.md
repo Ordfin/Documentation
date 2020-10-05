@@ -2,7 +2,7 @@
 
 {% assign title = "Open Execution" %}
 {% assign definition = site.data.trading_system.open_execution %}
-{% assign preposition = "the" %}
+{% assign preposition = "an" %}
 {% assign plural = "s" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
@@ -51,7 +51,15 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-{% include note.html content="You don't need to do anything with this node for the time being, other than make sure it is present once you are ready to trade live." %}
+One of the crucial elements that make up trading intelligence is the capacity to control every aspect of order execution, as the execution itself entails strategic elements that directly affect performance. 
+
+Superalgos' trading engine is designed as a generic infrastructure that allows building execution logic from the ground up, with as much simplicity or complexity as may be required.
+
+The trading system splits the definitions of the execution logic by trading strategy. That is, each strategy in a trading system may have its execution logic. 
+
+The next layer of control comes in the form of execution algorithms. Each strategy may have as many algorithms as required, and each algorithm may have as many instructions as required.
+
+This model allows the granular control of orders with which you may build algorithms that may interact with other algorithms, and so on.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +76,7 @@
 
 <!--------------------------------------------- ADDING starts -->
 
-To add an open execution node, select *Add Open Execution* on the open stage node menu.
+To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

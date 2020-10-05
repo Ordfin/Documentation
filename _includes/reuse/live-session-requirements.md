@@ -13,7 +13,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-{% include important.html content="Running a live session requires the setup of a key instance at the market reference. It also requires a live data feed, meaning that the corresponding sensor bot, along with all indicators used by the referenced trading system, must be up and running. Finally, a live session also requires at least 48 hours of historic market data. Bear in mind that the trading system may require even more historic market data to properly analyze the market." %}
+{% include important.html content="Running a live session requires the setup of a key reference at the market reference. It also requires a live data feed, meaning that the corresponding sensor bot, along with all indicators used by the referenced trading system, must be up and running. Finally, a live session also requires at least 48 hours of historic market data. Bear in mind that the trading system may require even more historic market data to properly analyze the market." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

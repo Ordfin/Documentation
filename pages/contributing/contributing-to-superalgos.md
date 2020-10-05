@@ -10,7 +10,7 @@ toc: false
 
 Superalgos is a collective project, still at an early stage. Your help may be essential to the project's success and we want you in! 
 
-{% include callout.html type="primary" content="Contributing in the early stages is a great way to leave a mark and build your reputation within the incipient community. It will earn you a spot in the <a href='https://superalgos.org/about-contributors.shtml' target='_blank'>Top Contributors</a> page on the website and will make you eligible for incentives that may be put in place in the future." %}
+{% include callout.html type="success" content="Contributing in the early stages is a great way to leave a mark and build your reputation within the incipient community. It will earn you a spot in the <a href='https://superalgos.org/about-contributors.shtml' target='_blank'>Top Contributors</a> page on the website and will make you eligible for incentives that may be put in place in the future." %}
 
 The project thrives thanks to contributions, as there's only so much founders and project maintainers may achieve on their own. It is always positive that the community knows who contributed what, and proper attribution is a fundamental part of the culture we wish to build for Superalgos: the realization that we are all better off collaborating.
 

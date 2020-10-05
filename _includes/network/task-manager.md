@@ -51,11 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-A task manager facilitates the organization of tasks. For example, you may wish to set up a task manager to handle tasks related to a particular set of indicators you use with a certain strategy. Or, for example, to organize multiple backtesting sessions.
+Task managers are used both in the context of data mining and trading operations, to facilitate the organization of tasks. 
+
+For example, you may set up a task manager to handle tasks related to a particular set of indicators used with a certain strategy. Or, for example, to organize multiple backtesting sessions.
 
 {% include tip.html content="The key aspect of a task manager is that it allows starting and stopping all tasks at once." %}
-
-{% include note.html content="Users may have access to several data mines, each offering different indicators and studies. For organizational purposes, it is recommended each data mine has its task manager. However, the system allows any form of organization." %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -72,7 +72,7 @@ A task manager facilitates the organization of tasks. For example, you may wish 
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a task manager, select *Add Task Manager* on the *My Computer* network node menu. A task manager is added along with a task.
+To add a task manager, select *Add Task Manager* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

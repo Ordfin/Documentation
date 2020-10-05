@@ -114,3 +114,8 @@ In the example above, conditions A and B are comparison statements that may eval
 
 In the example above, _condition C_ would be _true_ if the whole 4-hour candle falls within the range between 9000 and 10000. If this is _true_, then _situation 2_ is true as well, as there is only one condition to check.
 
+## Trading Engine Node's Path
+
+The trading engine is the data structure that keeps track of all the information processed by the trading bot. The information is made available to both human users through the design space and the charting space interfaces. But&mdash;most importantly&mdash;it is made available to trading systems through a similar syntax as the one described earlier.
+
+Learn more about the [trading engine](suite-trading-engine.html) and how to [access runtime data](suite-trading-engine-accessing-runtime-data.html).

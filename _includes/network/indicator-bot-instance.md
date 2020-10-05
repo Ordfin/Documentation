@@ -70,7 +70,7 @@ The indicator bot instance holds no definitions as to what the bot does. Instead
 
 <!--------------------------------------------- ADDING starts -->
 
-To add an indicator bot instance, select *Add Indicator Bot Instance* on the task node menu. When an indicator bot instance is added, it is created with one indicator process instance, and a market reference.
+To add an indicator bot instance, select *Add Indicator Bot Instance* on the task node menu.
 
 <!--------------------------------------------- ADDING ends -->
 

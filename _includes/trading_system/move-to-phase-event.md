@@ -51,9 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The sequence in which phases are executed may be overriden by the use of the move-to-phase event. When the situation in the move-to-phase event validates ```true``` the system shifts the focus to the phase referenced by the move-to-phase event.
+While phases are defined in a sequence and you may choose to manage the position by shifting from one phase to the next in the sequence, the move to phase event offers an alternative.
 
-Any number of move-to-phase events may be set-up at each and every phase, allowing complete flexibility on how the trade is managed. This feature allows setting complex trade-management algorithms switching to different formulas back and forth or in any configuration imaginble.
+With the move to phase event, you may arbitrarily decide which will be the next phase. To do that, you must establish a reference from the move to phase event, to the phase that should be activated once the event is triggered.
+
+Any number of move-to-phase events may be set up for each and every phase, allowing complete flexibility on how the position is managed. This feature allows setting up versatile position-management algorithms that may switch to different formulas back and forth, or in any configuration imaginable.
 
 {% include note.html content="A move-to-phase event must reference a phase node. When the situation in the move-to-phase event evaluates ```true``` the management shifts to the referenced phase." %}
 

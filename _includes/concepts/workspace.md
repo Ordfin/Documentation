@@ -55,7 +55,7 @@ The workspace contains:
  
 * The <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_ecosystem}}">crypto ecosystem</a>,  the <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.charting_space}}">charting space</a>, and the <a data-toggle="tooltip" data-original-title="{{site.data.network.network}}">network</a> <a data-toggle="tooltip" data-original-title="{{site.data.concepts.hierarchy}}">hierarchies</a> with all of their <a data-toggle="tooltip" data-original-title="{{site.data.concepts.node}}">nodes</a>.
 
-* <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mine}}">Data mines</a>, <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading systems</a>, and <a data-toggle="tooltip" data-original-title="{{site.data.super_scripts.super_scripts}}">super scripts</a> created by the user, including clones of those types of hierarchies that may ship with the system. 
+* <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mine}}">Data mines</a>, <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.trading_mine}}">trading mines</a>, <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading systems</a>, <a data-toggle="tooltip" data-original-title="{{site.data.trading_engine.trading_engine}}">trading engines</a>, and <a data-toggle="tooltip" data-original-title="{{site.data.super_scripts.super_scripts}}">super scripts</a> included from external sources. 
 
 * Nodes that may be floating around detached from hierarchies.
 
@@ -76,23 +76,7 @@ The workspace is not part of any of the hierarchies; instead, it contains them.
 
 <!--------------------------------------------- EXTENDED starts -->
 
-{{include.heading}}## Configuring the Workspace
 
-Select *Configure Workspace* on the menu to access the configuration.
-
-```
-{ 
-"includeDataMines": ["Masters", "Sparta", "TradingEngines"],
-"includeTradingSystems": ["Sparta-WHB-BTC-USDT", "Masters-WHB-ETH-USDT", "Sparta-BRR-BTC-USDT"],
-"includeSuperScripts": ["Masters"]
- }
- ```
-
- * ```includeDataMines``` determines which data mines shall be included in the design space, other than those you may have created. Data mines may be loaded from the ```Data-Mines``` folder in the root of the Superalgos installation.
-
- * ```includeTradingSystems``` determines which trading systems shall be included in the design space, other than those you may have created. Trading systems may be loaded from the ```Trading-Systems``` folder in the root of the Superalgos installation.
-
- * ```includeSuperScripts``` determines which super scripts shall be included in the design space, other than those you may have created. Super scripts may be loaded from the ```Super-Scripts``` folder in the root of the Superalgos installation.
 
 <!--------------------------------------------- EXTENDED ends -->
 

@@ -39,23 +39,13 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-{% include image.html file='how-to/uninstall-existing-markets-01.gif' url='yes' max-width='100' caption='Run the *uninstall market* super action to uninstall an existing market.' %}
-
 **1. Expand the <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.exchange_markets}}">exchange markets</a> node** of your preferred <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_exchange}}">crypto exchange</a> in the <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_ecosystem}}">crypto ecosystem</a> hierarchy.
 
 {% include /how_to/find-a-hierarchy.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
 
-**2. Click *Run* on the Uninstall Market super action node menu** corresponding to the <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.market}}">market</a> you wish to uninstall.
+**2. Select *Uninstall Market* on the menu** of the <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.market}}">market</a> you wish to uninstall.
 
-Running the super action deletes all the infrastructure associated with the market, including the following:
-
-1. <a data-toggle="tooltip" data-original-title="{{site.data.network.data_storage}}">Data storage</a> structures of nodes.
-
-2. <a data-toggle="tooltip" data-original-title="{{site.data.network.data_mining}}">Data mining</a> operation for the corresponding exchange and market.
-
-3. <a data-toggle="tooltip" data-original-title="{{site.data.network.testing_environment}}">Testing environment</a> and <a data-toggle="tooltip" data-original-title="{{site.data.network.production_environment}}">production environment</a> <a data-toggle="tooltip" data-original-title="{{site.data.network.task_manager}}">task managers</a> featuring <a data-toggle="tooltip" data-original-title="{{site.data.network.task}}">tasks</a> for all types of trading <a data-toggle="tooltip" data-original-title="{{site.data.network.session}}">sessions</a> referencing the Weak-hands Buster <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading system</a>.
-
-4. A <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.time_machine}}">time machine</a> containing a <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.timeline_chart}}">timeline chart</a> for the market, made readily available on the <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.charting_space}}">charting space</a>.
+{% include note.html content="The function deletes all the infrastructure associated with the market that may have been created using the *Install Market* function." %}
 
 
 <!--------------------------------------------- CONTENT ends -->

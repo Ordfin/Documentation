@@ -70,7 +70,7 @@ Once the reference is established, the indicator process instance adopts the nam
 
 <!--------------------------------------------- ADDING starts -->
 
-To add an indicator process instance, select *Add Indicator Process Instance* on the indicator bot instance node menu. When an indicator process instance is added, it is created with a market reference.
+To add an indicator process instance, select *Add Indicator Process Instance* on the indicator bot instance node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

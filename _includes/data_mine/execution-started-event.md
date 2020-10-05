@@ -55,6 +55,10 @@ These references determine when a process is due for another run. By listening t
 
 Bots form a sort of multi-branched execution sequence with an indeterminate number of dependencies. Every time the bot further down the tree of dependencies finishes a cycle, it triggers the execution of multiple bots listening to its execution finished event.
 
+In the context of a trading process instance running a trading session on the network hierarchy, the execution started event may be used to force the trading process to run only after the last indicator bot dependency finishes its job. This guarantees that all dependencies are up to date and that the trading bot will evaluate the information corresponding to the same candles for all indicators used by the trading system.
+
+Not setting up this event on a trading session may result in eventual data inconsistencies, as&mdash;in theory&mdash;the trading bot may run with some indicators up to date and some slightly delayed.
+
 <!--------------------------------------------- CONTENT ends -->
 
 {% endif %}

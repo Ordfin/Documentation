@@ -53,6 +53,8 @@
 
 A style applied to a polygon body or a polygon border node acts as the default style. Styles including colors, opacity, line width, and more, are defined in the node's configuration.
 
+{% include note.html content="See the configuration for further details." %}
+
 <!--------------------------------------------- CONTENT ends -->
 
 {% endif %}

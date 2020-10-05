@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The node is optional. When the node is not present in the definition of the polygon or when the condition validates ```true```, the polygon is rendered on screen. When the condition validates ```false``` the polygon is not rendered. As such, the node allows dynamically switching on and off the rendering of the corresponding polygon.
+The node is optional. When the node is not present in the definition of the polygon or when the condition validates ```true```, the polygon is rendered on screen. When the condition validates ```false``` the polygon is not rendered. As such, the node allows dynamically switching the rendering of the corresponding polygon on and off.
 
 <!--------------------------------------------- CONTENT ends -->
 

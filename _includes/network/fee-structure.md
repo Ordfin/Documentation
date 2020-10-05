@@ -51,17 +51,17 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Exchange fees are a crucial part of trading. A strategy may work like a charm when you leave fees out of the equation but would lead you to bankruptcy in a live trading situation. 
+Exchange fees are a crucial part of trading. A strategy may work like a charm when you leave fees out of the equation but would lead you to bankruptcy in a live trading situation.
 
-Fee structures are factored both in the session reports and in the graphic representation of each trade provided by the simulation trades product of the trading bot.
+Exchanges don't usually report the amount charged in fees on each transaction, thus, the system calculates fees and subtract them from balances. Learn more about the handling of [fees](suite-trading-engine-order-specific.html#fees-paid).
+
+{% include important.html content="The accuracy of the internal account-keeping depends on this parameter. Make sure you obtain the correct fee structure from the exchange corresponding to the tier of your account." %}
 
 To illustrate how fees affect your bottom line, take a look at the image below.
 
 [![Trading-Simulation-Fees-Fails](https://user-images.githubusercontent.com/13994516/63636432-8d8cdf80-c66f-11e9-86a3-480d157d8126.gif)](https://user-images.githubusercontent.com/13994516/63636432-8d8cdf80-c66f-11e9-86a3-480d157d8126.gif)
 
 The trade hits the take profit target above the Position Rate level, however, due to fees, the trade has a negative 0.32% ROI.
-
-In the context of forward testing and live trading sessions, the fee structure assumptions do not affect actual transactions. However, the parameter is taken into account when creating simulation layers, which are also available during forward testing and live trading.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -80,7 +80,7 @@ In the context of forward testing and live trading sessions, the fee structure a
 
 To add a parameter that may be missing, select *Add Missing Params* on the parameters node menu. 
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -88,7 +88,7 @@ To add a parameter that may be missing, select *Add Missing Params* on the param
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 Select *Configure Fee Structure* on the menu to access the configuration.
 

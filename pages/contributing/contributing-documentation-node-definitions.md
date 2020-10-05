@@ -13,7 +13,7 @@ The node definition is a set of information strictly focused on answering the qu
 
 * *What is required for this node to function properly?*
 
-{% include callout.html type="primary" content="The definition of a node does not include information about how to use the node. Instead, it focuses solely on the *What?* question." %}
+{% include callout.html type="success" content="The definition of a node does not include information about how to use the node. Instead, it focuses solely on the *What?* question." %}
 
 The definition is structured in sections:
 
@@ -27,7 +27,7 @@ The definition is structured in sections:
 
 * **Starting**: A few nodes, particularly in the Network hierarchy, may be put to run. This section explains how to do that and the requirements that may exist to do it.
 
-{% include callout.html type="primary" content="See, for example, how the node definition for the <a href='https://docs.superalgos.org/suite-hierarchy-network.html#live-trading-session' target='_blank'>Live Trading Session</a> node is structured" %}
+{% include callout.html type="success" content="See, for example, how the node definition for the <a href='https://docs.superalgos.org/suite-hierarchy-network.html#live-trading-session' target='_blank'>Live Trading Session</a> node is structured" %}
 
 ## Technical Implementation
 
@@ -61,7 +61,7 @@ The complete definition of each node&mdash;of which the short definition is a pa
 
 The information corresponding to node definitions is, therefore, atomized in individual pages. This is a design feature of the documentation that allows using these definitions as building blocks to build more elaborate pages. 
 
-{% include callout.html type="primary" content="For example, the content of the pages corresponding to the *Hierarchies directory* section *(see <a href='https://docs.superalgos.org/suite-hierarchy-network.html' target='_blank'>Network</a> for example)* are mostly built with the graphical representation of the hierarchy set up in a <a href='https://www.w3schools.com/html/html_intro.asp' rel='nofollow' rel='noopener' target='_blank'>HTML</a> table, plus all the individual definitions of the nodes in the hierarchy." %}
+{% include callout.html type="success" content="For example, the content of the pages corresponding to the *Hierarchies directory* section *(see <a href='https://docs.superalgos.org/suite-hierarchy-network.html' target='_blank'>Network</a> for example)* are mostly built with the graphical representation of the hierarchy set up in a <a href='https://www.w3schools.com/html/html_intro.asp' rel='nofollow' rel='noopener' target='_blank'>HTML</a> table, plus all the individual definitions of the nodes in the hierarchy." %}
 
 The MD files are not plain markdown files, as would usually be assumed for MD files. Instead, they feature code in *Liquid* that allows receiving parameters from the include statement in the destination page. These parameters determine which section of the file is to be included and how.
 

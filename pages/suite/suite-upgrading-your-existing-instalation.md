@@ -39,9 +39,9 @@ Always back up your existing workspace before switching versions. You may go bac
 
 **2. Check if you have any personal files**, such as your workspace backups and so on in your ```Superalgos-master``` folders. Move them to a different location if you do, or take precautions **not** to delete them in the next step.
 
-**3. You will keep the ```Data-Storage``` folder intact** and delete all the remaining folders within the ```Superalgos``` folder. 
+**3. You will keep the ```Data-Storage``` and ```My-Workspaces``` folders intact** and delete all the remaining folders within the ```Superalgos``` folder. 
 
-{%include important.html content="You do not need to get rid of the historic market data every time you upgrade your system. **Do not delete your ```Data-Storage``` folder**." %}
+{%include important.html content="You do not need to get rid of the historic market data or the workspaces you have been working with every time you upgrade your system. **Do not delete your ```Data-Storage``` or your ```My-Workspaces``` folder**." %}
 
 ### Download and Install the New Version
 

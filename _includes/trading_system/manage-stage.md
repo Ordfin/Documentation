@@ -51,19 +51,35 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The management of a trade aims to increase the efficiency of your trading system. Conceptually, a trade is not an instantaneous event, but an event which has an opening, a period of maturation, and a closing. The management of the trade happens in that period of maturation.
+The first and foremost rule of trading is to preserve capital and its main goal is to increase it.
 
-The concept of managing the trade means that the formulas to determine the take profit and stop may change as the trade develops. The typical situation in which you may want to change your original take profit and stop formulas is when the trade seems to be going well in your favor.
+Conceptually, a position is not an instantaneous event, but an event which has an opening, a period of maturation, and a closing. The management of the position happens throughout the process.
 
-It may be in your best interest to manage both stop and take-profit targets, moving them in the direction of the trade as the market moves, allowing some leeway for a larger profit than expected and, at the same time, cutting the potential for losses.
+The concept of managing the position refers to the fact that the formulas that determine the take profit and stop loss targets may change as the position develops. A typical situation in which you may want to change your original take profit and stop loss formulas is when the position seems to be developing well in your favor.
 
-The management of the trade is handled in phases. Actually, the management of take profit and stop—while correlated—is done independently of each other, therefore, each concept has its own set of phases.
+It may be in your best interest to manage the stop loss, moving the target in the direction that would help protect unrealized profits. It may also be in your interest to move the take profit target to extract a larger profit than originally expected. Or you may wish to set up a mechanism that closes the trade as soon as a certain market situation materializes.
 
-When a situation defined by a set of conditions is met, the next phase event indicates that the take profit or stop formulas shall be changed. At the moment those predefined conditions are met, you enter the next phase. Keep in mind that the trade is in constant development, so there may be as many phases as you deem appropriate for your particular strategy.
+The management of take profit and stop loss is done independently of each other, in phases. Therefore, each concept has its own set of management phases.
 
-The idea of having different phases comes from the notion that big market moves tend to provide clues as to what may come up next. For instance, rallies may accelerate as more traders join the move. Recognizable patterns may emerge. Signs of exhaustion may be identified.
+Each phase has its formula to describe the corresponding target. Users may define situations in which the current phase shall be abandoned and a different phase&mdash;with its formula&mdash;shall be implemented. 
 
-All of these considerations should feed the dynamic analysis performed as the trade develops, and may be contrasted with the predefined conditions that may push take profit or stop further, entering one phase after the next.
+Keep in mind that the position is in constant development, so there may be as many phases as you deem appropriate for your particular strategy.
+
+The idea of managing targets in phases derives from the notion that big market moves tend to provide clues as to what may come up next. For instance, rallies may accelerate as more traders join the move. Recognizable patterns may emerge. Signs of exhaustion may be identified.
+
+All of these considerations may feed the dynamic analysis performed in each phase as the position develops.
+
+Upon execution, the system verifies if the current candle has tagged either of the targets. If&mdash;or when&mdash;it does, the close stage kicks in and closing execution begins.
+
+{% include callout.html type="success" content="It is crucial to understand that Superalgos does not place orders to close a position until the stop loss or take profit targets are hit. That is, stop loss and take profit are not orders sitting at the exchange waiting to be filled at a certain rate. Instead, Superalgos keeps track of targets internally, and places the orders at the exchange during the execution cycle in which it detects either of the targets has been hit." %}
+
+This behavior has advantages and disadvantages, but it was designed as is because the former outweigh the latter.
+
+By not placing stop or take profit orders at the exchange, Superalgos keeps your targets&mdash;and the underlying strategy&mdash;secret. This guarantees that such a crucial piece of information may not be used against you by the exchange itself or any third party that may have access to privileged information.
+
+On the other hand, not placing a stop order in advance may occasionally cause relatively more slippage, for instance, in cases of massive flash market moves. 
+
+That said, the default behavior of the system may be hacked to avoid the eventual risk of excessive slippage: set your stop loss and take profit targets tighter than intended.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -84,7 +100,7 @@ To add a manage stage node, select *Add Missing Stages* on the strategy node men
 
 {% include note.html content="Only one manage stage may exist in each strategy." %}
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -92,7 +108,7 @@ To add a manage stage node, select *Add Missing Stages* on the strategy node men
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 

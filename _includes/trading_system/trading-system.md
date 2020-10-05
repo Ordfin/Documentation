@@ -51,15 +51,17 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-In practical terms, a trading system is a hierarchical arrangement organizing the actionable aspects of your investment plan. The hierarchy contains definitions regarding any number of trading strategies, all sharing the same market, the same base asset, and the same initial capital.
+In practical terms, a trading system is a hierarchical arrangement organizing the actionable aspects of your investment plan. The hierarchy contains definitions regarding any number of trading strategies, all operating on the same market and sharing the same initial capital allocation.
 
 You use a trading system to define strategies following the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.superalgos_protocol}}">Superalgos Protocol</a>, splitting strategies into four stages: trigger, open, manage, and close.
 
-The concept of describing strategies in phases is fundamental to the methodical aspect of the trading system, as it provides a framework to run every strategy with the same logic, which contributes to developing scalable trading systems that may grow to any number of strategies.
+The concept of describing strategies in stages is fundamental to the methodical aspect of the trading system, as it provides a framework to run every strategy with the same framework, which contributes to developing scalable trading systems that may grow to any number of strategies.
 
-When a trading system features more than one strategy, the first strategy has precedence over the second, the second over the third and so on. This means that strategies are evaluated in a sequence. When a given strategy is triggered-on, the remaining strategies in the queue are no longer evaluated until the strategy triggers off. In other words, when multiple strategies are deployed within a single trading system, only one strategy may trade at any given moment, and precedence is given by the order around the trading system node.
+When a trading system features more than one strategy, the first strategy has precedence over the second, the second over the third, and so on. This means that strategies are evaluated in a sequence. When a given strategy is triggered-on, the remaining strategies in the queue are no longer evaluated until the strategy triggers off. In other words, when multiple strategies are deployed within a single trading system, only one strategy may trade at any given moment, and precedence is given by the order around the trading system node.
 
-{% include important.html content="Changes made to trading systems shipping with the system may not be saved at the workspace level. If you wish to modify those hierarchies and use them in such modified versions, you need to clone them and modify the clone instead. To do this successfully, you need to learn more about [backups](suite-backups.html) and [clones](suite-clones.html)." %}
+As a corollary to the above, if you wish strategies to operate in different markets, or you wish strategies to be able to take positions simultaneously, then you must set up those strategies in different trading systems.
+
+{% include important.html content="Changes made to trading systems shipping with Superalgos may not be saved at the workspace level. If you wish to modify those hierarchies and use them in such modified versions, you need to clone them and modify the clone instead." %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -80,7 +82,7 @@ To add a trading system, select *Add Trading System* on the workspace node menu.
 
 {% include tip.html content="You may work with as many trading systems as you wish" %}
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -88,7 +90,7 @@ To add a trading system, select *Add Trading System* on the workspace node menu.
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 

@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-For example, in the case of an instance of the Masters data mine Charly sensor bot, the sensor bot process instance references the *Historic Trades* process definition. Once the reference is established, the sensor process instance adopts the name of the process definition it references.
+For example, in the case of an instance of the Masters data mine Exchange Raw Data sensor bot, the bot process instance references the *Historic OHLCVs* process definition. Once the reference is established, the sensor process instance adopts the name of the process definition it references.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -68,7 +68,7 @@ For example, in the case of an instance of the Masters data mine Charly sensor b
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a sensor process instance, select *Add Sensor Process Instance* on the sensor bot instance node menu. When a sensor process instance is added, it is created with a market reference.
+To add a sensor process instance, select *Add Sensor Process Instance* on the sensor bot instance node menu.
 
 <!--------------------------------------------- ADDING ends -->
 

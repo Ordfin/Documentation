@@ -1,10 +1,10 @@
 trading_system: "A trading system is a framework handling the low-level logic that serves to structure the processes and methods used to implement and deploy trading strategies."
 
-strategy: "A strategy is a set of actions occurring in stages, designed to achieve a specific goal within a broader plan, via executing trades."
+trading_strategy: "A trading strategy is a set of actions occurring in stages, designed to achieve a specific goal within a broader plan, via taking and managing positions."
 
 trigger_stage: "The trigger stage deals with monitoring the market in search of trading opportunities with the corresponding strategy."
 
-trigger-on_event: "The trigger-on event defines the set of rules that need to be met for the corresponding strategy to be triggered on. A strategy that is triggered may use all the capital available to the trading system, preventing other strategies in the system from triggering."
+trigger-on_event: "The trigger-on event defines the set of rules that need to be met for the corresponding strategy to be triggered on. A strategy that is triggered may use all the capital available to the trading system, and prevents other strategies in the system from triggering."
 
 situation: "A situation refers to a specific state of the market in which a certain event should take place, as defined by any number of conditions."
 
@@ -12,41 +12,63 @@ condition: "Conditions are rules within a situation. When all conditions under a
 
 trigger-off_event: "The trigger-off event defines the situation in which the corresponding strategy shall be triggered-off. A strategy that is triggered-off releases the capital in reserve and makes it available to other strategies in the trading system."
 
-take_position_event: "The take position event defines the situation that needs to be met to enter a trade."
+take_position_event: "The take position event defines the situation that needs to be met to take a position."
 
-open_stage: "The open stage deals with all the parameters that define a trade, including position rate and size as well as initial stop and take profit targets."
+open_stage: "The open stage deals with the definitions that make up the logic to enter a position, including the target rate and size, and order execution."
 
-initial_definition: "The initial definition node groups the parameters that define the trade at the moment the position is taken."
+initial_targets: "The initial targets node holds the most basic definitions about the position to be taken: the target rate and the target size."
 
-initial_stop: "The initial stop defines the initial target to stop a loss before the trade gets to be managed."
-
-phase_0: "Phase 0 represents the starting point for a stop or take profit target, which may be managed in subsequent phases, on the manage stage."
+target_rate: "The target rate is a reference rate that, in combination with the placement of managed stop loss and managed take profit targets, is used to determine whether the targets have been hit."
 
 formula: "A formula is a mathematical expression intended to determine a numerical value to be applied dynamically to a certain property."
 
-next_phase_event: "The next-phase event is defined by a market situation upon which the management of the trade should shift from one phase to the next phase in a predetermined sequence."
+target_size_in_base_asset: "Target size in base asset is used to define the size of the position, denominating it in the base asset."
 
-move_to_phase_event: "The move-to-phase event is defined by a market situation upon which the management of the trade should shift from the current phase to an arbitrary phase, determined by a reference."
+target_size_in_quoted_asset: "Target size in quoted asset is used to define the size of the position, denominating it in the quoted asset."
 
-initial_take_profit: "The initial take profit defines the initial target to take profit before the trade gets to be managed."
+open_execution: "The open execution node groups all execution algorithms involved in the process of opening a position."
 
-position_size: "The size of the position is the amount of capital that will go in the trade, denominated in the quoted asset. The position size node allows setting a size for the position using a formula."
+execution_algorithm: "An execution algorithm is a set of instructions used to place and manage orders at the exchange."
 
-position_rate: "The position rate is the rate at which the position is taken, denominated in the quoted asset. The position rate node allows setting the desired position rate with a formula."
+market_buy_order: "A market buy order is an instruction sent to the exchange to buy the base asset, for immediate execution at current market prices."
 
-open_execution: "Open execution is the node that will eventually hold the information regarding the execution of the trade opening orders."
+create_order_event: "The create order event controls the placement of orders."
 
-manage_stage: "The manage stage is the third stage in the definition of a strategy and deals with the management of stop and take-profit targets."
+cancel_order_event: "The cancel order event makes cancelling limit orders possible."
 
-stop: "The stop node in the manage stage groups all phases managing stop loss targets as the trade develops."
+simulated_exchange_events: "The simulated exchange event node allows to override the parameters set at the level of the trading session on a per order basis to determine how each order shall be simulated."
 
-phase_1: "Phase 1 is the first phase in the management of a stop or take-profit target. The management of targets may have as many phases as required."
+simulated_partial_fill: "The simulated partial fill parameter allows simulating the partial fill of orders."
 
-take_profit: "Take profit node in the manage stage groups all phases managing take profit targets as the trade develops."
+simulated_actual_rate: "The simulated actual rate node allows setting a specific rate value for the simulation of each order, overriding the slippage parameter of the trading session."
 
-close_stage: "Close stage is not developed yet. In the future, it will deal with the execution of the closing orders, trading log, and related matters."
+simulated_fees_paid: "The simulated fees paid node allows setting a specific fee for the simulation of each order, overriding the fee structure parameter of the trading session."
 
-close_execution: "Close execution is the node that will eventually hold the information regarding the execution of the closing orders."
+market_sell_order: "A market sell order is an instruction sent to the exchange to sell the base asset, for immediate execution at current market prices."
+
+limit_buy_order: "A limit buy order is an instruction sent to the exchange to buy the base asset, for execution at a specific rate or better."
+
+order_rate: "The order rate node defines the rate of limit orders."
+
+limit_sell_order: "A limit sell order is an instruction sent to the exchange to sell the base asset, for execution at a specific rate or better."
+
+close_stage_event: "The close stage event defines the set of rules that need to be met for the corresponding stage to be closed."
+
+manage_stage: "The manage stage deals with the setting and management of stop loss and take profit targets, both to protect your capital and to increase the efficiency of your trading system."
+
+managed_stop_loss: "The managed stop loss node features the definition of the phases that make up the management of the stop loss target as the position develops."
+
+phase: "The management of take profit and stop loss targets is done in phases. Phase 1 sets the initial targets, either for the managed stop loss or the managed take profit, and becomes active as soon as the first order is placed. Subsequent phases allows switching to different formulas given certain market situations."
+
+next_phase_event: "The next phase event determines when there should be a switch of phases to the next phase in a predefined sequence."
+
+move_to_phase_event: "The move to phase event determines when there should be a switch of phases from the current phase to an arbitrary phase determined by a reference."
+
+managed_take_profit: "The managed take profit node features the definition of the phases that make up the management of the take profit target as the position develops."
+
+close_stage: "The close stage deals with the definitions that make up the logic to close a position, including the target rate and size, and order execution."
+
+close_execution: "The close execution node groups all execution algorithms involved in the process of closing a position."
 
 event: "An event is an action triggered by predefined market situations."
 

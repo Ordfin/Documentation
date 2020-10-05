@@ -1,8 +1,8 @@
 design_space: "The design space is the visual environment that features all the information available to the system and the user, and that enables users to exert control over the whole system. You may think of the design space as your desktop."
 
-workspace: "The workspace is the entity storing all user-generated information, as well as the data structures embodied in the following hierarchies: crypto ecosystem, charting space and network."
+workspace: "The workspace is the entity storing all user-generated information, as well as the data structures embodied in the following hierarchies: crypto ecosystem, charting, and network."
 
-node: "A node is a small data structure containing information which may be related to market information, trading intelligence, the operation of the system or other concepts. They are visually represented by icons on the workspace."
+node: "A node is a small data structure containing, which may be related to market information, trading intelligence, the operation of the system, or other concepts. They are visually represented by icons on the design space."
 
 structure_of_nodes: "Nodes may be chained together forming structures of nodes. In every structure of nodes there is a parent node with offsprings. That is, a structure of nodes is a data structure composed of any node and its offspring."
 
@@ -10,7 +10,7 @@ parent-offspring_relationships: "Nodes in structures of nodes are chained to eac
 
 chain: "Nodes in the workspace may be unchained or detached from its parent, carrying all offspring with it. When a node is left unchained, it is no longer taken into account in the logic of the hierarchy, as it no longer belongs to it. When a node is chained back or reattached to the hierarchy, it goes back to being functional."
 
-hierarchy: "A hierarchy is the representation of an overarching, top-level concept resulting in a long chain of nodes, usually with many ramifications. The system manages different types of hierarchies, each of them with a specific focus."
+hierarchy: "A hierarchy is a data structure representing an overarching, top-level concept, resulting in a long chain of nodes, usually with many ramifications. The system manages different types of hierarchies, each of them with a specific focus."
 
 reference: "A reference is a mechanism by which information in a node is related to, or accessed by, other nodes. The ability of a node to establish a reference with another node enables the first to access the information or features entailed in the second one."
 
@@ -40,3 +40,4 @@ sparta_data_mine: "Sparta is a data mine shipping with the system. It features i
 
 pending: "balanceAssetA, balanceAssetB, overfitting, supported assets, supported exchanges, supported markets"
 
+home_node: "The home node is the node on a network of nodes on which the configuration of the said network is maintained."

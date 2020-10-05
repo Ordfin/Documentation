@@ -95,8 +95,11 @@ p {
     color: #428bca;
 }
 .bs-callout-success {
-    border-left-color: #5cb85c;
+    border-left-color: #bcd643;
+    font-weight: 500;
 }
+
+
 .bs-callout-success h4 {
     color: #5cb85c;
 }

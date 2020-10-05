@@ -51,11 +51,18 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Conceptually, the open stage deals with the details that concern the opening of a trade once the decision to take a position has been made. In this stage, you deal with the aforementioned parameters, each of which is defined by a formula.
+The open stage comes into play once the take position event is triggered. 
+Conceptually, the open stage deals with the details concerning how the position shall be opened once the decision to take a position has been made. That is, the open stage does not participate in the process of deciding whether a position should be open or not.
 
-Ideally, the open stage would also handle the parameters that define the execution of the trade, that is, how and which kinds of orders are to be placed, on which exchanges and so on. However, the execution side of the system is still under development. For the time being, execution is drastically simplified: a single market order is placed for each order.
+To take a position, several definitions are required. In particular, those concerning targets, such as the rate and size of the position, and the logic of the execution strategy, that is, how many of which orders shall be placed at the exchange&mdash;and when&mdash;to enter the position.
 
-{% include note.html content="Learn more about the temporal <a href='suite-execution-limitation.html'>execution limitations</a>." %}
+The open stage closes as soon as one of the following events happen:
+
+* the target size gets filled,
+
+* the close stage event is triggered,
+
+* the take profit or stop loss targets are hit.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -76,7 +83,7 @@ To add an open stage node, select *Add Missing Stages* on the strategy node menu
 
 {% include note.html content="Only one open stage may exist in each strategy." %}
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -84,7 +91,7 @@ To add an open stage node, select *Add Missing Stages* on the strategy node menu
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 

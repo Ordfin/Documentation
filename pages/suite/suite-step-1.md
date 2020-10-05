@@ -1,23 +1,31 @@
 ---
-title:  "Step 1: Download and Set-Up"
-summary: Set up is easy. Just download and extract a ZIP file.
+title:  "Step 1: Get Ready"
+summary: Before you begin, please install Chrome and Node JS, and make sure you have a decent console application.
 sidebar: suite_sidebar
 permalink: suite-step-1.html
 toc: false
 ---
 
-## Start Here
+## Use Chrome, the Only Tested Browser
 
-**1. Go to the <a href="https://github.com/Superalgos/Superalgos" rel="nofollow" rel="noopener" target="_blank">Superalgos repository</a>** within the Superalgos organization in GitHub. Make sure you are in the Master branch.
+Before you begin, it is highly recommended that you <a href="https://www.google.com/chrome/" rel="nofollow" rel="noopener" target="_blank">install Chrome</a> and set it up as your default browser.
 
-{% include image.html file='how-to/download-the-software-00.gif' url='yes' max-width='100' caption='Make sure you donwload from the ```Master``` branch, unless you are a developer.' %}
+{% include important.html content="Use Chrome so that you have a similar environment as the dev team in case you need help. We are not testing on any other browsers, and it is a well-known fact that browsers behave differently." %}
 
-**2. Click the green *Clone or download* button** on the right-hand side of the page. If you are a developer, feel free to clone the repository, otherwise, click the Download ZIP button.
+## Install Node JS
 
-{% include image.html file='how-to/download-the-software-01.gif' url='yes' max-width='100' caption='If you are downloading a ZIP file, the name should be ```Superalgos-master.zip```.' %}
+Please install Node JS, an open-source server environment required to run Superalgos. 
 
-**3. Extract the ZIP file** in an accessible location on your local drive. For your convenience, don't put it too deep within a folder structure as you will launch the system from this location.
+**1. Go to the <a href="https://nodejs.org/en/download/" rel="nofollow" rel="noopener" target="_blank">Node JS downloads page</a>**.
 
-{% include image.html file='how-to/download-the-software-02.gif' url='yes' max-width='100' caption='Extract in an accessible location.' %}
+**2. Download your system's installer** (the *LTS Recommended for Most Users* version is enough).
 
-{% include note.html content="If you extract the file with default options, the resulting name of the folder is ```Superalgos-master```. This is how we will refer to the folder from now on. If you are cloning the repository instead of downloading a ZIP file, the folder name will likely be ```Superalgos```." %}
+**3. Run the installer** and go through the process until Node JS is fully installed.
+
+## Procure a Good Console/Terminal/Command Line App
+
+You launch the software from your console/terminal/command line application. Also, processes started from within the system log their activity on the console used to fire up the system. Therefore, the console is a fundamental piece of software to operate the system. Windows Command Prompt is particularly bad as a console. If you are on Windows, it is recommended to install and use a decent application, such as <a href="https://cmder.net/" rel="nofollow" rel="noopener" target="_blank">Console Emulator Cmder<a/>. This will save you time and hassle, and make the operation of the system more enjoyable. 
+
+## Are You Upgrading to a New Version of Superalgos?
+
+If you have run Superalgos before, read the best practices for [upgrading the system](suite-upgrading-your-existing-instalation.html) as a reminder, and take your time before you commit to the upgrade.

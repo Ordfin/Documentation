@@ -6,9 +6,9 @@ change_directories_in_the_console: "To change directories, use the cd (change di
 
 restore_a_workspace: "To restore a workspace, drag the workspace file and drop it on top of the workspace icon in the design space."
 
-install_a_new_market: "To install a new market, click Run on the install market super action corresponding to the market you wish to install. If the market is not set up, then you must set it up first."
+install_a_new_market: "To install a new market, select Install Market on the menu of the market you wish to install. If the market is not set up, then you must set it up first."
 
-uninstall_an_existing_market: "To uninstall an existing market, click Run on the uninstall market super action corresponding to the market you wish to uninstall."
+uninstall_an_existing_market: "To uninstall an existing market, select Uninstall Market on the menu of the market you wish to uninstall."
 
 set_up_a_new_exchange: "To set up a new exchange, find it in the Untested crypto exchanges node and bring it to a less crowded crypto exchanges node to make room for the new setup. Then add the assets and the markets you wish to work with, and finally, install the markets."
 

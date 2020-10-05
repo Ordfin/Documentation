@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-{% include note.html content="You don't need to do anything with this node for the time being, other than make sure it is present once you are ready to trade live." %}
+The close execution section of the close stage works similarly to the open execution in the open stage. Please refer to the explanations of the open stage for the details.
 
 <!--------------------------------------------- CONTENT ends -->
 

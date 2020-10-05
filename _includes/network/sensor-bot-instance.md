@@ -70,7 +70,7 @@ The sensor bot instance holds no definitions as to what the bot does. Instead, i
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a sensor bot instance, select *Add Sensor Bot Instance* on the task node menu. When a sensor bot instance is added, it is created with one sensor process instance, and a market reference.
+To add a sensor bot instance, select *Add Sensor Bot Instance* on the task node menu.
 
 <!--------------------------------------------- ADDING ends -->
 
