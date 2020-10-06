@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: Superalgos
-  version: Beta
+  version: Beta 6
   folders:
 
 #  - title:
@@ -285,29 +285,75 @@ entries:
       output: web
       class: childItem
 
-  - title: Indicators
+  - title: Community strategies
     output: web
     folderitems:
 
-    - title: Masters indicators
-      url: /suite-masters-indicators.html
+    - title: BTC / USDT
+      url: /#
+      output: web
+
+    - title: Weak-hands Buster
+      url: /suite-community-weak-hands-buster.html
       output: web
       class: childItem
 
-    - title: Sparta indicators
-      url: /suite-sparta-indicators.html
+    - title: BB Top Bounce
+      url: /suite-community-bb-top-bounce.html
       output: web
       class: childItem
 
-    - title: Buddha indicators
-      url: /suite-buddha-indicators.html
-      output: web
-      class: childItem
+  - title: Community indicators
+    output: web
+    folderitems:
 
-    - title: Alpha indicators
-      url: /suite-alpha-indicators.html
+    - title: Average True Range (ATR)
+      url: /suite-indicator-average-true-range.html
       output: web
-      class: childItem
+
+    - title: Bollinger Bands (BB, %B)
+      url: /suite-indicator-bollinger-bands.html
+      output: web
+
+    - title: Bollinger Channels
+      url: /suite-indicator-bollinger-channels.html
+      output: web
+
+    - title: Candle Patterns
+      url: /suite-indicator-candle-patterns.html
+      output: web
+
+    - title: Candles Volumes
+      url: /suite-indicator-candles.html
+      output: web
+
+    - title: Exponential Moving Average (EMA)
+      url: /suite-indicator-exponential-moving-average.html
+      output: web
+
+    - title: Moving Average Conv./Div. (MACD)
+      url: /suite-indicator-moving-average-convergence-divergence.html
+      output: web
+
+    - title: Stochastic
+      url: /suite-indicator-stochastic.html
+      output: web
+
+    - title: Rate of Change (ROC)
+      url: /suite-indicator-rate-of-change.html
+      output: web
+
+    - title: Relative Strenght Index (RSI)
+      url: /suite-indicator-relative-strenght-index.html
+      output: web
+
+    - title: Resistances and Supports
+      url: /suite-indicator-resistances-and-supports.html
+      output: web
+
+    - title: Simple Moving Average (SMA)
+      url: /suite-indicator-simple-moving-average.html
+      output: web
 
   - title: Trading engine
     output: web
@@ -445,24 +491,6 @@ entries:
     - title: Identity and status
       url: /suite-trading-engine-identity-and-status.html
       output: web
-
-  - title: Community strategies
-    output: web
-    folderitems:
-
-    - title: BTC / USDT
-      url: /#
-      output: web
-
-    - title: Weak-hands Buster
-      url: /suite-community-weak-hands-buster.html
-      output: web
-      class: childItem
-
-    - title: BB Top Bounce
-      url: /suite-community-bb-top-bounce.html
-      output: web
-      class: childItem
 
 #  - title: Myth busters trading ideas
 #    output: web
@@ -634,6 +662,26 @@ entries:
 
     - title: Contribute an indicator!
       url: /contributing-indicators.html
+      output: web
+
+  - title: Community data mines
+    output: web
+    folderitems:
+
+    - title: Alpha
+      url: /suite-data-mine-alpha.html
+      output: web
+
+    - title: Buddha
+      url: /suite-data-mine-buddha.html
+      output: web
+
+    - title: Masters
+      url: /suite-data-mine-masters.html
+      output: web
+
+    - title: Sparta
+      url: /suite-data-mine-sparta.html
       output: web
 
   - title: Trading farms
