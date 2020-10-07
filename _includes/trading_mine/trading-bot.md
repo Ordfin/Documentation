@@ -51,7 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-In Superalgos, a trading bot is a computer program designed to leverage the Superalgos infrastructure to provide smart trading features to users building <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading systems</a>. As such, a trading bot does not feature trading logic in and of itself. Instead, it executes the logic defined in trading systems.
+In Superalgos, a trading bot is a computer program designed to leverage the Superalgos infrastructure to provide smart trading features to users building, testing, and deploying <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading systems</a>. As such, a trading bot does not feature trading logic in and of itself. Instead, it executes the logic defined in trading systems.
 
 Put in other words, when Superalgos users define trading systems and the <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_strategy}}">trading strategies</a> within, they are not building a trading bot. Instead, they are defining a set of instructions that a trading bot will then interpret and execute.
 

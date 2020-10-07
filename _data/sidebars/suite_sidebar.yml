@@ -327,11 +327,6 @@ entries:
       output: web
       class: childItem
 
-    - title: Low-frequency trading
-      url: /suite-low-frequency-trading.html
-      output: web
-      class: childItem
-
     - title: Accessing definitions and parameters
       url: /suite-trading-system-definitions-parameters.html
       output: web
@@ -496,6 +491,10 @@ entries:
 
     - title: Trading bot
       url: /suite-trading-bot.html
+      output: web
+
+    - title: Low-frequency trading bot
+      url: /suite-low-frequency-trading-bot.html
       output: web
 
 #  - title: Myth busters trading ideas
