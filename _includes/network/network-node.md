@@ -92,7 +92,7 @@ Select *Configure Network Node* on the menu to access the configuration.
 { 
 "host": "0.0.0.0", 
 "webPort": "34248", 
-"webSocketsPort": "8081"
+"webSocketsPort": "18041"
 }
 ```
 
@@ -100,7 +100,7 @@ Select *Configure Network Node* on the menu to access the configuration.
 
 * ```webPort``` is the port used by the Web Server, at this stage ```34248```.
 
-* ```webSocketsPort``` is the port used by the system to communicate over the local area network, by default set at ```8081```.
+* ```webSocketsPort``` is the port used by the system to communicate over the local area network, by default set at ```18041```.
 
 <!--------------------------------------------- CONFIGURING ends -->
 
