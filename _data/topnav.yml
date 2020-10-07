@@ -3,12 +3,15 @@
 topnav:
 - title: Topnav
   items:
-    - title: Docs
+    - title: Beta 6 Docs
       url: /index.html
+      active: suite
     - title: Community Plugins
       url: /community-contributions.html
+      active: community
     - title: Contribute!
       url: /contributing-to-superalgos.html
+      active: contributing
     - title: FAQs
       url: /suite-frequently-asked-questions.html
     - title: Help
