@@ -1,8 +1,8 @@
 ---
 title:  Bollinger Bands (BB)
 summary: "The indicator produces the Bollinger Bands (BB) and Percentage Bandwith (%B), both in standard settings."
-sidebar: suite_sidebar
-permalink: suite-indicator-bollinger-bands.html
+sidebar: community_sidebar
+permalink: community-indicator-bollinger-bands.html
 ---
 
 {% include note.html content="Bollinger Bands (BB) is brought to you by the Masters data mine." %}

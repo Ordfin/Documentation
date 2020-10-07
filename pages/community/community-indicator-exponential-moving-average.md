@@ -1,8 +1,8 @@
 ---
 title:  Exponential Moving Average (EMA)
 summary: "The indicator produces the Exponential Moving Avarge in multiple settings, including the popular 20, 50, 100, and 200, as well as less frequent base 7 and base 11 SMAs."
-sidebar: suite_sidebar
-permalink: suite-indicator-exponential-moving-average.html
+sidebar: community_sidebar
+permalink: community-indicator-exponential-moving-average.html
 ---
 
 {% include note.html content="Exponential Moving Average (EMA) is brought to you by the Sparta data mine." %}

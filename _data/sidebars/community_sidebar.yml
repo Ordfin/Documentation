@@ -1,0 +1,110 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Community resources
+  version: 
+  folders:
+
+#  - title:
+#    output: pdf
+#    type: frontmatter
+#    folderitems:
+#    - title:
+#      url: /titlepage.html
+#      output: pdf
+#      type: frontmatter
+#    - title:
+#      url: /tocpage.html
+#      output: pdf
+#      type: frontmatter
+
+  - title: Trading Systems
+    output: web
+    folderitems:
+
+    - title: BTC / USDT
+      url: /#
+      output: web
+
+    - title: Weak-hands Buster
+      url: /suite-community-weak-hands-buster.html
+      output: web
+      class: childItem
+
+    - title: BB Top Bounce
+      url: /suite-community-bb-top-bounce.html
+      output: web
+      class: childItem
+
+  - title: Indicators
+    output: web
+    folderitems:
+
+    - title: Average True Range (ATR)
+      url: /community-indicator-average-true-range.html
+      output: web
+
+    - title: Bollinger Bands (BB, %B)
+      url: /community-indicator-bollinger-bands.html
+      output: web
+
+    - title: Bollinger Channels
+      url: /community-indicator-bollinger-channels.html
+      output: web
+
+    - title: Candle Patterns
+      url: /community-indicator-candle-patterns.html
+      output: web
+
+    - title: Candles Volumes
+      url: /community-indicator-candles.html
+      output: web
+
+    - title: Exponential Moving Average (EMA)
+      url: /community-indicator-exponential-moving-average.html
+      output: web
+
+    - title: Moving Average Conv./Div. (MACD)
+      url: /community-indicator-moving-average-convergence-divergence.html
+      output: web
+
+    - title: Stochastic
+      url: /community-indicator-stochastic.html
+      output: web
+
+    - title: Rate of Change (ROC)
+      url: /community-indicator-rate-of-change.html
+      output: web
+
+    - title: Relative Strenght Index (RSI)
+      url: /community-indicator-relative-strenght-index.html
+      output: web
+
+    - title: Resistances and Supports
+      url: /community-indicator-resistances-and-supports.html
+      output: web
+
+    - title: Simple Moving Average (SMA)
+      url: /community-indicator-simple-moving-average.html
+      output: web
+
+  - title: Data mines
+    output: web
+    folderitems:
+
+    - title: Alpha
+      url: /community-data-mine-alpha.html
+      output: web
+
+    - title: Buddha
+      url: /community-data-mine-buddha.html
+      output: web
+
+    - title: Masters
+      url: /community-data-mine-masters.html
+      output: web
+
+    - title: Sparta
+      url: /community-data-mine-sparta.html
+      output: web

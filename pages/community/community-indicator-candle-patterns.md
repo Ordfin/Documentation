@@ -1,8 +1,8 @@
 ---
 title:  Candle Patterns
 summary: "The indicator features a pattern-recognition algorithm classifying candles in multiple groups such as Classic Candles, Marubozu Candles, Spinning Top Candles, Doji Candles, and grouping pattern into on, two, and three-candle sequences."
-sidebar: suite_sidebar
-permalink: suite-indicator-candle-patterns.html
+sidebar: community_sidebar
+permalink: community-indicator-candle-patterns.html
 ---
 
 {% include note.html content="Candle Patterns is brought to you by the Buddha data mine." %}

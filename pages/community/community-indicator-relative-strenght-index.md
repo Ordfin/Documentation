@@ -1,8 +1,8 @@
 ---
 title:  Relative Strenght Index (RSI)
 summary: "The indicator produces the standard 14 setting of the Relative Strenght Index."
-sidebar: suite_sidebar
-permalink: suite-indicator-relative-strenght-index.html
+sidebar: community_sidebar
+permalink: community-indicator-relative-strenght-index.html
 ---
 
 {% include note.html content="Relative Strenght Index (RSI) is brought to you by the Sparta data mine." %}

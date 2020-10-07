@@ -1,7 +1,7 @@
 ---
 title:  XXXXXXXXX
 summary: "The indicator XXXXXXXXX."
-sidebar: suite_sidebar
+sidebar: community_sidebar
 permalink: XXXXXXXXX.html
 ---
 

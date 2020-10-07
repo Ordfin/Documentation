@@ -1,8 +1,8 @@
 ---
 title:  Moving Average Convergence Divergence (MACD)
 summary: "The indicator produces de MACD indicator in the most popular 12, 26, 9 setting, and the following less usual settings: a fast 3, 10, 16, an intermediate 8, 17, 9, and a slow 24, 52, 9."
-sidebar: suite_sidebar
-permalink: suite-indicator-moving-average-convergence-divergence.html
+sidebar: community_sidebar
+permalink: community-indicator-moving-average-convergence-divergence.html
 ---
 
 {% include note.html content="Moving Average Convergence Divergence (MACD) is brought to you by the Sparta data mine." %}

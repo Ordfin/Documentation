@@ -40,6 +40,10 @@ Superalgos is an open-source community project and relies on users' contribution
 
 The official <a href="https://t.me/superalgos" rel="nofollow" rel="noopener" target="_blank">Superalgos Announcements</a> channel is where new releases and important bug reports are announced. Make sure you are in the channel to stay in the loop.
 
+## About this Site
+
+This is the Documentation site of the Superalgos Project. This first section features the documentation of the Superalgos software. On the top menu you will find [Community Resources](community-resources.html) featuring <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading systems</a> and <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mines}}">data mines</a> with indicators contributed by the Community.
+
 ## About Superalgos
 
 Superalgos is a comprehensive system managing each of the important concepts that make up trading intelligence. Learn more about the project and system features <a href="https://superalgos.org" target="_blank">on the home page</a>.

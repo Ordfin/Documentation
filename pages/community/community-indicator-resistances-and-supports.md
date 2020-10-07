@@ -1,8 +1,8 @@
 ---
 title:  Resistances and Supports
 summary: "The indicator keeps track of resistances and supports levels for the entire dataset."
-sidebar: suite_sidebar
-permalink: suite-indicator-resistances-and-supports.html
+sidebar: community_sidebar
+permalink: community-indicator-resistances-and-supports.html
 ---
 
 {% include note.html content="Resistances and Support is brought to you by the Masters data mine." %}

@@ -1,8 +1,8 @@
 ---
 title:  Candles Volumes
 summary: "The indicator processes one-minute candles into candles and volumes information for all time frames."
-sidebar: suite_sidebar
-permalink: suite-indicator-candles.html
+sidebar: community_sidebar
+permalink: community-indicator-candles.html
 ---
 
 {% include note.html content="Candles Volumes is brought to you by the Masters data mine." %}

@@ -1,8 +1,8 @@
 ---
 title:  Stochastic
 summary: "The indicator features the typical stochastic setting of 14, 3, 3."
-sidebar: suite_sidebar
-permalink: suite-indicator-stochastic.html
+sidebar: community_sidebar
+permalink: community-indicator-stochastic.html
 ---
 
 {% include note.html content="Stochastic is brought to you by the Alpha data mine." %}

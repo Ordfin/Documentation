@@ -1,8 +1,8 @@
 ---
 title:  Bollinger Channels
 summary: "The indicator produces the Bollinger Channels and Bollinger Subchannels products."
-sidebar: suite_sidebar
-permalink: suite-indicator-bollinger-channels.html
+sidebar: community_sidebar
+permalink: community-indicator-bollinger-channels.html
 ---
 
 {% include note.html content="Bollinger Channels is brought to you by the Masters data mine." %}

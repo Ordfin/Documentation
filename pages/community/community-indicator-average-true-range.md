@@ -1,8 +1,8 @@
 ---
 title: Average True Range (ATR)
 summary: "The indicator features 2 different smoothing functions: ATR - SMA (simple moving average) / ATR - RMA (exponential moving average)."
-sidebar: suite_sidebar
-permalink: suite-indicator-average-true-range.html
+sidebar: community_sidebar
+permalink: community-indicator-average-true-range.html
 ---
 
 {% include note.html content="Average True Range (ATR) is brought to you by the Alpha data mine." %}

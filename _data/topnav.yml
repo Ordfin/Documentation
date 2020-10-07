@@ -3,16 +3,16 @@
 topnav:
 - title: Topnav
   items:
-    - title: Documentation
+    - title: Docs
       url: /index.html
-    - title: Contribute
+    - title: Community Resources
+      url: /community-resources.html
+    - title: Contribute!
       url: /contributing-to-superalgos.html
     - title: FAQs
       url: /suite-frequently-asked-questions.html
     - title: Help
       external_url: https://t.me/superalgoscommunity
-    - title: Superalgos Project
-      external_url: https://superalgos.org
 
 #Topnav dropdowns
 #topnav_dropdowns:

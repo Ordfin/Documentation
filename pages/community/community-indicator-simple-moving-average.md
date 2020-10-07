@@ -1,8 +1,8 @@
 ---
 title:  Simple Moving Average (SMA)
 summary: "The indicator produces the Simple Moving Avarge in multiple settings, including the popular 20, 50, 100, and 200, as well as less frequent base 7 and base 11 SMAs."
-sidebar: suite_sidebar
-permalink: suite-indicator-simple-moving-average.html
+sidebar: community_sidebar
+permalink: community-indicator-simple-moving-average.html
 ---
 
 {% include note.html content="Simple Moving Average (SMA) is brought to you by the Sparta data mine." %}

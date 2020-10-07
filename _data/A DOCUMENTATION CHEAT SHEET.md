@@ -33,6 +33,8 @@ TOOLTIPS:
 
 <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.XXXXXXXXXXX}}"></a>
 
+<a data-toggle="tooltip" data-original-title="{{site.data.trading_mine.XXXXXXXXXXX}}"></a>
+
 <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.XXXXXXXXXXX}}"></a>
 
 <a data-toggle="tooltip" data-original-title="{{site.data.network.XXXXXXXXXXX}}"></a>

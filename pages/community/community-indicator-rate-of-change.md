@@ -1,8 +1,8 @@
 ---
 title:  Rate of Change (ROC)
 summary: "The indicator features three products for the following periods: 9, 32, 76."
-sidebar: suite_sidebar
-permalink: suite-indicator-rate-of-change.html
+sidebar: community_sidebar
+permalink: community-indicator-rate-of-change.html
 ---
 
 {% include note.html content="Rate of Change (ROC) is brought to you by the Alpha data mine." %}
