@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Trading Mine" %}
-{% assign definition = site.data.trading_mine.trading_mine %}
+{% assign title = "Trading Bot" %}
+{% assign definition = site.data.trading_mine.trading_bot %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -51,13 +51,13 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Altough Superalgos is starting out with a single <a data-toggle="tooltip" data-original-title="{{site.data.trading_mine.trading_bot}}">trading bot</a>, the system is prepared to feature as many trading bots as developers are willing to create. As such, a trading mine is a catalog of trading bots.
+In Superalgos, a trading bot is a computer program designed to leverage the Superalgos infrastructure to provide smart trading features to users building <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading systems</a>. As such, a trading bot does not feature trading logic in and of itself. Instead, it executes the logic defined in trading systems.
 
-Notice that, in the context of Superalgos, a trading bot has nothing to do with the trading logic. Think of trading logic as the business rules which&mdash;in Superalgos&mdash;are defined in <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading systems</a>. Anyone may build trading systems, meaning that creating a trading system and the <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_strategy}}">trading strategies</a> within does not require coding.
+Put in other words, when Superalgos users define trading systems and the <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_strategy}}">trading strategies</a> within, they are not building a trading bot. Instead, they are defining a set of instructions that a trading bot will then interpret and execute.
 
-Trading mines work similarly to <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mine}}">data mines</a> in the sense that they provide the same kind of tools to structure the definitions of bots, including <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.process_definition}}">process definitions</a>, <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.product_definition}}">product definitions</a>, and <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.plotter}}">plotters</a>.
+Trading bots have access to every piece of infrastructure built in Superalgos. One of the noteworthy sections of the infrastructure relevant to trading bots are trading mines themselves. Trading bots may be quite complex pieces of software. To name two of the most prominent characteristics: the bot needs to consider multiple dimensions of information and needs to be highly reliable, as its activity entails monetary transactions.
 
-{% include important.html content="Changes made to trading mines shipping with the system may not be saved at the workspace level. If you wish to modify those hierarchies and use them in such modified versions, you need to clone them and modify the clone instead. To do this successfully, you need to learn more about [backups](suite-backups.html) and [clones](suite-clones.html)." %}
+Trading mines make building trading bots a more accessible feat, providing a framework to produce compartmentalized definitions for the bots' processes and products, just like data mines do for sensors and indicators.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -74,7 +74,7 @@ Trading mines work similarly to <a data-toggle="tooltip" data-original-title="{{
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add Trading Mine* on the Workspace node menu. 
+To add the {{ title | downcase }} node, select *Add Trading Bot* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 

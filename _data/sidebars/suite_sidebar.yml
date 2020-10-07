@@ -258,7 +258,11 @@ entries:
       output: web
       class: childItem
 
-  - title: Trading system
+    - title: Community indicators
+      url: /community-resources.html
+      output: web
+
+  - title: Trading systems
     output: web
     folderitems:
 
@@ -340,6 +344,10 @@ entries:
       url: /suite-how-to-test-a-trading-idea.html
       output: web
       class: childItem
+
+    - title: Community trading systems
+      url: /community-resources.html
+      output: web
 
   - title: Trading engine
     output: web
@@ -486,6 +494,10 @@ entries:
       url: /suite-trading-mine.html
       output: web
 
+    - title: Trading bot
+      url: /suite-trading-bot.html
+      output: web
+
 #  - title: Myth busters trading ideas
 #    output: web
 #    folderitems:
@@ -591,6 +603,10 @@ entries:
 
     - title: Contribute an indicator!
       url: /contributing-indicators.html
+      output: web
+
+    - title: Community data mines
+      url: /community-resources.html
       output: web
 
   - title: Integrations
