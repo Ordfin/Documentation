@@ -7,7 +7,7 @@ permalink: community-data-mine-alpha.html
 
 {% include callout.html type="success" content="The Alpha data mine is brought to you by <a href='https://github.com/rico4dev' rel='nofollow' rel='noopener' target='_blank'>@rico4dev</a>. Collaborate with this data mine and report issues directly at the <a href='https://github.com/rico4dev/Superalgos'  rel='nofollow' rel='noopener' target='_blank'>contributor's repository</a>." %}
 
-The Alpha data mine generously contributed the following indicators:
+The Alpha data mine features the following indicators:
 
 * [Average True Range (ATR)](community-indicator-average-true-range.html)
 

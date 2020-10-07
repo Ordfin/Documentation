@@ -19,12 +19,12 @@ entries:
 #      output: pdf
 #      type: frontmatter
 
-  - title: Community resources
+  - title: Community intelligence
     output: web
     folderitems:
 
     - title: Community contributions
-      url: /community-resources.html
+      url: /community-contributions.html
       output: web
 
     - title: New to Superalgos?
@@ -41,12 +41,12 @@ entries:
       output: web
 
     - title: Weak-hands Buster
-      url: /suite-community-weak-hands-buster.html
+      url: /community-trading-system-weak-hands-buster.html
       output: web
       class: childItem
 
     - title: BB Top Bounce
-      url: /suite-community-bb-top-bounce.html
+      url: /community-trading-system-bb-top-bounce.html
       output: web
       class: childItem
 

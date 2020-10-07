@@ -10,13 +10,13 @@ toc: false
 <iframe width="848" height="476" src="https://www.youtube.com/embed/_ZmJn7Qqe1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-{% include live-trading-warning.html %}
-
 ## Getting Started
 
-The *Getting Started Guide* shows you how to download and install the app in three easy steps.
+The [Getting Started Guide](suite-step-1.html) shows you how to download and install the app in three easy steps.
 
 Once you fire up the system, an interactive tutorial walks you through the basic operation, including mining data from Binance, browsing markets on the charts, running a <a data-toggle="tooltip" data-original-title="{{site.data.network.backtesting_session}}">backtesting session</a> of a demo <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading system</a>, and even running a <a data-toggle="tooltip" data-original-title="{{site.data.network.live_trading_session}}">live trading session</a> to demonstrate how the system handles order execution.
+
+{% include live-trading-warning.html %}
 
 ## Community Support
 

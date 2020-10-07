@@ -5,7 +5,7 @@ topnav:
   items:
     - title: Docs
       url: /index.html
-    - title: Community Resources
+    - title: Community Plugins
       url: /community-resources.html
     - title: Contribute!
       url: /contributing-to-superalgos.html

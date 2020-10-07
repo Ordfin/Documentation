@@ -1,8 +1,8 @@
 ---
-title:  Community Resources
+title:  Community Contributions
 summary: "Superalgos relies entirely on the generosity of the Community to contribute trading systems, data mines, and indicators."
 sidebar: community_sidebar
-permalink: community-resources.html
+permalink: community-contributions.html
 ---
 
 Superalgos is the most comprehensive open-source crypto-trading automation solution.

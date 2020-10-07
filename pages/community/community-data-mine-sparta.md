@@ -7,7 +7,7 @@ permalink: community-data-mine-sparta.html
 
 {% include callout.html type="success" content="The Sparta data mine is brought to you by the Superalgos Project. Collaborate with this data mine and report issues directly at the <a href='https://github.com/Superalgos/Superalgos'  rel='nofollow' rel='noopener' target='_blank'>Superalgos repository</a>." %}
 
-The Sparta data mine generously contributed the following indicators:
+The Sparta data mine features the following indicators:
 
 * [Simple Moving Average (SMA)](community-indicator-simple-moving-average.html)
 

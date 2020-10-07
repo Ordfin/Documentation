@@ -7,7 +7,7 @@ permalink: community-data-mine-masters.html
 
 {% include callout.html type="success" content="The Masters data mine is brought to you by the Superalgos Project. Collaborate with this data mine and report issues directly at the <a href='https://github.com/Superalgos/Superalgos'  rel='nofollow' rel='noopener' target='_blank'>Superalgos repository</a>." %}
 
-The Masters data mine generously contributed the following indicators:
+The Masters data mine features the following indicators:
 
 * [Candles](community-indicator-candles.html)
 
