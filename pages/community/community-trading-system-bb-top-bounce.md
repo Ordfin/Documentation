@@ -1,8 +1,8 @@
 ---
 title:  BB Top Bounce (BBTB)
 summary: "A trading system based on the bounce off the upper Bollinger Band idea, designed to accumulate Bitcoin, targeting a big range of market situations."
-sidebar: suite_sidebar
-permalink: suite-community-bb-top-bounce.html
+sidebar: community_sidebar
+permalink: community-trading-system-bb-top-bounce.html
 ---
 
 BB Top Bounce was released in May 2020. This page explains the trading system and analyzes its performance.

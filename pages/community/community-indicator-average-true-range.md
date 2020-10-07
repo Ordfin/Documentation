@@ -5,7 +5,7 @@ sidebar: community_sidebar
 permalink: community-indicator-average-true-range.html
 ---
 
-{% include note.html content="Average True Range (ATR) is brought to you by the Alpha data mine." %}
+{% include note.html content="Average True Range (ATR) is brought to you by the [Alpha](community-data-mine-alpha.html) data mine." %}
 
 ## Average True Range On the Charts
 

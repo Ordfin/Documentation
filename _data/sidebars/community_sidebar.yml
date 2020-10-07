@@ -2,7 +2,7 @@
 
 entries:
 - title: sidebar
-  product: Community resources
+  product: Community Plugins
   version: 
   folders:
 
@@ -19,7 +19,7 @@ entries:
 #      output: pdf
 #      type: frontmatter
 
-  - title: Community intelligence
+  - title: Community contributions
     output: web
     folderitems:
 

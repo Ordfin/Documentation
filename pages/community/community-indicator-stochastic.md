@@ -5,7 +5,7 @@ sidebar: community_sidebar
 permalink: community-indicator-stochastic.html
 ---
 
-{% include note.html content="Stochastic is brought to you by the Alpha data mine." %}
+{% include note.html content="Stochastic is brought to you by the [Alpha](community-data-mine-alpha.html) data mine." %}
 
 ## Stochastic On the Charts
 

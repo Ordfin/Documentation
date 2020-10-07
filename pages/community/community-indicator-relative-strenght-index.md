@@ -5,7 +5,7 @@ sidebar: community_sidebar
 permalink: community-indicator-relative-strenght-index.html
 ---
 
-{% include note.html content="Relative Strenght Index (RSI) is brought to you by the Sparta data mine." %}
+{% include note.html content="Relative Strenght Index (RSI) is brought to you by the [Sparta](community-data-mine-sparta.html) data mine." %}
 
 ## Relative Strength Index On the Charts
 

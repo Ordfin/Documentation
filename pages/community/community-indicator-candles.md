@@ -5,7 +5,7 @@ sidebar: community_sidebar
 permalink: community-indicator-candles.html
 ---
 
-{% include note.html content="Candles Volumes is brought to you by the Masters data mine." %}
+{% include note.html content="Candles Volumes is brought to you by the [Masters](community-data-mine-masters.html) data mine." %}
 
 ## On the Charts
 

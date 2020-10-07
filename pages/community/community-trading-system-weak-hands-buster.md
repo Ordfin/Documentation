@@ -1,8 +1,8 @@
 ---
 title:  Weak-hands Buster (WHB)
 summary: "A trading system based on the break down of the Bollinger Bands idea, designed to accumulate Bitcoin, targeting major downward market moves."
-sidebar: suite_sidebar
-permalink: suite-community-weak-hands-buster.html
+sidebar: community_sidebar
+permalink: community-trading-system-weak-hands-buster.html
 ---
 
 Weak-hands Buster was released in the <a href="https://t.me/superalgoscommunity" rel="nofollow" rel="noopener" target="_blank">Superalgos Community Telegram group</a> in August 2019 and has been trading live since. An evolution of the system is currently available as version 2. This page explains the trading system and analyzes its performance.

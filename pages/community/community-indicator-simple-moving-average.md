@@ -5,7 +5,7 @@ sidebar: community_sidebar
 permalink: community-indicator-simple-moving-average.html
 ---
 
-{% include note.html content="Simple Moving Average (SMA) is brought to you by the Sparta data mine." %}
+{% include note.html content="Simple Moving Average (SMA) is brought to you by the [Sparta](community-data-mine-sparta.html) data mine." %}
 
 ## Simple Moving Average On the Charts
 

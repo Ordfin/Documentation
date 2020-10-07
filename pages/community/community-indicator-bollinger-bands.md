@@ -5,7 +5,7 @@ sidebar: community_sidebar
 permalink: community-indicator-bollinger-bands.html
 ---
 
-{% include note.html content="Bollinger Bands (BB) is brought to you by the Masters data mine." %}
+{% include note.html content="Bollinger Bands (BB) is brought to you by the [Masters](community-data-mine-masters.html) data mine." %}
 
 ## On the Charts
 

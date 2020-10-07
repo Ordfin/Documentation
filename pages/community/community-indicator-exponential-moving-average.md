@@ -5,7 +5,7 @@ sidebar: community_sidebar
 permalink: community-indicator-exponential-moving-average.html
 ---
 
-{% include note.html content="Exponential Moving Average (EMA) is brought to you by the Sparta data mine." %}
+{% include note.html content="Exponential Moving Average (EMA) is brought to you by the [Sparta](community-data-mine-sparta.html) data mine." %}
 
 ## Exponential Moving Average On the Charts
 

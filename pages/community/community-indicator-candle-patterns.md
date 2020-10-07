@@ -5,7 +5,7 @@ sidebar: community_sidebar
 permalink: community-indicator-candle-patterns.html
 ---
 
-{% include note.html content="Candle Patterns is brought to you by the Buddha data mine." %}
+{% include note.html content="Candle Patterns is brought to you by the [Buddah](community-data-mine-buddha.html) data mine." %}
 
 ## Candle Patterns On the Charts
 

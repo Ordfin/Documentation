@@ -5,7 +5,7 @@ sidebar: community_sidebar
 permalink: community-indicator-rate-of-change.html
 ---
 
-{% include note.html content="Rate of Change (ROC) is brought to you by the Alpha data mine." %}
+{% include note.html content="Rate of Change (ROC) is brought to you by the [Alpha](community-data-mine-alpha.html) data mine." %}
 
 ## Rate of Change On the Charts
 

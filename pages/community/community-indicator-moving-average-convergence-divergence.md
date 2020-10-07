@@ -5,7 +5,7 @@ sidebar: community_sidebar
 permalink: community-indicator-moving-average-convergence-divergence.html
 ---
 
-{% include note.html content="Moving Average Convergence Divergence (MACD) is brought to you by the Sparta data mine." %}
+{% include note.html content="Moving Average Convergence Divergence (MACD) is brought to you by the [Sparta](community-data-mine-sparta.html) data mine." %}
 
 ## Moving Average Convergence/Divergence Products & Properties
 
