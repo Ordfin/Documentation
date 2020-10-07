@@ -19,6 +19,19 @@ entries:
 #      output: pdf
 #      type: frontmatter
 
+  - title: Community resources
+    output: web
+    folderitems:
+
+    - title: Community contributions
+      url: /community-resources.html
+      output: web
+
+    - title: New to Superalgos?
+      url: /index.html
+      output: web
+      type: homepage
+
   - title: Trading Systems
     output: web
     folderitems:
