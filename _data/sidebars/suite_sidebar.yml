@@ -159,35 +159,6 @@ entries:
       output: web
       class: childItem
 
-    - title: Available layers
-      url: /suite-available-layers.html
-      output: web
-
-    - title: Masters bots layers
-      url: /suite-masters-bots-layers.html
-      output: web
-      class: childItem
-
-    - title: Sparta bots layers
-      url: /suite-sparta-bots-layers.html
-      output: web
-      class: childItem
-
-    - title: Buddha bots layers
-      url: /suite-buddha-bots-layers.html
-      output: web
-      class: childItem
-
-    - title: Alpha bots layers
-      url: /suite-alpha-bots-layers.html
-      output: web
-      class: childItem
-
-    - title: Simulation layers
-      url: /suite-simulation-layers.html
-      output: web
-      class: childItem
-
     - title: Charting space
       url: /suite-charting-space.html
       output: web
