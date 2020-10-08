@@ -259,7 +259,7 @@ entries:
       class: childItem
 
     - title: Community indicators
-      url: /community-resources.html
+      url: /community-contributions.html
       output: web
 
   - title: Trading systems
@@ -341,7 +341,7 @@ entries:
       class: childItem
 
     - title: Community trading systems
-      url: /community-resources.html
+      url: /community-contributions.html
       output: web
 
   - title: Trading engine
@@ -605,7 +605,7 @@ entries:
       output: web
 
     - title: Community data mines
-      url: /community-resources.html
+      url: /community-contributions.html
       output: web
 
   - title: Integrations

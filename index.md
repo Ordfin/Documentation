@@ -42,7 +42,7 @@ The official <a href="https://t.me/superalgos" rel="nofollow" rel="noopener" tar
 
 ## About this Site
 
-This is the Documentation site of the Superalgos Project. This first section features the documentation of the Superalgos software. On the top menu you will find [Community Resources](community-resources.html) featuring <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading systems</a> and <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mines}}">data mines</a> with indicators contributed by the Community.
+This is the Documentation site of the Superalgos Project. This first section features the documentation of the Superalgos software in the current version. On the top menu you will find [Community Plugin Contributions](community-contributions.html) featuring <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading systems</a> and <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mines}}">data mines</a> with indicators contributed by the Community.
 
 ## About Superalgos
 
