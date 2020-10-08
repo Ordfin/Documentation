@@ -3,7 +3,6 @@ title: Low-Frequency Trading Bot
 summary: "The Superalgos trading bot is currently optimized for low-frequency trading."
 sidebar: suite_sidebar
 permalink: suite-low-frequency-trading-bot.html
-toc: false
 ---
 
 The *Low-Frequency* <a data-toggle="tooltip" data-original-title="{{site.data.trading_mine.trading_bot}}">trading bot</a> is the one and only trading bot shipping with Superalgos at this point in time. It is made available by the Masters <a data-toggle="tooltip" data-original-title="{{site.data.trading_mine.trading_mine}}">trading mine</a>.
@@ -28,3 +27,11 @@ When a <a data-toggle="tooltip" data-original-title="{{site.data.network.session
 | Trading Bot | 1 - 5 | Depending on the complexity of your trading system, the number of dependencies that must be loaded, your hardware, and the same connectivity considerations discussed for the sensor bot, the trading bot may take several seconds to do the processing and place the order at the exchange.
 
 {% include callout.html type="success" content="In conclusion, depending on how many indicators the trading system uses, and what the dependencies may be, you should expect anything between 15 to 75 seconds or more of lag from the instant the candle closed at the exchange until the order is placed." %}
+
+## Data Products and Visualization
+
+The Low-Frequency trading bot outputs tens of data products, which are made available for others to use through the data structure provided by the Low-Frequency <a data-toggle="tooltip" data-original-title="{{site.data.trading_engine.trading_engine}}">trading engine</a> hierarchy, the <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading system</a> involved in the trading session, and the <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.time_machine}}">time machines</a> installed to visualize the trading simulations.
+
+The documentation on the Low-Frequency trading engine goes through the definitions of each and every piece of information handled by the Low-Frequency trading bot, thus, this section shall not cover those definitions.
+
+Instead, the pages following in this section cover the <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.layers_manager}}">layer managers</a> and <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.layer}}">layers</a> made available by the trading bot on the charts. These layers govern the visualization the information on the three media mentioned above.
