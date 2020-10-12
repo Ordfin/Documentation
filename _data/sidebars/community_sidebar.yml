@@ -27,11 +27,6 @@ entries:
       url: /community-contributions.html
       output: web
 
-    - title: New to Superalgos?
-      url: /index.html
-      output: web
-      type: homepage
-
   - title: Trading Systems
     output: web
     folderitems:

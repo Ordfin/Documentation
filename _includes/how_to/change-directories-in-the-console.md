@@ -43,12 +43,12 @@ These are a few useful commands to navigate through a directory structure in the
 
 | Command | Effect |
 | :--- | :--- |
-| ```cd \Superalgos-master``` | Goes to the ```Superalgos-master``` folder, assuming it exists at the root of the current drive. If your ```Superalgos-master``` folder is not at the root of the drive, use the whole path instead. For example: ```cd \my-files\crypto-trading\Superalgos-master``` |
+| ```cd \Superalgos``` | Goes to the ```Superalgos``` folder, assuming it exists at the root of the current drive. If your ```Superalgos``` folder is not at the root of the drive, use the whole path instead. For example: ```cd \my-files\crypto-trading\Superalgos``` |
 | ```cd ..``` | Goes down to the parent directory |
 | ```cd ...``` | Goes down two directories |
 | ```cd \``` | Goes down to the root directory |
 | ```cd directory-name``` | Enters a specific directory in the current level |
-| ```c:``` or ```d:``` | Switches drives |
+| ``` cd c:/``` or ```cd d:/``` | Switches drives |
 
 {% include image.html file='how-to/change-directories-in-the-console-00.gif' url='yes' max-width='100' caption='Use the ```cd``` command to change and enter directories.' %}
 

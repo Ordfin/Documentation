@@ -13,7 +13,7 @@ topnav:
       url: /contributing-to-superalgos.html
       active: contributing
     - title: FAQs
-      url: /suite-frequently-asked-questions.html
+      url: /faqs-before-you-begin.html
       active: faqs
     - title: Help
       external_url: https://t.me/superalgoscommunity

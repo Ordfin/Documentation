@@ -28,9 +28,13 @@ entries:
       output: web
       type: homepage
 
-    - title: FAQs
-      url: /suite-frequently-asked-questions.html
-      output: web
+    - title: Download and set up
+      url: /suite-download-and-set-up.html
+      output: web 
+
+    - title: About this documentation
+      url: /suite-about-this-documentation.html
+      output: web 
 
     - title: System requirements
       url: /suite-system-requirements.html

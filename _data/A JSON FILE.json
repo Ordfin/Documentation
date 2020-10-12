@@ -1,13 +1,18 @@
 {
-    "node": {
-        "distancePercentage": 60,
-        "radiusPercentage": 80,
-        "massPercentage": 100,
-        "menuItem": {
-            "widthPercentage": 90,
-            "heightPercentage": 75,
-            "radiusPercentage": 85
-        }
-    },
-    "physics": false
+    "title": "",
+    "summary": "",
+    "subTitle": "Trading System Layers",
+    "gif": "",
+    "image": "trading-system",
+    "definition": "The last layer manager is about the ->Trading System-> that features the trading rules for the simulation!",
+    "paragraph1": "These layers work similar to those in the Trading Engine layer manager: they show information on the design space, not on the charts. The differenceis that these show stuff on the trading system hierarchy!",
+    "callOut": "",
+    "paragraph2": "",
+    "note": "These layers are particularly useful when designing, testing, and debugging strategies! Just wait and see!",
+    "tip": "Before continuing, turn some <i>Simulation Objects</i> layers off to avoid cluttering up the screen!",
+    "important": "",
+    "warning": "",
+    "position": "Right",
+    "slider": "toBottom",
+    "documentationURL": ""
 }
