@@ -13,7 +13,7 @@ If you are just getting started with Superalgos, still following the getting sta
 
 Check the data mining operation on the network hierarchy. You will be able to see candles on the screen only after the OHLCV Sensor Bot and the Candles Volumes indicator in the Masters task manager of the corresponding exchange data tasks node and market have both reached 100% progress.
 
-{% include tip.html content="If you are not sure what the above paragraph refers to, please carefully read the instructions on [Step 6](suite-step-6.html) of the getting started guide, or watch the second video in the [video tutorial series](index.html#video-tutorial-series) as a refresher." %}
+{% include tip.html content="If you are not sure what the above paragraph refers to, go back to the Welcome tutorial as a refresher." %}
 
 ## Switch Candles Layer Off and Back On and Refresh the Page
 
@@ -24,8 +24,6 @@ Zoom into the chart until you see the layer manager featuring the *candles* laye
 It may happen that you attempted to manipulate the charts and something went wrong in the process.
 
 Try setting the time frame scale to 24 hours, and both the time scale and rate scale to automatic mode. Setting the time scale to automatic mode brings the whole span of the market in focus on the chart. Setting the rate scale to automatic mode sets the scale to fit the entire range of prices in the market. The goal is to make sure that all scales are set in a way in which&mdash;if there is any data to show&mdash;it will show.
-
-If you don't know how to do that, please watch the third video in the [video tutorial series](index.html#video-tutorial-series) as a refresher, or use the below links to read about the time and rate scales.
 
 {% include /charting_space/time-scale.md heading="" icon="no" adding="" configuring="" charts="####" content="no" definition="no" table="no" more="yes"%}
 

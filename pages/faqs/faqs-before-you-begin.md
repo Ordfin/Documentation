@@ -9,7 +9,7 @@ permalink: faqs-before-you-begin.html
 
 At this stage, it is rather easy to get started with Superalgos.
 
-There is extensive documentation and a step by step [getting started guide](suite-step-1.html) to download and install the system. When you run the app for the first time, an interactive tutorial takes you by the hand and walks you around while you learn how to use all the basic tools.
+There is extensive documentation and a step by step [download and set up guide](suite-download-and-set-up.html). When you run the app for the first time, an interactive tutorial takes you by the hand and walks you around while you learn how to use all the basic tools.
 
 That said, Superalgos is in an open beta-stage, still under development. The early-stage pre-release intends to gather feedback from early adopters, who may help shape the software and evolve it into a robust product. We try our best to make installation and operation easy. At this point, the system is directed at tech-savvy individuals with a knack for learning a few PC operator tricks while installing and using the system.
 

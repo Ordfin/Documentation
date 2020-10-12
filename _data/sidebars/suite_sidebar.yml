@@ -44,25 +44,6 @@ entries:
       url: /suite-community-safety-policy.html
       output: web
       
-  - title: Getting started guide
-    output: web
-    folderitems:
-
-    - title: "Step 1: Get ready"
-      url: /suite-step-1.html
-      output: web
-      class: childItem
-
-    - title: "Step 2: Download and set-up"
-      url: /suite-step-2.html
-      output: web
-      class: childItem
-
-    - title: "Step 3: Run the system"
-      url: /suite-step-3.html
-      output: web
-      class: childItem
-
   - title: Design space
     output: web
     folderitems:
