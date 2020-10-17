@@ -8,7 +8,7 @@ toc: true
 
 {% include important.html content="All procedures are the same for Windows, Linux, or Mac OS. The GUI is tested on Google Chrome only." %}
 
-## ONE | Install Dependencies
+## 1. Install Dependencies
 
 ### Install Node JS
 
@@ -36,7 +36,7 @@ Before you begin, it is highly recommended that you <a href="https://www.google.
 
 {% include important.html content="Use Chrome so that you have a similar environment as the dev team in case you need help. We are not testing on any other browsers, and it is a well-known fact that browsers behave differently." %}
 
-## TWO | Download Superalgos
+## 2. Download Superalgos
 
 **1. Open a console/terminal/command line** and go to the folder where you wish Superalgos to run from. 
 
@@ -54,7 +54,7 @@ git clone https://github.com/Superalgos/Superalgos
 
 {% include image.html file='how-to/run-the-system-00.gif' url='yes' max-width='100' caption='Type the ```git clone https://github.com/Superalgos/Superalgos``` command and hit Enter.' %}
 
-## THREE | Run Superalgos
+## 3. Run Superalgos
 
 **1. Go to the ```Superalgos``` folder** created on the previous step. Usually, the following command should suffice:
 
