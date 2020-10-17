@@ -1,18 +1,29 @@
 {
     "title": "",
     "summary": "",
-    "subTitle": "Trading System Layers",
+    "subTitle": "Ready for More Tutorials?",
     "gif": "",
-    "image": "trading-system",
-    "definition": "The last layer manager is about the ->Trading System-> that features the trading rules for the simulation!",
-    "paragraph1": "These layers work similar to those in the Trading Engine layer manager: they show information on the design space, not on the charts. The differenceis that these show stuff on the trading system hierarchy!",
-    "callOut": "",
+    "image": "tutorial",
+    "definition": "There are a few more tutorials ready to walk you through other matters upon request!",
+    "bulletListIntro": "At the bottom of this workspace:",
+    "bulletArray": [
+        [
+            "Developers Intro",
+            " is a technical overview!"
+        ],
+        [
+            "Install a New Market",
+            " helps you go beyond BTC/USDT!"
+        ]
+    ],
+    "paragraph1": "",
+    "callOut": "You may also want to load the <i>Weak-hands Buster V.2</i> plugin workspace from the tab on the left. It features a tutorial about the <i>Trading Bot Layers</i> to complete your understanding on simulations and how they help you design and debug strategies.",
     "paragraph2": "",
-    "note": "These layers are particularly useful when designing, testing, and debugging strategies! Just wait and see!",
-    "tip": "Before continuing, turn some <i>Simulation Objects</i> layers off to avoid cluttering up the screen!",
+    "note": "",
+    "tip": "",
     "important": "",
     "warning": "",
-    "position": "Right",
+    "position": "Left",
     "slider": "toBottom",
     "documentationURL": ""
 }

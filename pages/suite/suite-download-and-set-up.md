@@ -8,7 +8,9 @@ toc: true
 
 {% include important.html content="All procedures are the same for Windows, Linux, or Mac OS. The GUI is tested on Google Chrome only." %}
 
-## Install Node JS
+## ONE | Install Dependencies
+
+### Install Node JS
 
 Please install Node JS, an open-source server environment required to run Superalgos. 
 
@@ -18,11 +20,29 @@ Please install Node JS, an open-source server environment required to run Supera
 
 **3. Run the installer** and go through the process until Node JS is fully installed.
 
-## Download Superalgos
+### Install Git
 
-**1. Open a console/terminal/command line** and go to the folder where you wish Superalgos to run from.
+Please install Git, an open-source distributed version control system required to download and stay up to date with Superalgos.
+
+**1. Go to the <a href="https://git-scm.com/downloads" rel="nofollow" rel="noopener" target="_blank">Git downloads page</a>**.
+
+**2. Download the version for your Operating System**
+
+**3. Run the installer** and go through the process until Git is fully installed.
+
+### Use Chrome, the Only Tested Browser
+
+Before you begin, it is highly recommended that you <a href="https://www.google.com/chrome/" rel="nofollow" rel="noopener" target="_blank">install Chrome</a> and set it up as your default browser.
+
+{% include important.html content="Use Chrome so that you have a similar environment as the dev team in case you need help. We are not testing on any other browsers, and it is a well-known fact that browsers behave differently." %}
+
+## TWO | Download Superalgos
+
+**1. Open a console/terminal/command line** and go to the folder where you wish Superalgos to run from. 
 
 {% include /how_to/change-directories-in-the-console.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
+
+{% include important.html content="Make sure you have <code>write</code> permissions on the chosen location or start the console/terminal/command line app as a system admin." %}
 
 **2. Type the following command** and hit *Enter* to download the software:
 
@@ -34,7 +54,7 @@ git clone https://github.com/Superalgos/Superalgos
 
 {% include image.html file='how-to/run-the-system-00.gif' url='yes' max-width='100' caption='Type the ```git clone https://github.com/Superalgos/Superalgos``` command and hit Enter.' %}
 
-## Run Superalgos
+## THREE | Run Superalgos
 
 **1. Go to the ```Superalgos``` folder** created on the previous step. Usually, the following command should suffice:
 
@@ -56,7 +76,9 @@ node run
 
 {% include image.html file='how-to/run-the-system-01.gif' url='yes' max-width='100' caption='Type the ```node run``` command and hit Enter.' %}
 
-## The Welcome Tutorial
+{% include note.html content="To uninstall Superalgos, simply delete the ```Superalgos``` folder. No files are actually installed in your system." %}
+
+### The Welcome Tutorial
 
 Once the app finishes loading, an interactive tutorial takes you by the hand and walks you all around the system, while you learn the basic skills required to use the interface. It is highly recommended you follow the tutorial until the end, as it is carefully crafted to make your onboarding as easy as possible.
 
@@ -64,13 +86,4 @@ Once the app finishes loading, an interactive tutorial takes you by the hand and
 
 {% include note.html content="The tutorial uses Binance as the exchange of choice. If you don't have an account with Binance, you will still be able to follow 85% of the tutorial. The remaining 15% involves running a live trading session, which requires an account with the exchange. You may learn how to work with other exchanges later on." %}
 
-## Use Chrome, the Only Tested Browser
 
-Before you begin, it is highly recommended that you <a href="https://www.google.com/chrome/" rel="nofollow" rel="noopener" target="_blank">install Chrome</a> and set it up as your default browser.
-
-{% include important.html content="Use Chrome so that you have a similar environment as the dev team in case you need help. We are not testing on any other browsers, and it is a well-known fact that browsers behave differently." %}
-
-
-## Uninstall
-
-Simply delete the ```Superalgos``` folder.
