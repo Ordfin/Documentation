@@ -16,9 +16,9 @@ Please install Node JS, an open-source server environment required to run Supera
 
 **1. Go to the <a href="https://nodejs.org/en/download/" rel="nofollow" rel="noopener" target="_blank">Node JS downloads page</a>**.
 
-**2. Download your system's installer** (the *LTS Recommended for Most Users* version is enough).
+**2. Download your system's installer**. Select *LTS Recommended for Most Users* and click the big Windows or MacOS Installer button. If you are on Linux, the installer is listed further down.
 
-**3. Run the installer** and go through the process until Node JS is fully installed.
+**3. Run the installer** with the default configuration&mdash;just click *Next* until Node.JS is fully installed.
 
 ### Install Git
 
