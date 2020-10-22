@@ -585,6 +585,11 @@ entries:
       output: web
       class: childItem
 
+    - title: "Step 5: Trading Bot Dependencies"
+      url: /suite-how-to-build-an-indicator-05-trading-bot-dependencies.html
+      output: web
+      class: childItem
+
     - title: Contribute an indicator!
       url: /contributing-indicators.html
       output: web
