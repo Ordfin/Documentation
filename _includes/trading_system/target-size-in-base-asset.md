@@ -67,6 +67,28 @@ All of this information is made available for multiple contexts, for instance, f
 
 When tracking the results of your trading operation, make sure you refer to the set of accounts that make sense for your trading system. This will all become clearer once you read about the trading engine and the layer managers available on the charts.
 
+{{include.heading}}## Examples
+
+If you are trading the whole balance assigned to the trading system on each position, then your target size will look like this:
+
+```
+tradingEngine.current.episode.episodeBaseAsset.balance.value
+```
+
+... or...
+
+```
+tradingEngine.current.episode.episodeQuotedAsset.balance.value
+```
+
+If you are not trading the entire balance on each position, then you may define the target size as a percentage of the balances, or in any other way you may see fit. For such cases, the following formula may be  of use for the close stage target size:
+
+```
+tradingEngine.current.strategyOpenStage.stageBaseAsset.sizeFilled.value - tradingEngine.current.strategyOpenStage.stageBaseAsset.feesPaid.value
+```
+
+Of course, you may need to adjust the above to use ```stageBaseAsset``` or ```stageQuotedAsset```, as required. In short, the formula returns the amount of the asset obtained by the transactions triggered during the open stage, minus the fees (and slippage, which is already subtracted from the size filled).
+
 <!--------------------------------------------- CONTENT ends -->
 
 {% endif %}
