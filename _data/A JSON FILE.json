@@ -1,18 +1,29 @@
 {
-    "title": "Add the Assets",
+    "title": "",
     "summary": "",
+    "subTitle": "Ready for More Tutorials?",
     "gif": "",
-    "image": "asset",
-    "definition": "If the assets you wish to work with are not listed under ->Exchange Assets->, you must add and configure them first.",
+    "image": "tutorial",
+    "definition": "There are a few more tutorials ready to walk you through other matters upon request!",
+    "bulletListIntro": "At the bottom of this workspace:",
+    "bulletArray": [
+        [
+            "Developers Intro",
+            " is a technical overview!"
+        ],
+        [
+            "Install a New Market",
+            " helps you go beyond BTC/USDT!"
+        ]
+    ],
     "paragraph1": "",
-    "callOut": "In this section of the tutorial, you will learn to define which assets you may want to work with.",
+    "callOut": "You may also want to load the <i>Weak-hands Buster V.2</i> plugin workspace from the tab on the left. It features a tutorial about the <i>Trading Bot Layers</i> to complete your understanding on simulations and how they help you design and debug strategies.",
     "paragraph2": "",
     "note": "",
-    "tip": "Each exchange may list hundreds of assets, however, you will likely be interested in just a few. Some automated operations may feed on your definitions, so keeping them free of junk is always a good idea.",
+    "tip": "",
     "important": "",
     "warning": "",
     "position": "Left",
-    "slider": "toTop",
-    "positionAtReferenceParent": true,
+    "slider": "toBottom",
     "documentationURL": ""
 }

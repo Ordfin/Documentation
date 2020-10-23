@@ -31,21 +31,31 @@ The information that must be documented is twofold:
 
 **4. Explain the data displayed on the panels** if there are any.
 
-**5. Take the [Sparta bots layer](suite-sparta-bots-layers.html) and the [Masters bots layer](suite-masters-bots-layers.html) pages as examples**. 
+**5. Take the [Resistances and Supports](community-indicator-resistances-and-supports.html) indicator as an example**.
 
 ##### How to use the data products and their properties
 
 **1. Write the indicator's technical sheet**. Simply list and explain the different data products the indicator may feature, their properties, and the possible values of each property so that people may use the indicator from within strategies.
 
-**2. Take the [Sparta indicators](suite-sparta-indicators.html) and the [Masters indicators](suite-masters-indicators.html) pages as examples**.
+**2. Take the [Resistances and Supports](community-indicator-resistances-and-supports.html) indicator as an example**.
 
-### Format the Content
+### Intengrate the Content in the Documentation
 
-**1. Fork the <a href="https://github.com/Superalgos/Documentation/tree/develop" rel="noopener" target="_blank">Documentation repository</a>** and take ```pages/suite/suite-sparta-indicators.md``` and ```pages/suite/suite-sparta-bots-layers.md``` as templates for the documentation of your data mine. Create a copy of each file and rename the duplicates after your own data mine replacing ```sparta``` with the appropriate name.
+**1. Fork the <a href="https://github.com/Superalgos/Documentation/" rel="noopener" target="_blank">Documentation repository</a>** and work on the ```gh-pages``` branch.
 
-**2. Update the *yaml* header** on each page with the information corresponding to your data mine and indicators, and use the rest of the file as a markdown formatting template for your own write ups.
+**2. Duplicate the corresponding template files to create your pages**.
 
-**3. Create a new folder inside ```images```** named after your data mine, and put your images there.
+You need to create at least two pages: one for your data mine, and one for each of your indicators.
+
+* The template page for your data mine is ```pages/community/community-data-mine-template.md```.
+
+* The template page for your indicators is ```pages/community/community-indicator-template.md```.
+
+Rename the new pages with the name of your data mine and indicators accordingly.
+
+**3. Update the *yaml* header** on the pages with the information corresponding to your data mine and indicators, and use the rest of the file as a markdown formatting template for your own write ups.
+
+**4. Create a new folder inside ```images```** named after your data mine, and put your images there.
 
 {% include note.html content="If you wish to run the documentation site on your machine to properly browse the documentation pages with the complete formating, you may run it as a <a href='https://jekyllrb.com/docs/' rel='nofollow' rel='noopener' target='_blank'>Jekyll site</a>." %}
 

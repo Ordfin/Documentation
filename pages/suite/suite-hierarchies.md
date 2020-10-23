@@ -19,6 +19,8 @@ permalink: suite-hierarchies.html
 
 {% include /trading_engine/trading-engine.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
+{% include /trading_mine/trading-mine.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
+
 {% include /data_mine/data-mine.md heading="##" icon="150" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
 {% include /super_scripts/super-scripts.md heading="##" icon="150" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="yes"%}

@@ -12,13 +12,11 @@ Superalgos combines the time navigation features of the charts with the visual e
 
 {% include callout.html type="success" content="Each of the nodes in the hierarchy may display its value on the design space, right below the icon representing the node, for each candle." %}
 
-This is how you may monitor every piece of information processed by the trading bot, at any given point in time. 
+{% include note.html content="How users may monitor the information featured in the Trading Engine hierarchy is explained and demonstrated on the *Trading Bot Layers* tutorial available on the *Weak-hands Buster V2.0* plugin workspace." %}
 
-## Start Here
+As a quick refresher, the process is more or less as follows:
 
-To see the value of each node rendered on-screen, you must:
-
-**1. Run a trading session**. Start with a backtest, so that you may get a quick feel of how the trading engine hierarchy displays data spanning any period.
+**1. Run a trading session**. Start with a backtest, so that you may get a quick feel of how the Trading Engine hierarchy displays data spanning any period.
 
 **2. Go to the chart displaying the simulation** and find one of the positions. 
 
@@ -30,5 +28,4 @@ To see the value of each node rendered on-screen, you must:
 
 **6. Slide the pointer of the mouse over the charts**, across the position, and notice how the values for each node displayed on the design space change. Each node displays the corresponding value for each candle.
 
-{% include tip.html content="Much of the data handled by the trading engine may also be visualized over the charts through the layers and panels in the *Trading Charts* layer manager. Please refer to the explanations on the trading system section of the documentation." %}
-
+{% include tip.html content="Much of the data handled by the trading engine may also be visualized over the charts through the layers and panels in the *Trading Charts* layer manager. If any of the above is not clear, please refer to the *Trading Bot Layers* tutorial available on the *Weak-hands Buster V2.0* plugin workspace." %}

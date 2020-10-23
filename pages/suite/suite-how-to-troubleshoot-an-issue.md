@@ -17,13 +17,13 @@ In other words, following this step-by-step troubleshooting guide will either le
 
 ### 1. Understand what you are doing and how the feature works
 
-* If you are following the Getting Started Guide, try complementing the information of the version of the guide you are following with the other version available. Remember there is a [video series](suite-step-1-video.html) and a [written series](suite-step-1.html), each with a slightly different communication approach and with&mdash;sometimes&mdash;complementary information.
+* If you are following the Download and Set Up guide or the Welcome tutorial, read caferully and make sure you haven't skipped any steps.
 
-* If you are past the Getting Started Guide and are already using the system, take some time to search the documentation and read the pages related to the matters you are working with. Use the search box on the top-right corner to search for the specific matter (i.e.: backtesting, data mining, etc.)
+* If you are already using the system, take some time to search the documentation and read the pages related to the matters you are working with. Use the search box on the top-right corner to search for the specific matter (i.e.: backtesting, data mining, etc.)
 
 * If you are having trouble with a specific node on the design space, open the menu and click the {% include inline_image.html file="icons/12-help.png" %} button. A new tab will open in your browser with the description of the corresponding node in the corresponding hierarchy directory. Read about the node, it's parent node, and its offspring.
 
-* If you are having trouble operating the charts, make sure you revisit the [charting space](suite-step-3-video.html) intro video and understand how [scales](suite-scale-boxes.html) work.
+* If you are having trouble operating the charts, make sure you revisit the Welcome tutorial and the [interface](suite-charting-space-interface.html) section of the Charting Space.
 
 {% include tip.html content="There is no substitute for knowledge. The more you understand, the less time and effort you will waste with issues related to a lack of understanding, and the more focused your questions will be when asking for help. You may be inclined to take a shortcut and ask the community before doing your research. This may save you some time occasionally and may be appropriate in cases in which you need a little guidance or need to clear a quick doubt, particularly if you are a beginner and are still following the Getting Started Guide. However, the problem with lack of understanding is that it is a persistent condition until you deal with the root cause. The way to deal with the root cause is taking the time to read the documentation. Otherwise, you will find yourself dealing with the same constraints over and over again. Acquiring knowledge while being mindful of the Team’s time is the first step towards becoming a valuable member of the community." %}
 

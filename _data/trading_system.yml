@@ -18,7 +18,7 @@ open_stage: "The open stage deals with the definitions that make up the logic to
 
 initial_targets: "The initial targets node holds the most basic definitions about the position to be taken: the target rate and the target size."
 
-target_rate: "The target rate is a reference rate that, in combination with the placement of managed stop loss and managed take profit targets, is used to determine whether the targets have been hit."
+target_rate: "The target rate is a reference rate that may affect simulations and that, in combination with the placement of managed stop loss and managed take profit targets, is used to determine whether the targets have been hit."
 
 formula: "A formula is a mathematical expression intended to determine a numerical value to be applied dynamically to a certain property."
 

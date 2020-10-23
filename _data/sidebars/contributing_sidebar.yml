@@ -2,8 +2,8 @@
 
 entries:
 - title: sidebar
-  product: Superalgos
-  version: Beta
+  product: Contribute!
+  version: 
   folders:
 
 #  - title:
@@ -26,11 +26,6 @@ entries:
     - title: We want your help!
       url: /contributing-to-superalgos.html
       output: web
-
-    - title: New to Superalgos?
-      url: /index.html
-      output: web
-      type: homepage
 
   - title: Advanced users
     output: web

@@ -7,7 +7,7 @@ permalink: suite-troubleshooting-node-is-not-recognized-as-a-command.html
 
 ## Have You Installed Node JS?
 
-[Step 0](suite-step-1.html) in the getting started guide walks you through the process of installing Node JS, an open-source server environment required to run Superalgos. Make sure you have installed the software correctly. Double-check in case the installation hasn't finished yet.
+The Download and Set Up guide walks you through the process of installing Node JS, an open-source server environment required to run Superalgos. Make sure you have installed the software correctly. Double-check in case the installation hasn't finished yet.
 
 ## Are you running the command from the correct folder?
 

@@ -10,7 +10,7 @@ This page does not go through the process of setting up a computer network. Inst
 
 In a <a data-toggle="tooltip" data-original-title="{{site.data.network.network_of_nodes}}">network of nodes</a>, each node has it's own web server, web sockets server, and task server.
 
-{% include note.html content="The default web server and web sockets ports used by Superalgos are ```34248``` and ```8081``` respectively. If you wish to change these defaults, you must modify the ```.env``` file on the root folder, and also ```\TaskServer\.env```." %}
+{% include note.html content="The default web server and web sockets ports used by Superalgos are ```34248``` and ```18041``` respectively. If you wish to change these defaults, you must modify the ```.env``` file on the root folder, and also ```\TaskServer\.env```." %}
 
 ## Before You Begin
 

@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: Superalgos
-  version: Beta
+  version: Beta 6
   folders:
 
 #  - title:
@@ -28,9 +28,13 @@ entries:
       output: web
       type: homepage
 
-    - title: FAQs
-      url: /suite-frequently-asked-questions.html
-      output: web
+    - title: Download and set up
+      url: /suite-download-and-set-up.html
+      output: web 
+
+    - title: About this documentation
+      url: /suite-about-this-documentation.html
+      output: web 
 
     - title: System requirements
       url: /suite-system-requirements.html
@@ -40,25 +44,6 @@ entries:
       url: /suite-community-safety-policy.html
       output: web
       
-  - title: Getting started guide
-    output: web
-    folderitems:
-
-    - title: "Step 1: Get ready"
-      url: /suite-step-1.html
-      output: web
-      class: childItem
-
-    - title: "Step 2: Download and set-up"
-      url: /suite-step-2.html
-      output: web
-      class: childItem
-
-    - title: "Step 3: Run the system"
-      url: /suite-step-3.html
-      output: web
-      class: childItem
-
   - title: Design space
     output: web
     folderitems:
@@ -127,6 +112,91 @@ entries:
       output: web
       class: childItem
 
+  - title: Crypto ecosystem
+    output: web
+    folderitems:
+
+    - title: Crypto ecosystem
+      url: /suite-crypto-ecosystem.html
+      output: web
+
+    - title: Exchange assets
+      url: /suite-exchange-assets.html
+      output: web
+      class: childItem
+
+    - title: Exchange markets
+      url: /suite-exchange-markets.html
+      output: web
+      class: childItem
+
+    - title: Exchange accounts
+      url: /suite-exchange-accounts.html
+      output: web
+      class: childItem
+
+    - title: How to...
+      url: /#
+      output: web
+
+    - title: ... uninstall an existing market
+      url: /suite-how-to-uninstall-an-existing-market.html
+      output: web
+      class: childItem
+
+    - title: ... install a new market
+      url: /suite-how-to-install-a-new-market.html
+      output: web
+      class: childItem
+
+    - title: ... set up a new exchange
+      url: /suite-how-to-set-up-a-new-exchange.html
+      output: web
+      class: childItem
+
+    - title: ... test new exchanges
+      url: /suite-how-to-test-new-exchanges.html
+      output: web
+      class: childItem
+
+  - title: Network
+    output: web
+    folderitems:
+
+    - title: Network
+      url: /suite-network.html
+      output: web
+
+    - title: Sorting of tasks
+      url: /suite-sorting-of-tasks.html
+      output: web
+
+    - title: Data mining
+      url: /suite-data-mining.html
+      output: web
+
+    - title: Testing environment
+      url: /suite-testing-environment.html
+      output: web
+
+    - title: Production environment
+      url: /suite-production-environment.html
+      output: web
+
+    - title: Data storage
+      url: /suite-data-storage.html
+      output: web
+
+    - title: Data mines data
+      url: /suite-data-mines-data.html
+      output: web
+      class: childItem
+
+    - title: Trading mines data
+      url: /suite-trading-mines-data.html
+      output: web
+      class: childItem
+
   - title: Charting space
     output: web
     folderitems:
@@ -159,35 +229,6 @@ entries:
       output: web
       class: childItem
 
-    - title: Available layers
-      url: /suite-available-layers.html
-      output: web
-
-    - title: Masters bots layers
-      url: /suite-masters-bots-layers.html
-      output: web
-      class: childItem
-
-    - title: Sparta bots layers
-      url: /suite-sparta-bots-layers.html
-      output: web
-      class: childItem
-
-    - title: Buddha bots layers
-      url: /suite-buddha-bots-layers.html
-      output: web
-      class: childItem
-
-    - title: Alpha bots layers
-      url: /suite-alpha-bots-layers.html
-      output: web
-      class: childItem
-
-    - title: Simulation layers
-      url: /suite-simulation-layers.html
-      output: web
-      class: childItem
-
     - title: Charting space
       url: /suite-charting-space.html
       output: web
@@ -202,7 +243,11 @@ entries:
       output: web
       class: childItem
 
-  - title: Trading system
+    - title: Community indicators
+      url: /community-contributions.html
+      output: web
+
+  - title: Trading systems
     output: web
     folderitems:
 
@@ -267,11 +312,6 @@ entries:
       output: web
       class: childItem
 
-    - title: Low-frequency trading
-      url: /suite-low-frequency-trading.html
-      output: web
-      class: childItem
-
     - title: Accessing definitions and parameters
       url: /suite-trading-system-definitions-parameters.html
       output: web
@@ -285,29 +325,9 @@ entries:
       output: web
       class: childItem
 
-  - title: Indicators
-    output: web
-    folderitems:
-
-    - title: Masters indicators
-      url: /suite-masters-indicators.html
+    - title: Community trading systems
+      url: /community-contributions.html
       output: web
-      class: childItem
-
-    - title: Sparta indicators
-      url: /suite-sparta-indicators.html
-      output: web
-      class: childItem
-
-    - title: Buddha indicators
-      url: /suite-buddha-indicators.html
-      output: web
-      class: childItem
-
-    - title: Alpha indicators
-      url: /suite-alpha-indicators.html
-      output: web
-      class: childItem
 
   - title: Trading engine
     output: web
@@ -446,23 +466,21 @@ entries:
       url: /suite-trading-engine-identity-and-status.html
       output: web
 
-  - title: Community strategies
+  - title: Trading mines
     output: web
     folderitems:
 
-    - title: BTC / USDT
-      url: /#
+    - title: Trading mine
+      url: /suite-trading-mine.html
       output: web
 
-    - title: Weak-hands Buster
-      url: /suite-community-weak-hands-buster.html
+    - title: Trading bot
+      url: /suite-trading-bot.html
       output: web
-      class: childItem
 
-    - title: BB Top Bounce
-      url: /suite-community-bb-top-bounce.html
+    - title: Low-frequency trading bot
+      url: /suite-low-frequency-trading-bot.html
       output: web
-      class: childItem
 
 #  - title: Myth busters trading ideas
 #    output: web
@@ -477,90 +495,25 @@ entries:
 #      output: web
 #      class: childItem
 
-  - title: Crypto ecosystem
+  - title: Trading farms
     output: web
     folderitems:
 
-    - title: Crypto ecosystem
-      url: /suite-crypto-ecosystem.html
+    - title: Fundamental concepts
+      url: /suite-fundamental-trading-farms-concepts.html
       output: web
 
-    - title: Exchange assets
-      url: /suite-exchange-assets.html
-      output: web
-      class: childItem
-
-    - title: Exchange markets
-      url: /suite-exchange-markets.html
-      output: web
-      class: childItem
-
-    - title: Exchange accounts
-      url: /suite-exchange-accounts.html
-      output: web
-      class: childItem
-
-    - title: How to...
-      url: /#
+    - title: Set up a network of nodes
+      url: /suite-set-up-a-network-of-nodes.html
       output: web
 
-    - title: ... uninstall an existing market
-      url: /suite-how-to-uninstall-an-existing-market.html
-      output: web
-      class: childItem
-
-    - title: ... install a new market
-      url: /suite-how-to-install-a-new-market.html
-      output: web
-      class: childItem
-
-    - title: ... set up a new exchange
-      url: /suite-how-to-set-up-a-new-exchange.html
-      output: web
-      class: childItem
-
-    - title: ... test new exchanges
-      url: /suite-how-to-test-new-exchanges.html
-      output: web
-      class: childItem
-
-  - title: Network
-    output: web
-    folderitems:
-
-    - title: Network
-      url: /suite-network.html
+    - title: Set up each node on the network
+      url: /suite-set-up-each-node-on-the-network.html
       output: web
 
-    - title: Sorting of tasks
-      url: /suite-sorting-of-tasks.html
+    - title: Operating a trading farm
+      url: /suite-operating-a-trading-farm.html
       output: web
-
-    - title: Data mining
-      url: /suite-data-mining.html
-      output: web
-
-    - title: Testing environment
-      url: /suite-testing-environment.html
-      output: web
-
-    - title: Production environment
-      url: /suite-production-environment.html
-      output: web
-
-    - title: Data storage
-      url: /suite-data-storage.html
-      output: web
-
-    - title: Data mines data
-      url: /suite-data-mines-data.html
-      output: web
-      class: childItem
-
-    - title: Trading mines data
-      url: /suite-trading-mines-data.html
-      output: web
-      class: childItem
 
   - title: Data mines
     output: web
@@ -632,28 +585,17 @@ entries:
       output: web
       class: childItem
 
+    - title: "Step 5: Trading Bot Dependencies"
+      url: /suite-how-to-build-an-indicator-05-trading-bot-dependencies.html
+      output: web
+      class: childItem
+
     - title: Contribute an indicator!
       url: /contributing-indicators.html
       output: web
 
-  - title: Trading farms
-    output: web
-    folderitems:
-
-    - title: Fundamental concepts
-      url: /suite-fundamental-trading-farms-concepts.html
-      output: web
-
-    - title: Set up a network of nodes
-      url: /suite-set-up-a-network-of-nodes.html
-      output: web
-
-    - title: Set up each node on the network
-      url: /suite-set-up-each-node-on-the-network.html
-      output: web
-
-    - title: Operating a trading farm
-      url: /suite-operating-a-trading-farm.html
+    - title: Community data mines
+      url: /community-contributions.html
       output: web
 
   - title: Integrations

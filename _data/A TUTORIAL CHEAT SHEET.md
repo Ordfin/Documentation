@@ -37,3 +37,15 @@
         }
     ],
     
+
+    "positionAtReferenceParent": true,
+
+    "setErrorMessageReferenceParent": "This is a fake error! Beware!"
+
+    "setInfoMessageReferenceParent
+
+    "setValueReferenceParent
+
+    "setPercentageReferenceParent
+
+    "setStatusReferenceParent
