@@ -41,15 +41,15 @@ The information that must be documented is twofold:
 
 ### Intengrate the Content in the Documentation
 
-**1. Fork the <a href="https://github.com/Superalgos/Documentation/" rel="noopener" target="_blank">Documentation repository</a>**
+**1. Fork the <a href="https://github.com/Superalgos/Documentation/" rel="noopener" target="_blank">Documentation repository</a>** and work on the ```gh-pages``` branch.
 
 **2. Duplicate the corresponding template files to create your pages**.
 
 You need to create at least two pages: one for your data mine, and one for each of your indicators.
 
-* The template page for your data mine is ```pages/contributing/community-data-mine-template.md```.
+* The template page for your data mine is ```pages/community/community-data-mine-template.md```.
 
-* The template page for your indicators is ```pages/contributing/community-indicator-template.md```.
+* The template page for your indicators is ```pages/community/community-indicator-template.md```.
 
 Rename the new pages with the name of your data mine and indicators accordingly.
 
