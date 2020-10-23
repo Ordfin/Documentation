@@ -25,4 +25,4 @@ Stochastic provides one product with a popular default setting.
 
 **Examples:**
 
-1. ```chart.at04h.stoch1433.slowLine >= 80 && chart.at04h.stoch1433.fastLine < chart.at04h.stoch1433.slowLine``` — Checking for overbought condition and the fast line lower than the slow line, indicating trend reversal.
+1. ```chart.at04hs.stoch1433.slowLine >= 80 && chart.at04hs.stoch1433.fastLine < chart.at04hs.stoch1433.slowLine``` — Checking for overbought condition and the fast line lower than the slow line, indicating trend reversal.
