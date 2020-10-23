@@ -1,6 +1,6 @@
 ---
 title:  Zeus Data Mine
-summary: "The set of indicators built in the Zeus data mine include Average True Range (ATR), Rate of Change (ROC), and Stochastic."
+summary: "The set of indicators built in the Zeus data mine include Supertrend and Wavetrend"
 sidebar: community_sidebar
 permalink: community-data-mine-zeus.html
 ---
