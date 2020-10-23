@@ -9,8 +9,8 @@ permalink: community-data-mine-zeus.html
 
 The Zeus data mine features the following indicators:
 
-* [Wave Trend](community-indicator-wavetrend.html)
+* [Wave Trend](community-indicator-wave-trend.html)
 
-* [Super Trend](community-indicator-supertrend.html)
+* [Super Trend](community-indicator-super-trend.html)
 
 
