@@ -36,7 +36,7 @@ There are five properties available:
 
 | Product Name | Product Variable | Properties |
 | :---: | :---: | :--- | 
-| Super Trend | ```superTrend``` | ```trend```, ```upTrend```, ```dnTrend```, ```atrNperiod```, ```trueRange``` |
+| Super Trend | ```superTrend``` | ```trend```, ```uptrend```, ```downtrend```, ```atrNPeriod```, ```trueRange``` |
 
 Standard output for the ```trend``` property is:
 
