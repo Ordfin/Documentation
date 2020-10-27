@@ -97,6 +97,14 @@ entries:
       url: /community-indicator-simple-moving-average.html
       output: web
 
+    - title: Super Trend
+      url: /community-indicator-super-trend.html
+      output: web
+
+    - title: Wave Trend
+      url: /community-indicator-wave-trend.html
+      output: web
+
   - title: Data mines
     output: web
     folderitems:
@@ -115,4 +123,8 @@ entries:
 
     - title: Sparta
       url: /community-data-mine-sparta.html
+      output: web
+
+    - title: Zeus
+      url: /community-data-mine-zeus.html
       output: web
