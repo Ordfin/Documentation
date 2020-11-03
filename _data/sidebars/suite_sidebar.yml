@@ -478,23 +478,6 @@ entries:
       url: /suite-trading-bot.html
       output: web
 
-    - title: Low-frequency trading bot
-      url: /suite-low-frequency-trading-bot.html
-      output: web
-
-#  - title: Myth busters trading ideas
-#    output: web
-#    folderitems:
-#
-#    - title: BTC / USDT
-#      url: /#
-#      output: web
-#
-#    - title: Bollinger Bounce
-#      url: /suite-mythbusters-bollinger-bounce.html
-#      output: web
-#      class: childItem
-
   - title: Trading farms
     output: web
     folderitems:
@@ -514,6 +497,88 @@ entries:
     - title: Operating a trading farm
       url: /suite-operating-a-trading-farm.html
       output: web
+
+  - title: Low-frequency trading bot
+    output: web
+    folderitems:
+
+    - title: Why low frequency?
+      url: /suite-low-frequency-trading-bot.html
+      output: web
+
+    - title: Data products visualization
+      url: /suite-low-frequency-data-products-visualization.html
+      output: web
+
+    - title: Order management
+      url: /suite-low-frequency-order-management.html
+      output: web
+
+    - title: Reviewing existing orders
+      url: /suite-low-frequency-reviewing-existing-orders.html
+      output: web
+
+    - title: Opening orders
+      url: /suite-low-frequency-opening-orders.html
+      output: web
+
+    - title: Maintaining live orders
+      url: /suite-low-frequency-maintaining-live-orders.html
+      output: web
+
+    - title: Checking exchange events
+      url: /suite-low-frequency-checking-exchange-events.html
+      output: web
+      class: childItem
+
+    - title: Syncing with the exchange
+      url: /suite-low-frequency-syncing-with-the-exchange.html
+      output: web
+      class: childItem
+
+    - title: Canceling orders
+      url: /suite-low-frequency-canceling-orders.html
+      output: web
+      class: childItem
+
+    - title: Maintaining simulated orders
+      url: /suite-low-frequency-maintaining-simulated-orders.html
+      output: web
+
+    - title: Simulating check of events
+      url: /suite-low-frequency-simulating-check-of-events.html
+      output: web
+      class: childItem
+
+    - title: Simulating sync with exchange
+      url: /suite-low-frequency-simulating-sync-with-exchange.html
+      output: web
+      class: childItem
+
+    - title: Simulating order cancellation
+      url: /suite-low-frequency-simulating-order-cancellation.html
+      output: web
+      class: childItem
+
+    - title: Accounting
+      url: /suite-low-frequency-accounting.html
+      output: web
+
+
+
+#  - title: Myth busters trading ideas
+#    output: web
+#    folderitems:
+#
+#    - title: BTC / USDT
+#      url: /#
+#      output: web
+#
+#    - title: Bollinger Bounce
+#      url: /suite-mythbusters-bollinger-bounce.html
+#      output: web
+#      class: childItem
+
 
   - title: Data mines
     output: web
