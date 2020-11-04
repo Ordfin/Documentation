@@ -1,8 +1,8 @@
 ---
-title: Reviewing Existing Orders
+title: Reviewing Defined Orders
 summary: "The trading bot checks all existing orders upon each execution to determine what needs to be done with each of them."
 sidebar: suite_sidebar
-permalink: suite-low-frequency-reviewing-existing-orders.html
+permalink: suite-low-frequency-reviewing-defined-orders.html
 toc: false
 ---
 

@@ -514,8 +514,8 @@ entries:
       url: /suite-low-frequency-order-management.html
       output: web
 
-    - title: Reviewing existing orders
-      url: /suite-low-frequency-reviewing-existing-orders.html
+    - title: Reviewing defined orders
+      url: /suite-low-frequency-reviewing-defined-orders.html
       output: web
 
     - title: Opening orders
