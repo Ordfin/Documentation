@@ -9,7 +9,7 @@ For forward testing and live trading sessions, the state of orders at the exchan
 
 It's important to note that, when an order is placed, no relevant information is obtained from the exchange other than a confirmation that the order was received. The trading bot must ask the exchange for the status of the order some time after placing it. 
 
-{% include note.html content='The trading bot places the order during the second execution cycle and asks the exchange about the order in the next run of the bot, during the first execution cycle. This means that the order is checked one unit of the trading session's time frame after the order is placed. For example, if the session is running on the ```01-min``` time frame, the order is checked roughly one minute after it is placed.' %}
+{% include note.html content="The trading bot places the order during the second execution cycle and asks the exchange about the order in the next run of the bot, during the first execution cycle. This means that the order is checked one unit of the trading session's time frame after the order is placed. For example, if the session is running on the ```01-min``` time frame, the order is checked roughly one minute after it is placed." %}
 
 When the trading bot fetches an order from the exchange, it gets the order information in a text message. What does the trading bot obtain from the exchange?
 
