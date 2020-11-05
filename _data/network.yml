@@ -2,8 +2,6 @@ network: "The network hierarchy provides the control functions for running data-
 
 network_node: "A network node represents a machine running Superalgos, on which processes run and data is stored."
 
-
-
 data_storage: "The data storage node holds the definitions as to what data is stored in the corresponding network node."
 
 trading_mines_data: "Session-based data refers to data that is generated as a consequence of running a trading session, that is, data the trading bot instance generates while running backtesting, paper trading, forward testing, or live trading sessions."
@@ -94,7 +92,7 @@ time_frames_filter: "The time frame filters node allows control over which time 
 
 time_range: "The time range parameter determines the period of time on which the trading session is run."
 
-slippage: "The slippage is an assumption on the difference between the simulated rate and the actual fill rate of an order, most relevant in the context of backtesting and paper-trading sessions. The parameter is a tool to make simulations more realistic."
+slippage: "The slippage is an assumption on the difference between the simulated rate and the actual fill rate of a market order, most relevant in the context of backtesting and paper-trading sessions. The parameter is a tool to make simulations more realistic."
 
 snapshots: "Snapshots are CSV files output by the trading bot listing every trade in a backtesting session. The snapshots parameter determines whether snapshots shall be produced, and how."
 
