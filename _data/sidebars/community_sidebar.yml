@@ -69,8 +69,20 @@ entries:
       url: /community-indicator-candles.html
       output: web
 
+    - title: Directional Movement Index (DMI)
+      url: /community-indicator-directional-movement-index.html
+      output: web
+
+    - title: Donchian Channel
+      url: /community-indicator-donchian-channel.html
+      output: web
+
     - title: Exponential Moving Average (EMA)
       url: /community-indicator-exponential-moving-average.html
+      output: web
+
+    - title: Ichimoku Cloud
+      url: /community-indicator-ichimoku-cloud.html
       output: web
 
     - title: Moving Average Conv./Div. (MACD)

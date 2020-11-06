@@ -1,21 +1,21 @@
 ---
 title: Ichimoku Cloud
-summary: "One glance equilibrium chart"
+summary: "One-glance equilibrium chart"
 sidebar: community_sidebar
-permalink: community-indicator-ichimoku.html
+permalink: community-indicator-ichimoku-cloud.html
 ---
 
 {% include note.html content="Ichimoku is brought to you by the [Zeus](community-data-mine-zeus.html) data mine." %}
 
-## Ichimoku on the Charts
+## Ichimoku Cloud on the Charts
 
-<a href="https://en.wikipedia.org/wiki/Ichimoku_Kink%C5%8D_Hy%C5%8D#:~:text=Ichimoku%20is%20a%20moving%20average,picture%20of%20potential%20price%20action" rel="nofollow" rel="noopener" target="_blank">According to Wikipedia</a>, "Ichimoku Kinko Hyo translates to one glance equilibrium chart or instant look at the balance chart and is sometimes referred to as "one glance cloud chart" based on the unique "clouds" that feature in Ichimoku charting. Ichimoku is a moving average-based trend identification system and because it contains more data points than standard candlestick charts, it provides a clearer picture of potential price action."
+<a href="https://en.wikipedia.org/wiki/Ichimoku_Kink%C5%8D_Hy%C5%8D#:~:text=Ichimoku%20is%20a%20moving%20average,picture%20of%20potential%20price%20action" rel="nofollow" rel="noopener" target="_blank">According to Wikipedia</a>, "Ichimoku Kinko Hyo translates to one glance equilibrium chart or instant look at the balance chart and is sometimes referred to as *one glance cloud chart* based on the unique *clouds* that feature in Ichimoku charting. Ichimoku is a moving average-based trend identification system and because it contains more data points than standard candlestick charts, it provides a clearer picture of potential price action."
 
 {% include image.html file='zeus/ichimoku/ichimoku-cloud.jpg' url='yes' max-width='100' caption='Ichimoku' %}
 
 <a href="https://www.investopedia.com/terms/i/ichimoku-cloud.asp" rel="nofollow" rel="noopener" target="_blank">According to Investopedia</a>, "The Ichimoku Cloud is a collection of technical indicators that show support and resistance levels, as well as momentum and trend direction. It does this by taking multiple averages and plotting them on the chart. It also uses these figures to compute a cloud which attempts to forecast where the price may find support or resistance in the future."
  
-Standar parameters for the indicator are set for a crypto market:
+Standard parameters for the indicator are set for a crypto market:
 
 * Value for Conversion Line Periods = 20
 * value for Base Line Periods = 30
@@ -26,7 +26,7 @@ I made it easy to change the parameters needed for the calculation as per your n
 
 {% include image.html file='zeus/ichimoku/ichimoku-setting-parameters.png' url='yes' max-width='100' caption='Supertrend setting parameters' %}
 
-## Ichimoku Products & Properties
+## Ichimoku Cloud Products & Properties
 
 There are four properties available:
 
