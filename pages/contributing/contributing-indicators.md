@@ -7,7 +7,7 @@ permalink: contributing-indicators.html
 
 It's awesome you wish to contribute an indicator! Thank you for your generosity! By doing so, you are contributing to the intelligence of the collective. We hope many developers will want to share indicators so that Superalgos may soon feature a comprehensive library of technical studies that make our strategies smarter.
 
-Indicators may ocasionally require maintenance, sometimes to adapt to evolutions in Superalgos, or to fix bugs users may help to spot. For that reason, it's good that indicators have maintainers. Also, contributing to an open-source project is the main way of building reputation with the community. 
+Indicators may ocasionally require maintenance, sometimes to adapt to evolutions in Superalgos, or to fix bugs users may help to spot. For that reason, it's good that indicators have *maintainers*. Also, contributing to an open-source project is the main way of building reputation with the community. 
 
 As such, the sustainable way to organize contributions of indicators is that each contributor owns and maintains his or her own data mine. If you set up a data mine and complete the documentation as described below, we may include your data mine in the next official release of Superalgos.
 
@@ -23,7 +23,9 @@ The information that must be documented is twofold:
 
 ##### How to use and interpret the indicator on the charts
 
-**1. Provide a brief explanation** of what the indicator is about. Do not copy and paste content from another source as that may violate copyrights laws. You may either explain it in your own words, or point to a public, reputable source on the Internet, or your blog or website, if you have one. The exception to this rule is copying and pasting a single sentence defining the concept and giving proper credit to the source.
+**1. Provide a brief explanation** of what the indicator is about. 
+
+{% include warning.html content='Do not copy and paste content from another source as that may violate copyrights laws and discredit the project. You may either explain it in your own words, or point to a public, reputable source on the Internet, or your blog or website, if you have one. The exception to this rule is copying and pasting a single sentence defining the concept and giving proper credit to the source.' %}
 
 **2. You do not need to describe trading ideas** based on the indicator, but feel free to do so if you wish.
 

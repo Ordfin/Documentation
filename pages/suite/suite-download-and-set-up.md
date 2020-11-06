@@ -80,7 +80,7 @@ node run
 
 ### The Welcome Tutorial
 
-Once the app finishes loading, an interactive tutorial takes you by the hand and walks you all around the system, while you learn the basic skills required to use the interface. It is highly recommended you follow the tutorial until the end, as it is carefully crafted to make your onboarding as easy as possible.
+Once the app finishes loading, an interactive tutorial takes you by the hand and walks you all around the system, while you learn the basic skills required to use the interface, mine data, backtest strategies, and event run a live trading session. It is highly recommended you follow the tutorial until the end, as it is carefully crafted to make your onboarding as easy as possible.
 
 {% include image.html file='how-to/tutorial-welcome-00.png' url='yes' max-width='100' caption='Follow the tutorial until the end!' %}
 

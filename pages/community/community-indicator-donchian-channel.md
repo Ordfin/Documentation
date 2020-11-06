@@ -32,7 +32,7 @@ There are three properties available:
 
 **Examples:**
 
-Donchian channels are mainly used to identify the breakout of a stock or any traded entity enabling traders to take either long or short positions. Traders can take a long position, if the stock is trading higher than the Donchian channels “n” period and book their profits/short the stock if it is trading below the DC channels “n” period.
+Donchian channels are mainly used to identify the breakout of a stock or any traded entity enabling traders to take either long or short positions. Traders can take a long position, if the stock is trading higher than the Donchian channels "n" period and book their profits/short the stock if it is trading below the DC channels "n" period.
 
 Basic strategies can be built by checking if +DI is greater than -DI: 
 
