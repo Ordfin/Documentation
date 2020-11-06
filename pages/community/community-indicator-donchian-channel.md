@@ -2,10 +2,10 @@
 title: Donchian Channel
 summary: "Measure the strength and direction"
 sidebar: community_sidebar
-permalink: community-indicator-ichimoku.html
+permalink: community-indicator-donchian-channel.html
 ---
 
-{% include note.html content="Ichimoku is brought to you by the [Zeus](community-data-mine-zeus.html) data mine." %}
+{% include note.html content="Donchian Channel is brought to you by the [Zeus](community-data-mine-zeus.html) data mine." %}
 
 ## Donchian Channel on the Charts
 
@@ -13,10 +13,11 @@ permalink: community-indicator-ichimoku.html
 
 {% include image.html file='zeus/donchian-channel/donchian-on-the-chart.png' url='yes' max-width='100' caption='Directional Movement Index' %}
 
-Standar value for the indicator:
-- Value for Channel Length = 20 
+Standard parameter for the indicator:
 
-I made it easy to change the parameters needed for the calculation as per your needs. Locate and open the Javascript Code under Data Building Procedure -> Procedure Loop under "Donchian Channel" Product Definition
+* Value for Channel Length = 20 
+
+I made it easy to change the parameters needed for the calculation as per your needs. Locate and open the Javascript Code under Data Building Procedure -> Procedure Loop under "Donchian Channel" Product Definition.
 
 {% include image.html file='zeus/donchian-channel/donchian-setting-parameters.png' url='yes' max-width='100' caption='Donchian setting parameters' %}
 
@@ -37,7 +38,6 @@ For a full detailed explanation of the Donchian strategy have a look at:
 - <a href="https://kodify.net/tradingview/strategies/donchian-channel-breakout/" rel="nofollow" rel="noopener" target="_blank">Kodify: Donchian Channel Breakout</a> 
 - <a href="https://www.tradingview.com/scripts/donchianchannels/?solution=43000502253" rel="nofollow" rel="noopener" target="_blank">Tradingview Donchian Channels</a>
 
-
 Basic strategies can be built by checking if +DI is greater than -DI: 
 
-1. ```chart.at04hs.candle.close > chart.at04hs.donchian.hiHigh``` — Probably a breakout is going to happen
+1. ```chart.at04hs.candle.close > chart.at04hs.donchian.hiHigh``` — Probably a breakout is going to happen.
