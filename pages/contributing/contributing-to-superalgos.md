@@ -8,7 +8,7 @@ toc: false
 
 **We are thrilled you are interested in contributing to Superalgos!**
 
-Superalgos is a collective project, still at an early stage. Your help may be essential to the project's success and we want you in! 
+Superalgos is a collective project, still at an early stage. Your help is valued and you have the opportunity to play a role in the success of the project! 
 
 {% include callout.html type="success" content="Contributing in the early stages is a great way to leave a mark and build your reputation within the incipient community. It will earn you a spot in the <a href='https://superalgos.org/about-contributors.shtml' target='_blank'>Top Contributors</a> page on the website and will make you eligible for incentives that may be put in place in the future." %}
 
