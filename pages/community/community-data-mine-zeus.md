@@ -9,6 +9,12 @@ permalink: community-data-mine-zeus.html
 
 The Zeus data mine features the following indicators:
 
+* [Directional Movement Index (DMI)](community-indicator-directional-movement-index.html)
+
+* [Donchian Channel](community-indicator-donchian-channel.html)
+
+* [Ichimoku Cloud](community-indicator-ichimoku-cloud.html)
+
 * [Wave Trend](community-indicator-wave-trend.html)
 
 * [Super Trend](community-indicator-super-trend.html)
