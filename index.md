@@ -16,9 +16,10 @@ toc: false
 
 ### Superalgos Features
 
-* Visual Scripting Designer.
-* Integrated Charting System.
-* Task Management across a Trading Farm.
+* Visual scripting designer.
+* Visual strategy debugger.
+* Integrated charting system.
+* Task management across a trading farm.
 * Community-built strategies to learn and start from.
 
 ### Superalgos Functions
@@ -33,7 +34,7 @@ toc: false
 * Run arbitrary data-mining operations of any size.
 * Feed trading strategies with the mined data.
 
-### Superalgos is User-centric
+### Superalgos is User-Centric
 
 * Free, open-source software.
 * No ads.

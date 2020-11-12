@@ -1,29 +1,19 @@
 {
     "title": "",
     "summary": "",
-    "subTitle": "Ready for More Tutorials?",
+    "subTitle": "A Quick Refresher on Stages!",
     "gif": "",
-    "image": "tutorial",
-    "definition": "There are a few more tutorials ready to walk you through other matters upon request!",
-    "bulletListIntro": "At the bottom of this workspace:",
-    "bulletArray": [
-        [
-            "Developers Intro",
-            " is a technical overview!"
-        ],
-        [
-            "Install a New Market",
-            " helps you go beyond BTC/USDT!"
-        ]
-    ],
-    "paragraph1": "",
-    "callOut": "You may also want to load the <i>Weak-hands Buster V.2</i> plugin workspace from the tab on the left. It features a tutorial about the <i>Trading Bot Layers</i> to complete your understanding on simulations and how they help you design and debug strategies.",
-    "paragraph2": "",
+    "image": "trigger-stage",
+    "definition": "Notice that not all nodes are evaluated all the time! Only those in the active stage are!",
+    "paragraph1": "This is a quick refresher on strategy stages! If you haven't read the docs on trading systems and strategies, then find the time and do it!",
+    "callOut": "Notice how conditions are no longer highlighted for the candles within the position.",
+    "paragraph2": "This is because you are looking at the ->Trigger Stage-> definitions. These definitions are evaluated until a ->Strategy-> is triggered. Once triggered, the ->Open Stage-> kicks in, and so on!",
     "note": "",
     "tip": "",
     "important": "",
     "warning": "",
-    "position": "Left",
-    "slider": "toBottom",
-    "documentationURL": ""
+    "position": "Right",
+    "slider": "toMiddle",
+    "positionAtReferenceParent": true,
+    "documentationURL": "https://docs.superalgos.org/suite-strategies.html"
 }

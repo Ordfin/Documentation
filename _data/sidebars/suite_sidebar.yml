@@ -699,6 +699,10 @@ entries:
     output: web
     folderitems:
 
+    - title: Superalgos project
+      url: /suite-hierarchy-superalgos-project.html
+      output: web
+
     - title: Crypto ecosystem
       url: /suite-hierarchy-crypto-ecosystem.html
       output: web

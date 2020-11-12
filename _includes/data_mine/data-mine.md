@@ -72,7 +72,7 @@ Because the hierarchy provides definitions, it does not intervene in the executi
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a data mine, select *Add Data Mine* on the workspace node menu.
+To add a data mine, select *Add Data Mine* on the mines node menu in the Superalgos Project hierarchy.
 
 <!--------------------------------------------- ADDING ends -->
 

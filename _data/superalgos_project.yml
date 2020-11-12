@@ -1,0 +1,7 @@
+superalgos_project: "The Superalgos Project hierarchy governs the assets that relate to Superalgos. In its current state, it serves the purpose of spawning hierarchies."
+
+spaces: "Spaces refers to the different types of spaces for which definitions exist in the form of hierarchies. At this stage, the node may spawn the Design Space and the Charting Space hierarchies."
+
+mines: "Mines refers to the different types of mines for which definitions exist in the form of hierarchies. At this stage, the node may spawn Data Mine, Trading Mine, and Learning Mine hierarchies."
+
+other_hierarchies: "Other hierarchies refers to hierarchies other than those defining spaces and mines. At this stage, the node may spawn Trading System, Network, Super Scripts, Trading Engine, and Tutorial hierarchies."

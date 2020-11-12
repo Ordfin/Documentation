@@ -10,11 +10,13 @@ toc: false
 
 This website is organized in sections accessible via the menu on top.
 
-* This section&mdash;*Beta 6 Docs*&mdash;features the documentation of the Superalgos software in the current Beta 6 version.
+* **Beta 6 Docs** features the documentation of the Superalgos software in the current Beta 6 version.
 
-* The [Community Plugins](community-contributions.html) section features <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading systems</a> and <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mine}}">data mines</a> with indicators contributed by the Community.
+* **[Community Plugins](community-contributions.html)** features <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading systems</a> and <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mine}}">data mines</a> with <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.indicator_bot}}">indicators</a> contributed by the Community.
 
-* The [FAQs](faqs-before-you-begin.html) section features the answers to frequently asked questions on various topics.
+* **[Contribute!](contributing-to-superalgos.html)** explains how you may give back and help Superalgos grow stronger.
+
+* **[FAQs](faqs-before-you-begin.html)** features the answers to frequently asked questions on various topics.
 
 ## Support
 

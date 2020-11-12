@@ -82,7 +82,7 @@ You will use the network hierarchy for the following purposes:
 
 <!--------------------------------------------- ADDING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+To add a network, select *Add Network* on the other hierarchies node menu in the Superalgos Project hierarchy.
 
 <!--------------------------------------------- ADDING ends -->
 
