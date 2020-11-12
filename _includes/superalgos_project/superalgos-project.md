@@ -1,7 +1,7 @@
-<!-- TITLE AND DEFINITION starts -->
+<!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Trading System" %}
-{% assign definition = site.data.trading_system.trading_system %}
+{% assign title = "Superalgos Project" %}
+{% assign definition = site.data.superalgos_project.superalgos_project %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -51,17 +51,10 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-In practical terms, a trading system is a hierarchical arrangement organizing the actionable aspects of your investment plan. The hierarchy contains definitions regarding any number of trading strategies, all operating on the same market and sharing the same initial capital allocation.
+Superalgos is in the process of turning into a multi-project platform by which other crypto-projects may be integrated. It is in this context that project-specific hierarchies exist.
 
-You use a trading system to define strategies following the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.superalgos_protocol}}">Superalgos Protocol</a>, splitting strategies into four stages: trigger, open, manage, and close.
+A crypto-project integration means that&mdash;in upcoming Beta 7 version&mdash; Superalgos users will be able to connect to blockchain nodes from within Superalgos, exposing the blockchain data to the rest of the Superalgos infrastructure. This means that users will be able to mine the node's data, build indicators, use them from within trading systems, and visualize blockchain information on the charts.
 
-The concept of describing strategies in stages is fundamental to the methodical aspect of the trading system, as it provides a framework to run every strategy with the same framework, which contributes to developing scalable trading systems that may grow to any number of strategies.
-
-When a trading system features more than one strategy, the first strategy has precedence over the second, the second over the third, and so on. This means that strategies are evaluated in a sequence. When a given strategy is triggered-on, the remaining strategies in the queue are no longer evaluated until the strategy triggers off. In other words, when multiple strategies are deployed within a single trading system, only one strategy may trade at any given moment, and precedence is given by the order around the trading system node.
-
-As a corollary to the above, if you wish strategies to operate in different markets, or you wish strategies to be able to take positions simultaneously, then you must set up those strategies in different trading systems.
-
-{% include important.html content="Changes made to trading systems shipping with Superalgos may not be saved at the workspace level. If you wish to modify those hierarchies and use them in such modified versions, you need to clone them and modify the clone instead." %}
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -78,9 +71,7 @@ As a corollary to the above, if you wish strategies to operate in different mark
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a trading system, select *Add Trading System* on the other hierarchies node menu in the Superalgos Project hierarchy.
-
-{% include tip.html content="You may work with as many trading systems as you wish" %}
+To add the {{ title | downcase }} node, select *Add Missing Projects* on the workspace node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -92,7 +83,11 @@ To add a trading system, select *Add Trading System* on the other hierarchies no
 
 <!--------------------------------------------- CONFIGURING starts -->
 
+Select *Configure* on the menu to access the configuration.
+
+```json
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
 
 <!--------------------------------------------- CONFIGURING ends -->
 

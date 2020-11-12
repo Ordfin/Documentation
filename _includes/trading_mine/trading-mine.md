@@ -74,7 +74,7 @@ Trading mines work similarly to <a data-toggle="tooltip" data-original-title="{{
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add Trading Mine* on the Workspace node menu. 
+To add the {{ title | downcase }} node, select *Add Trading Mine* on the other hierarchies node menu in the Superalgos Project hierarchy.
 
 <!--------------------------------------------- ADDING ends -->
 

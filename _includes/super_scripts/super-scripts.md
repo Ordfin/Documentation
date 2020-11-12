@@ -72,7 +72,7 @@ Regular users will find little to do with this hierarchy, even though they may u
 
 <!--------------------------------------------- ADDING starts -->
 
-To add a super scripts hierarchy, select *Add Super Scripts* on the workspace node menu. 
+To add a super scripts hierarchy, select *Add Super Scripts* on the other hierarchies node menu in the Superalgos Project hierarchy.
 
 <!--------------------------------------------- ADDING ends -->
 

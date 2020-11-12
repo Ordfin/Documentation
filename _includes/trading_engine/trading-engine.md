@@ -76,7 +76,7 @@ The hierarchy exposes&mdash;literally&mdash;all the information processed by the
 
 {% include tip.html content="There may be more than one trading engine in a workspace. Cloning the default trading engine is the best way to start a new one." %}
 
-To add the {{ title | downcase }} node from scratch, select *Add Trading Engine* on the workspace node menu. 
+To add the {{ title | downcase }} node from scratch, select *Add Trading Engine* on the other hierarchies node menu in the Superalgos Project hierarchy. 
 
 <!--------------------------------------------- ADDING ends -->
 

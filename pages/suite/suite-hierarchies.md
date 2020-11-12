@@ -1,6 +1,6 @@
 ---
 title:  "Hierarchies"
-summary: "There are six different types of hierarchies: Charting Space, Crypto Ecosystem, Trading Systems, Network, Data Mines, and Super Scripts."
+summary: "There are multiple different types of hierarchies: Superalgos Project, Crypto Ecosystem, Network, Charting Space, Trading System, Trading Engine, Trading Mine, Data Mines, and Super Scripts."
 sidebar: suite_sidebar
 permalink: suite-hierarchies.html
 ---
@@ -8,6 +8,8 @@ permalink: suite-hierarchies.html
 **{{site.data.concepts.hierarchy}}**
 
 {% include note.html content="In the design space, the head or parent node of each hierarchy is represented by the corresponding icon surrounded by an ever-present white ring, so that they are easier to locate within the workspace." %}
+
+{% include /superalgos_project/superalgos-project.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
 {% include /crypto_ecosystem/crypto-ecosystem.md heading="##" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
