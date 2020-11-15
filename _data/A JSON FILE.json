@@ -1,19 +1,22 @@
 {
-    "title": "",
-    "summary": "",
-    "subTitle": "A Quick Refresher on Stages!",
+    "subTitle": "But... But... Why?",
     "gif": "",
-    "image": "trigger-stage",
-    "definition": "Notice that not all nodes are evaluated all the time! Only those in the active stage are!",
-    "paragraph1": "This is a quick refresher on strategy stages! If you haven't read the docs on trading systems and strategies, then find the time and do it!",
-    "callOut": "Notice how conditions are no longer highlighted for the candles within the position.",
-    "paragraph2": "This is because you are looking at the ->Trigger Stage-> definitions. These definitions are evaluated until a ->Strategy-> is triggered. Once triggered, the ->Open Stage-> kicks in, and so on!",
+    "image": "trading-system",
+    "definition": "Why would I want to have multiple strategies within a trading system, when only one of them may trade at any given moment?",
+    "paragraph1": "Before answering the burning question, let's take a look at a couple of examples, to make things clearer! ",
+    "callOut": "Take a look at the two strategies within the Weak-hands Buster (WHB v2) trading system! Explore the definitions of the ->Trigger Stage-> and see if you notice the difference between the two strategies.",
+    "externalLink": [
+        "",
+        ""
+    ],
+    "paragraph2": "",
     "note": "",
-    "tip": "",
+    "tip": "There's a hint in the name of each strategy!",
     "important": "",
     "warning": "",
-    "position": "Right",
-    "slider": "toMiddle",
+    "position": "Left",
+    "slider": "toTop",
+    "pressButton": "",
     "positionAtReferenceParent": true,
-    "documentationURL": "https://docs.superalgos.org/suite-strategies.html"
+    "documentationURL": ""
 }

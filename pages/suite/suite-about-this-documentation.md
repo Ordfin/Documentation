@@ -10,7 +10,7 @@ toc: false
 
 This website is organized in sections accessible via the menu on top.
 
-* **Beta 6 Docs** features the documentation of the Superalgos software in the current Beta 6 version.
+* **Beta 6 Docs** features the documentation of the Superalgos software in the current Beta 6 version. The topics and pages within are organized in a logical order so that you may read them from start to finish and make the most sense of the&mdash;sometimes&mdash;complex interactions among concepts.
 
 * **[Community Plugins](community-contributions.html)** features <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading systems</a> and <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mine}}">data mines</a> with <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.indicator_bot}}">indicators</a> contributed by the Community.
 
