@@ -16,7 +16,7 @@ topnav:
       url: /faqs-before-you-begin.html
       active: faqs
     - title: Help
-      external_url: https://t.me/superalgoscommunity
+      external_url: https://t.me/superalgossupport
 
 #Topnav dropdowns
 #topnav_dropdowns:

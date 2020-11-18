@@ -1,22 +1,29 @@
 {
-    "subTitle": "But... But... Why?",
+    "title": "",
+    "summary": "",
+    "subTitle": "Ready for More Tutorials?",
     "gif": "",
-    "image": "trading-system",
-    "definition": "Why would I want to have multiple strategies within a trading system, when only one of them may trade at any given moment?",
-    "paragraph1": "Before answering the burning question, let's take a look at a couple of examples, to make things clearer! ",
-    "callOut": "Take a look at the two strategies within the Weak-hands Buster (WHB v2) trading system! Explore the definitions of the ->Trigger Stage-> and see if you notice the difference between the two strategies.",
-    "externalLink": [
-        "",
-        ""
+    "image": "tutorial",
+    "definition": "There are a few more tutorials ready to walk you through other matters upon request!",
+    "bulletListIntro": "At the bottom of this workspace:",
+    "bulletArray": [
+        [
+            "Developers Intro",
+            " is a technical overview!"
+        ],
+        [
+            "Install a New Market",
+            " helps you go beyond BTC/USDT!"
+        ]
     ],
-    "paragraph2": "",
+    "paragraph1": "You may also want to load the <b>Weak-hands Buster V.2</b> plugin workspace from the tab on the left. It features a tutorial about the <i>Trading Bot Layers</i> to complete your understanding on simulations and how they help you design and debug strategies.",
+    "callOut": "",
+    "paragraph2": "The <b>Trading System Design Tutorials</b> plugin workspace teaches you how to design strategies.",
     "note": "",
-    "tip": "There's a hint in the name of each strategy!",
+    "tip": "",
     "important": "",
     "warning": "",
     "position": "Left",
-    "slider": "toTop",
-    "pressButton": "",
-    "positionAtReferenceParent": true,
+    "slider": "toBottom",
     "documentationURL": ""
 }
