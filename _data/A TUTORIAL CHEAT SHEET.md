@@ -42,10 +42,12 @@
 
     "setErrorMessageReferenceParent": "This is a fake error! Beware!"
 
-    "setInfoMessageReferenceParent
+    "setInfoMessageReferenceParent"
 
-    "setValueReferenceParent
+    "setValueReferenceParent"
 
-    "setPercentageReferenceParent
+    "setPercentageReferenceParent"
 
-    "setStatusReferenceParent
+    "setStatusReferenceParent"
+
+        "pressButton": "Next",
