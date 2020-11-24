@@ -37,6 +37,7 @@
         }
     ],
     
+    "workspaces": "Open",
 
     "positionAtReferenceParent": true,
 
@@ -50,4 +51,4 @@
 
     "setStatusReferenceParent"
 
-        "pressButton": "Next",
+    "pressButton": "Next",

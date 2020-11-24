@@ -57,7 +57,6 @@ Notice that, in the context of Superalgos, a trading bot has nothing to do with 
 
 Trading mines work similarly to <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mine}}">data mines</a> in the sense that they provide the same kind of tools to structure the definitions of bots, including <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.process_definition}}">process definitions</a>, <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.product_definition}}">product definitions</a>, and <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.plotter}}">plotters</a>.
 
-{% include important.html content="Changes made to trading mines shipping with the system may not be saved at the workspace level. If you wish to modify those hierarchies and use them in such modified versions, you need to clone them and modify the clone instead. To do this successfully, you need to learn more about [backups](suite-backups.html) and [clones](suite-clones.html)." %}
 
 <!--------------------------------------------- CONTENT ends -->
 

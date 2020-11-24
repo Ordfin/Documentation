@@ -51,17 +51,15 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-The workspace contains:
+A workspace stores information about:
  
-* The <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_ecosystem}}">crypto ecosystem</a>,  the <a data-toggle="tooltip" data-original-title="{{site.data.charting_space.charting_space}}">charting space</a>, and the <a data-toggle="tooltip" data-original-title="{{site.data.network.network}}">network</a> <a data-toggle="tooltip" data-original-title="{{site.data.concepts.hierarchy}}">hierarchies</a> with all of their <a data-toggle="tooltip" data-original-title="{{site.data.concepts.node}}">nodes</a>.
+* Any hierarchy that is not included as a plugin.
 
-* <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mine}}">Data mines</a>, <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.trading_mine}}">trading mines</a>, <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.trading_system}}">trading systems</a>, <a data-toggle="tooltip" data-original-title="{{site.data.trading_engine.trading_engine}}">trading engines</a>, and <a data-toggle="tooltip" data-original-title="{{site.data.super_scripts.super_scripts}}">super scripts</a> included from external sources. 
+* Nodes that may be floating around, detached from hierarchies.
 
-* Nodes that may be floating around detached from hierarchies.
-
-* Information regarding the physical position and status of all nodes within the design space, even those detached from the hierarchies.
+* Information regarding the physical position and state of all nodes within the design space, even those detached from the hierarchies.
  
-The workspace is not part of any of the hierarchies; instead, it contains them. 
+A workspace is not part of any of the hierarchies; instead, it contains them. 
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -76,6 +74,35 @@ The workspace is not part of any of the hierarchies; instead, it contains them.
 
 <!--------------------------------------------- EXTENDED starts -->
 
+## Working With Workspaces
+
+### Saving Workspaces
+
+Workspaces are saved as ```.json``` files in the ```My-Workspaces``` folder.
+
+They are saved automatically every 60 seconds, or at the moment the browser or browser tab is closed. You may also save it manually using the following hot-key combination: <kbd>Ctrl or &#8984;</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>.
+
+{% include tip.html content="Backing up a workspace downloads the same file to your local ```Downloads``` folder. This is a good way to store old versions in case you ever need to go back to a previous state of affairs." %}
+
+{% include important.html content="Plugin workspaces may not be modified. When you load a plugin workspace, a new file is created in your ```My-Workspaces``` folder as soon as the workspace is saved for the first time, resulting in a copy of the plugin workspace. Any modifications you introduce in the workspace are stored in the copy, not the original plugin." %}
+
+### Creating Workspaces
+
+To create a new workspace, rename any of the existing workspaces by changing the label of the workspace node, and save it as explained above. After you change the label and once the workspace is saved (by any of the usual means), a new file is stored in the ```My-Workspaces``` folder.
+
+{% include image.html file='design-space/workspace-01.gif' url='yes' max-width='100' caption='' %}
+
+### Loading Workspaces
+
+Users may manage multiple workspaces, but only one workspace may be loaded in the system at any point.
+
+To load a workspace, click the *workspaces tab* on the left-hand side of the screen and select one of the available files.
+
+To load a workspace you got from a third party, you may place the file in the ```My-Workspaces``` folder so that you may open it from the *workspaces tab*, or you may drag it and drop it on the design space.
+
+### Deleting Workspaces
+
+To delete a workspace, delete the corresponding workspace file from within the file system application of your operating system.
 
 
 <!--------------------------------------------- EXTENDED ends -->

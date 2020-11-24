@@ -3,7 +3,7 @@
 topnav:
 - title: Topnav
   items:
-    - title: Beta 6 Docs
+    - title: Beta 7 Docs
       url: /index.html
       active: suite
     - title: Community Plugins

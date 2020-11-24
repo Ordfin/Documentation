@@ -1,8 +1,6 @@
-design_space: "The design space is the visual environment that features all the information available to the system and the user, and that enables users to exert control over the whole system. You may think of the design space as your desktop."
+workspace: "A workspace is an entity storing all system and user-generated information, excluding the state and contents of plugins. In technical terms, a workspace is a JSON file."
 
-workspace: "The workspace is the entity storing all user-generated information, as well as the data structures embodied in the following hierarchies: crypto ecosystem, charting, and network."
-
-node: "A node is a small data structure containing, which may be related to market information, trading intelligence, the operation of the system, or other concepts. They are visually represented by icons on the design space."
+node: "A node is a small data structure containing information that may be related to market information, trading intelligence, the operation of the system, or other concepts. They are visually represented by icons in the design space."
 
 structure_of_nodes: "Nodes may be chained together forming structures of nodes. In every structure of nodes there is a parent node with offsprings. That is, a structure of nodes is a data structure composed of any node and its offspring."
 

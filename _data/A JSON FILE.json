@@ -1,29 +1,16 @@
 {
-    "title": "",
-    "summary": "",
-    "subTitle": "Ready for More Tutorials?",
+    "subTitle": "Enjoy the Outdoors!",
     "gif": "",
-    "image": "tutorial",
-    "definition": "There are a few more tutorials ready to walk you through other matters upon request!",
-    "bulletListIntro": "At the bottom of this workspace:",
-    "bulletArray": [
-        [
-            "Developers Intro",
-            " is a technical overview!"
-        ],
-        [
-            "Install a New Market",
-            " helps you go beyond BTC/USDT!"
-        ]
-    ],
-    "paragraph1": "You may also want to load the <b>Weak-hands Buster V.2</b> plugin workspace from the tab on the left. It features a tutorial about the <i>Trading Bot Layers</i> to complete your understanding on simulations and how they help you design and debug strategies.",
-    "callOut": "",
-    "paragraph2": "The <b>Trading System Design Tutorials</b> plugin workspace teaches you how to design strategies.",
-    "note": "",
-    "tip": "",
+    "image": "crypto-ecosystem",
+    "definition": "Remember the ->Crypto Ecosystem-> hierarchy? We made a quick stop here before starting data mining!",
+    "paragraph1": "This is where you configure which exchanges and markets you work with, and also your accounts with those exchanges, your API keys, your assets, and so on.",
+    "callOut": "Why don't you take a little walk and I'll catch up with you in the next step?",
+    "paragraph2": "",
+    "tip": "Just look around... enjoy the views! I know your first visit was a bit abrupt!",
     "important": "",
     "warning": "",
     "position": "Left",
-    "slider": "toBottom",
+    "slider": "toTop",
+    "positionAtReferenceParent": true,
     "documentationURL": ""
 }
