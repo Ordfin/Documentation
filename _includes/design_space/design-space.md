@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Superalgos Project" %}
-{% assign definition = site.data.superalgos_project.superalgos_project %}
+{% assign title = "Design Space" %}
+{% assign definition = site.data.design_space.design_space %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
@@ -51,10 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Superalgos is a multi-project platform meaning that other crypto-projects may be integrated. It is in this context that project-specific hierarchies exist.
-
-A crypto-project integration means that Superalgos users will able to connect to blockchain nodes from within Superalgos, exposing the blockchain data to the rest of the Superalgos infrastructure. Users will be able to mine the node's data, build indicators, use them from within trading systems, and visualize blockchain information on the charts&mdash;among other things.
-
+Think of the design space as your desktop, or the control room of the system.
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -71,7 +68,7 @@ A crypto-project integration means that Superalgos users will able to connect to
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add Missing Projects* on the workspace node menu. 
+To add the {{ title | downcase }} node, select *Add Design Space* on the spaces node of the Superalgos Project hierarchy. 
 
 <!--------------------------------------------- ADDING ends -->
 

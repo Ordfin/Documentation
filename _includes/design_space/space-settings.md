@@ -1,9 +1,9 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
-{% assign title = "Superalgos Project" %}
-{% assign definition = site.data.superalgos_project.superalgos_project %}
+{% assign title = "Space Settings" %}
+{% assign definition = site.data.design_space.space_settings %}
 {% assign preposition = "a" %}
-{% assign plural = "s" %}
+{% assign plural = "" %}
 
 <!--------------------------------------------- TITLE AND DEFINITION ends -->
 
@@ -51,10 +51,7 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Superalgos is a multi-project platform meaning that other crypto-projects may be integrated. It is in this context that project-specific hierarchies exist.
-
-A crypto-project integration means that Superalgos users will able to connect to blockchain nodes from within Superalgos, exposing the blockchain data to the rest of the Superalgos infrastructure. Users will be able to mine the node's data, build indicators, use them from within trading systems, and visualize blockchain information on the charts&mdash;among other things.
-
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONTENT ends -->
 
@@ -71,7 +68,7 @@ A crypto-project integration means that Superalgos users will able to connect to
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add Missing Projects* on the workspace node menu. 
+To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -86,8 +83,38 @@ To add the {{ title | downcase }} node, select *Add Missing Projects* on the wor
 Select *Configure* on the menu to access the configuration.
 
 ```json
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+{
+    "node": {
+        "distancePercentage": 60,
+        "radiusPercentage": 85,
+        "massPercentage": 100,
+        "menuItem": {
+            "widthPercentage": 100,
+            "heightPercentage": 60,
+            "radiusPercentage": 90
+        }
+    },
+    "physics": false
+}
 ```
+
+* ```node``` refers to every node in the design space.
+
+* ```distancePercentage``` is the reference distance applied as a percentage of an arbitrary default distance separating a node from it's parent node, assigned to the medium distance setting (gree marking) of the **Distance to Parent** setting on the menu.
+
+* ```radiusPercentage``` is the radius of the circular nodes' menu applied as a percentage of an arbitrary default radius.
+
+* ```massPercentage``` is the refernce mass of nodes that affect the attraction and repulsion of the environment's pysics whe the physics setting is set to ```true```.
+
+* ```menuItem``` refers to the items on the right-hand side of nodes' menus.
+
+* ```widthPercentage``` is the reference width of an item applied as a percentage of an arbitrary default width.
+
+* ```heightPercentage``` is the reference height of an item applied as a percentage of an arbitrary default height.
+
+* ```radiusPercentage``` is the reference radious of the circular matrix that governs the distribution of items in the circular menu. Larger numbers cause items to spread appart while smaller numbers makes items lie closer to each other. 
+
+* ```physics``` determines wether the environment is static (```false```) or dynamic (```true```). When physics is set to ```true```, nodes in the design space are affected by th gravitational pull and repulsion of other nodes.
 
 <!--------------------------------------------- CONFIGURING ends -->
 

@@ -1,24 +1,36 @@
 ---
-title:  "Bots"
+title:  "Bots in Superalgos"
 summary: "Bots are a crucial concept in Superalgos, and a good thread to explain how hierarchies interact with each other."
 sidebar: suite_sidebar
 permalink: suite-bots.html
 toc: false
 ---
 
-**Before diving into an in-depth exploration of each hierarchy, a quick overview is in order. One of the most important underlying concepts in Superalgos is that of <a data-toggle='tooltip' data-original-title='{{site.data.concepts.bot}}'>bots</a>. Let's then use bots as the guiding thread to show you how the different hierarchies in Superalgos interact with each other.**
+While sometimes people use the terms *trading bot*, *trading strategy*, and *trading system* interchangeably, in Superalgos the distinction is sharp and unequivocal. Let's start by offering three fundamental definitions:
+
+* **Trading System**: {{site.data.trading_system.trading_system}}
+
+* **Trading Strategy**: {{site.data.trading_system.trading_strategy}}
+
+* **Trading Bot**: {{site.data.trading_mine.trading_bot}}
+
+{% include callout.html type="success" content="In Superalgos, trading systems and trading strategies are definitions that feature the trading logic, while the trading bot is the computer program that uses the trading logic to test strategies, produce simulations, and trade." %}
+
+{% include note.html content='This documentation expands extensively on these three concepts. For the time being, the above distinction is sufficient to continue.' %}
+
+Before diving into an in-depth exploration of each hierarchy, a quick overview is in order. One of the most important underlying concepts in Superalgos is that of bots. Let's then use bots as the guiding thread to show you how the different hierarchies in Superalgos interact with each other.
 
 ## Bot Definitions
 
-In the pages describing <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mine}}">data mines</a> and <a data-toggle="tooltip" data-original-title="{{site.data.trading_mine.trading_mine}}">trading mines</a> you will learn that bots are defined in such mines. That is, mines hold the source code and configuration&mdash;the complete set of definitions&mdash;of the three existing kinds of bots: <a data-toggle="tooltip" data-original-title="{{site.data.concepts.sensor_bot}}">sensors</a>, <a data-toggle="tooltip" data-original-title="{{site.data.concepts.indicator_bot}}">indicators</a>, and the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.trading_bot}}">trading bot</a>. 
+In the pages describing <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mine}}">data mines</a> and <a data-toggle="tooltip" data-original-title="{{site.data.trading_mine.trading_mine}}">trading mines</a> you will learn that bots are algorithms defined in such mines. That is, mines hold the source code and configuration&mdash;the complete set of definitions&mdash;of the three existing kinds of bots: <a data-toggle="tooltip" data-original-title="{{site.data.concepts.sensor_bot}}">sensors</a>, <a data-toggle="tooltip" data-original-title="{{site.data.concepts.indicator_bot}}">indicators</a>, and the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.trading_bot}}">trading bot</a>. 
 
 As a user, you may use all bots in data mines shipping with the system. As a developer, you may create your own mines to develop your own sensors, indicators, and even a new trading bot.
 
 ## Bot Instances
 
-Using any of these bots entails creating an instance of the bot definition, so that this instance may run the bot's code. You will seldom need to create bot instances manually, as the process of installing a new <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.market}}">market</a> creates all necessary bot instances for your <a data-toggle="tooltip" data-original-title="{{site.data.network.data_mining}}">data mining</a> operation and for running <a data-toggle="tooltip" data-original-title="{{site.data.concepts.session}}">trading sessions</a>. By the way, markets are defined and installed from within the <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_ecosystem}}">crypto ecosystem</a> hierarchy.
+Using any of these bots entails creating an instance of the bot definition, so that this instance may run the bot's code. You will seldom need to create bot instances manually, as the process of installing a new <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.market}}">market</a> creates all necessary bot instances for your <a data-toggle="tooltip" data-original-title="{{site.data.network.data_mining}}">data mining</a> operation and for running <a data-toggle="tooltip" data-original-title="{{site.data.concepts.session}}">trading sessions</a> (by the way, markets are defined and installed from within the <a data-toggle="tooltip" data-original-title="{{site.data.crypto_ecosystem.crypto_ecosystem}}">crypto ecosystem</a> hierarchy).
 
-A bot instance is a reference to a bot as defined in a data mine. The instance of the bot runs the defined <a data-toggle="tooltip" data-original-title="{{site.data.concepts.process}}">processes</a> and generates the defined <a data-toggle="tooltip" data-original-title="{{site.data.concepts.data_product}}">data products</a>.
+A bot instance is a reference to a bot as defined in a data or trading mine. The instance of the bot runs the defined <a data-toggle="tooltip" data-original-title="{{site.data.concepts.process}}">processes</a> and generates the defined <a data-toggle="tooltip" data-original-title="{{site.data.concepts.data_product}}">data products</a>.
 
 Bot instances are run from within the <a data-toggle="tooltip" data-original-title="{{site.data.network.network}}">network</a> hierarchy. You use <a data-toggle="tooltip" data-original-title="{{site.data.network.task_manager}}">task managers</a> and <a data-toggle="tooltip" data-original-title="{{site.data.network.task}}">tasks</a> to control bot instances, meaning, to start and stop them. Also in the network hierarchy lies the configurations about where the data they generate is to be stored.
 
