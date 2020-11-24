@@ -13,3 +13,9 @@ We are thrilled you are interested in contributing to Superalgos. Your help may 
 ## License
 
 Superalgos is open-source software released under [Apache License 2.0](LICENSE).
+
+# Maintainer
+
+[![Julian Molina](https://avatars1.githubusercontent.com/u/13994516?s=400&u=884e1feaf087790dcdb39a0840f9d0b430763bdb&v=4)](https://github.com/julian-molina) |
+---|
+[Julian Molina](https://github.com/julian-molina) |  
