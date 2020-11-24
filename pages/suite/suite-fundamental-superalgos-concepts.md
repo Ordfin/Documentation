@@ -1,11 +1,11 @@
 ---
-title:  "Superalgos Fundamental Concepts"
+title:  "Fundamental Superalgos Concepts"
 summary: "Superalgos breaks up complexity and describes the fundamental concepts that make up trading intelligence in hierarchies of nodes. Nodes may reference other nodes to access information in other hierarchies."
 sidebar: suite_sidebar
 permalink: suite-fundamental-superalgos-concepts.html
 ---
 
-Algorithmic trading is a data-driven application. It is the superior ability to derive intelligence from data&mdash;above all&mdash;that gives automated trading an edge over trading mnually.
+Algorithmic trading is a data-driven application. It is the superior ability to derive intelligence from data&mdash;above all&mdash;that gives automated trading an edge over trading manually.
 
 However, it would be simplistic to assume that trading intelligence emerges from data alone.
 

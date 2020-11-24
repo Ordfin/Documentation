@@ -52,29 +52,37 @@ entries:
       url: /suite-fundamental-superalgos-concepts.html
       output: web
 
-    - title: Workspaces
-      url: /suite-workspaces.html
-      output: web
-
-    - title: Nodes
-      url: /suite-nodes.html
-      output: web
-
-    - title: References
-      url: /suite-references.html
+    - title: Bots
+      url: /suite-bots.html
       output: web
 
     - title: Workflows
       url: /suite-workflows.html
       output: web
 
-    - title: Bots
-      url: /suite-bots.html
+    - title: More about...
+      url: 
       output: web
+
+    - title: Workspaces
+      url: /suite-workspaces.html
+      output: web
+      class: childItem
+
+    - title: Nodes
+      url: /suite-nodes.html
+      output: web
+      class: childItem
+
+    - title: References
+      url: /suite-references.html
+      output: web
+      class: childItem
 
     - title: Hierarchies
       url: /suite-hierarchies.html
       output: web
+      class: childItem
 
   - title: Design space
     output: web
