@@ -18,8 +18,11 @@ INCLUDES:
 {% include /concepts/references.md heading='##' icon='no' extended='more' content='yes' definition='bold' table='no' more='yes'%}
 
 {% include callout.html type='success' content='' %}
+{% include callout.html type="success" content="" %}
 
+{% include note.html content="" %}
 {% include note.html content='' %}
+
 
 EXTERNAL LINKS:
 

@@ -76,7 +76,7 @@ As a consequence, structures of nodes are hierarchical structures, and a logical
 
 The direction of the relationship is determined, in most cases, by the ability of a node to produce the offspring node. That is, the parent node is the one which, by software design, may produce the offspring node.
 
-{% include /how_to/detach-and-attach-nodes.md heading="more" definition="yes" content="yes" extended="no" table="yes" more="yes"%}
+{% include /how_to/detach-and-attach-nodes.md heading="###" definition="yes" content="yes" extended="no" table="yes" more="no"%}
 
 <!--------------------------------------------- EXTENDED ends -->
 

@@ -55,8 +55,6 @@ In a way, data mines are catalogs of bots that anyone may create. This hierarchy
 
 Because the hierarchy provides definitions, it does not intervene in the execution of bots. Instead, the definitions in data mines are instantiated from the network hierarchy by bot instances. Bot instances and process instances are the ones running the code according to the definitions in the corresponding data mine.
 
-{% include important.html content="Changes made to data mines shipping with the system may not be saved at the workspace level. If you wish to modify those hierarchies and use them in such modified versions, you need to clone them and modify the clone instead. To do this successfully, you need to learn more about [backups](suite-backups.html) and [clones](suite-clones.html)." %}
-
 <!--------------------------------------------- CONTENT ends -->
 
 {% endif %}

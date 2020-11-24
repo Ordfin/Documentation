@@ -61,8 +61,6 @@ When a trading system features more than one strategy, the first strategy has pr
 
 As a corollary to the above, if you wish strategies to operate in different markets, or you wish strategies to be able to take positions simultaneously, then you must set up those strategies in different trading systems.
 
-{% include important.html content="Changes made to trading systems shipping with Superalgos may not be saved at the workspace level. If you wish to modify those hierarchies and use them in such modified versions, you need to clone them and modify the clone instead." %}
-
 <!--------------------------------------------- CONTENT ends -->
 
 {% endif %}

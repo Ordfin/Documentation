@@ -55,8 +55,6 @@ The super scripts hierarchy may be used by developers who wish to create their o
 
 Regular users will find little to do with this hierarchy, even though they may use it indirectly, for instance, when installing or uninstalling markets.
 
-{% include important.html content="Changes made to super scripts shipping with the system may not be saved at the workspace level. If you wish to modify those hierarchies and use them in such modified versions, you need to clone them and modify the clone instead. To do this successfully, you need to learn more about [backups](suite-backups.html) and [clones](suite-clones.html)." %}
-
 <!--------------------------------------------- CONTENT ends -->
 
 {% endif %}

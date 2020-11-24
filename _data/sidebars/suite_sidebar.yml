@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: Superalgos
-  version: Beta 6
+  version: Beta 7
   folders:
 
 #  - title:
@@ -43,14 +43,42 @@ entries:
     - title: Community safety policy
       url: /suite-community-safety-policy.html
       output: web
-      
-  - title: Design space
+
+  - title: Introduction
     output: web
     folderitems:
 
     - title: Fundamental concepts
-      url: /suite-fundamental-design-space-concepts.html
+      url: /suite-fundamental-superalgos-concepts.html
       output: web
+
+    - title: Workspaces
+      url: /suite-workspaces.html
+      output: web
+
+    - title: Nodes
+      url: /suite-nodes.html
+      output: web
+
+    - title: References
+      url: /suite-references.html
+      output: web
+
+    - title: Workflows
+      url: /suite-workflows.html
+      output: web
+
+    - title: Bots
+      url: /suite-bots.html
+      output: web
+
+    - title: Hierarchies
+      url: /suite-hierarchies.html
+      output: web
+
+  - title: Design space
+    output: web
+    folderitems:
 
     - title: Interface
       url: /suite-design-space-interface.html
@@ -65,18 +93,6 @@ entries:
       url: /suite-node-shortcuts.html
       output: web
       class: childItem
-
-    - title: Hierarchies
-      url: /suite-hierarchies.html
-      output: web
-
-    - title: Workflows
-      url: /suite-workflows.html
-      output: web
-
-    - title: Managing Workspaces
-      url: /suite-managing-workspaces.html
-      output: web
 
     - title: How to...
       url: /#

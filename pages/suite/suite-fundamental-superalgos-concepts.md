@@ -5,9 +5,9 @@ sidebar: suite_sidebar
 permalink: suite-fundamental-superalgos-concepts.html
 ---
 
-Algorithmic trading is a data-driven application. It is the ability to derive intelligence from data—above all—that gives the data science approach entailed in systematic trading an edge over intuitive approaches associated with discretionary trading.
+Algorithmic trading is a data-driven application. It is the superior ability to derive intelligence from data&mdash;above all&mdash;that gives automated trading an edge over trading mnually.
 
-However, it would be wrong—simplistic—to assume that trading intelligence emerges from data science alone.
+However, it would be simplistic to assume that trading intelligence emerges from data alone.
 
 {% include callout.html type="success" content="Trading intelligence emerges from harnessing the interactions of multiple complex concepts." %}
 
