@@ -2,7 +2,7 @@
 title:  "Bots in Superalgos"
 summary: "Bots are a crucial concept in Superalgos, and a good thread to explain how hierarchies interact with each other."
 sidebar: suite_sidebar
-permalink: suite-bots.html
+permalink: suite-bots-in-superalgos.html
 toc: false
 ---
 
