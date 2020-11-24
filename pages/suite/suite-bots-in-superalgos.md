@@ -1,16 +1,28 @@
 ---
-title:  "Bots"
+title:  "Bots in Superalgos"
 summary: "Bots are a crucial concept in Superalgos, and a good thread to explain how hierarchies interact with each other."
 sidebar: suite_sidebar
 permalink: suite-bots.html
 toc: false
 ---
 
-**Before diving into an in-depth exploration of each hierarchy, a quick overview is in order. One of the most important underlying concepts in Superalgos is that of <a data-toggle='tooltip' data-original-title='{{site.data.concepts.bot}}'>bots</a>. Let's then use bots as the guiding thread to show you how the different hierarchies in Superalgos interact with each other.**
+While sometimes people use the terms *trading bot*, *trading strategy*, and *trading system* interchangeably, in Superalgos the distinction is sharp and unequivocal. Let's start by offering three fundamental definitions:
+
+* **Trading System**: {{site.data.trading_system.trading_system}}
+
+* **Trading Strategy**: {{site.data.trading_system.trading_strategy}}
+
+* **Trading Bot**: {{site.data.trading_mine.trading_bot}}
+
+{% include callout.html type="success" content="In Superalgos, trading systems and trading strategies are definitions that feature the trading logic, while the trading bot is the computer program that uses the trading logic to test strategies, produce simulations, and trade." %}
+
+{% include note.html content='This documentation expands extensively on these three concepts. For the time being, the above distinction is sufficient to continue.' %}
+
+Before diving into an in-depth exploration of each hierarchy, a quick overview is in order. One of the most important underlying concepts in Superalgos is that of bots. Let's then use bots as the guiding thread to show you how the different hierarchies in Superalgos interact with each other.
 
 ## Bot Definitions
 
-In the pages describing <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mine}}">data mines</a> and <a data-toggle="tooltip" data-original-title="{{site.data.trading_mine.trading_mine}}">trading mines</a> you will learn that bots are defined in such mines. That is, mines hold the source code and configuration&mdash;the complete set of definitions&mdash;of the three existing kinds of bots: <a data-toggle="tooltip" data-original-title="{{site.data.concepts.sensor_bot}}">sensors</a>, <a data-toggle="tooltip" data-original-title="{{site.data.concepts.indicator_bot}}">indicators</a>, and the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.trading_bot}}">trading bot</a>. 
+In the pages describing <a data-toggle="tooltip" data-original-title="{{site.data.data_mine.data_mine}}">data mines</a> and <a data-toggle="tooltip" data-original-title="{{site.data.trading_mine.trading_mine}}">trading mines</a> you will learn that bots are algorithms defined in such mines. That is, mines hold the source code and configuration&mdash;the complete set of definitions&mdash;of the three existing kinds of bots: <a data-toggle="tooltip" data-original-title="{{site.data.concepts.sensor_bot}}">sensors</a>, <a data-toggle="tooltip" data-original-title="{{site.data.concepts.indicator_bot}}">indicators</a>, and the <a data-toggle="tooltip" data-original-title="{{site.data.concepts.trading_bot}}">trading bot</a>. 
 
 As a user, you may use all bots in data mines shipping with the system. As a developer, you may create your own mines to develop your own sensors, indicators, and even a new trading bot.
 

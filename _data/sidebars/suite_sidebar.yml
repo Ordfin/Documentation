@@ -52,16 +52,20 @@ entries:
       url: /suite-fundamental-superalgos-concepts.html
       output: web
 
-    - title: Bots
-      url: /suite-bots.html
+    - title: Bots in Superalgos
+      url: /suite-bots-in-Superalgos.html
+      output: web
+
+    - title: Hierarchies
+      url: /suite-hierarchies.html
       output: web
 
     - title: Workflows
       url: /suite-workflows.html
       output: web
 
-    - title: More about...
-      url: 
+    - title: All about...
+      url: /#
       output: web
 
     - title: Workspaces
@@ -79,14 +83,13 @@ entries:
       output: web
       class: childItem
 
-    - title: Hierarchies
-      url: /suite-hierarchies.html
-      output: web
-      class: childItem
-
   - title: Design space
     output: web
     folderitems:
+
+    - title: Design Space
+      url: /suite-design-space.html
+      output: web
 
     - title: Interface
       url: /suite-design-space-interface.html
@@ -113,21 +116,6 @@ entries:
 
     - title: ... go to the workspace node
       url: /suite-how-to-go-to-the-workspace-node.html
-      output: web
-      class: childItem
-
-    - title: ... restore a workspace
-      url: /suite-how-to-restore-a-workspace.html
-      output: web
-      class: childItem
-
-    - title: ... attach and detach nodes
-      url: /suite-how-to-detach-and-attach-nodes.html
-      output: web
-      class: childItem
-
-    - title: ... remove and establish references
-      url: /suite-how-to-remove-and-establish-references.html
       output: web
       class: childItem
 

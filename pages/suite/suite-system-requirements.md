@@ -71,7 +71,4 @@ Stability is certainly desirable. The system attempts to sort out network instab
 
 Processes started from the system log their activity on the default console application, or the console used to fire up the app. Windows Command Prompt is particularly bad. It is recommended to install and use a decent application, such as <a href="https://cmder.net/" rel="nofollow" rel="noopener" target="_blank">Console Emulator Cmder<a/>. This will save you time and hassle in the long run.
 
-## Deploying a Linux VPS to Trade Live
-
-You may want to read an article about <a href="https://medium.com/superalgos/trading-live-from-a-cheap-linux-vm-3edbe0c7ca42" rel="nofollow" rel="noopener" target="_blank">Trading Live from a Cheap Linux VM</a>.
 
