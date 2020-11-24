@@ -100,19 +100,19 @@ Select *Configure* on the menu to access the configuration.
 
 * ```node``` refers to every node in the design space.
 
-* ```distancePercentage``` is the reference distance applied as a percentage of an arbitrary default distance separating a node from it's parent node, assigned to the medium distance setting (gree marking) of the **Distance to Parent** setting on the menu.
+  * ```distancePercentage``` is the reference distance applied as a percentage of an arbitrary default distance separating a node from it's parent node, assigned to the medium distance setting (gree marking) of the **Distance to Parent** setting on the menu.
 
-* ```radiusPercentage``` is the radius of the circular nodes' menu applied as a percentage of an arbitrary default radius.
+  * ```radiusPercentage``` is the radius of the circular nodes' menu applied as a percentage of an arbitrary default radius.
 
-* ```massPercentage``` is the refernce mass of nodes that affect the attraction and repulsion of the environment's pysics whe the physics setting is set to ```true```.
+  * ```massPercentage``` is the refernce mass of nodes that affect the attraction and repulsion of the environment's pysics whe the physics setting is set to ```true```.
 
-* ```menuItem``` refers to the items on the right-hand side of nodes' menus.
+  * ```menuItem``` refers to the items on the right-hand side of nodes' menus.
 
-* ```widthPercentage``` is the reference width of an item applied as a percentage of an arbitrary default width.
+    * ```widthPercentage``` is the reference width of an item applied as a percentage of an arbitrary default width.
 
-* ```heightPercentage``` is the reference height of an item applied as a percentage of an arbitrary default height.
+    * ```heightPercentage``` is the reference height of an item applied as a percentage of an arbitrary default height.
 
-* ```radiusPercentage``` is the reference radious of the circular matrix that governs the distribution of items in the circular menu. Larger numbers cause items to spread appart while smaller numbers makes items lie closer to each other. 
+    * ```radiusPercentage``` is the reference radious of the circular matrix that governs the distribution of items in the circular menu. Larger numbers cause items to spread appart while smaller numbers makes items lie closer to each other. 
 
 * ```physics``` determines wether the environment is static (```false```) or dynamic (```true```). When physics is set to ```true```, nodes in the design space are affected by th gravitational pull and repulsion of other nodes.
 
