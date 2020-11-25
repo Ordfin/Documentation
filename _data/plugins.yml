@@ -1,0 +1,19 @@
+plugins: "The plugins hierarchy defines which plugins are to be included in the current workspace. In the context of this hierarchy, plugins are JSON files featuring the description of a hierarchy such as a data mine, trading mine, trading engine, or trading system."
+
+plugin_project: "In the context of a multi-project platform, the plugin project node represents the project to which the defined plugins correspond to."
+
+plugin_data_mines: "The plugin data mines node features the definitions of data mines to be included as plugins in the current workspace."
+
+plugin_trading_mines: "The plugin trading mines node features the definitions of trading mines to be included as plugins in the current workspace."
+
+plugin_trading_systems: "The plugin data mines node features the definitions of data mines to be included as plugins in the current workspace."
+
+plugin_trading_engines: "The plugin data mines node features the definitions of data mines to be included as plugins in the current workspace."
+
+plugin_super_scripts: "The plugin super scripts node features the definitions of super scripts to be included as plugins in the current workspace."
+
+plugin_tutorials: "The plugin tutorials node features the definitions of tutorials to be included as plugins in the current workspace."
+
+plugin_file: "A plugin file is the JSON file that constitutes the plugin. In the context of the plugins hierarchy, a plugin is the definition of a hierarchy."
+
+plugin_file_position: "The position of the plugin file position node determines the position in the workspace on which the plugin hierarchy is placed."

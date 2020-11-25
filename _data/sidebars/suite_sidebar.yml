@@ -56,6 +56,10 @@ entries:
       url: /suite-bots-in-superalgos.html
       output: web
 
+    - title: The Superalgos Project
+      url: /suite-superalgos-project.html
+      output: web
+
     - title: Hierarchies
       url: /suite-hierarchies.html
       output: web
@@ -121,53 +125,6 @@ entries:
 
     - title: ... safely close Superalgos
       url: /suite-how-to-safely-close-superalgos.html
-      output: web
-      class: childItem
-
-  - title: Crypto ecosystem
-    output: web
-    folderitems:
-
-    - title: Crypto ecosystem
-      url: /suite-crypto-ecosystem.html
-      output: web
-
-    - title: Exchange assets
-      url: /suite-exchange-assets.html
-      output: web
-      class: childItem
-
-    - title: Exchange markets
-      url: /suite-exchange-markets.html
-      output: web
-      class: childItem
-
-    - title: Exchange accounts
-      url: /suite-exchange-accounts.html
-      output: web
-      class: childItem
-
-    - title: How to...
-      url: /#
-      output: web
-
-    - title: ... uninstall an existing market
-      url: /suite-how-to-uninstall-an-existing-market.html
-      output: web
-      class: childItem
-
-    - title: ... install a new market
-      url: /suite-how-to-install-a-new-market.html
-      output: web
-      class: childItem
-
-    - title: ... set up a new exchange
-      url: /suite-how-to-set-up-a-new-exchange.html
-      output: web
-      class: childItem
-
-    - title: ... test new exchanges
-      url: /suite-how-to-test-new-exchanges.html
       output: web
       class: childItem
 
@@ -589,6 +546,52 @@ entries:
 #      output: web
 #      class: childItem
 
+  - title: Crypto ecosystem
+    output: web
+    folderitems:
+
+    - title: Crypto ecosystem
+      url: /suite-crypto-ecosystem.html
+      output: web
+
+    - title: Exchange assets
+      url: /suite-exchange-assets.html
+      output: web
+      class: childItem
+
+    - title: Exchange markets
+      url: /suite-exchange-markets.html
+      output: web
+      class: childItem
+
+    - title: Exchange accounts
+      url: /suite-exchange-accounts.html
+      output: web
+      class: childItem
+
+    - title: How to...
+      url: /#
+      output: web
+
+    - title: ... uninstall an existing market
+      url: /suite-how-to-uninstall-an-existing-market.html
+      output: web
+      class: childItem
+
+    - title: ... install a new market
+      url: /suite-how-to-install-a-new-market.html
+      output: web
+      class: childItem
+
+    - title: ... set up a new exchange
+      url: /suite-how-to-set-up-a-new-exchange.html
+      output: web
+      class: childItem
+
+    - title: ... test new exchanges
+      url: /suite-how-to-test-new-exchanges.html
+      output: web
+      class: childItem
 
   - title: Data mines
     output: web
@@ -713,8 +716,12 @@ entries:
       url: /suite-hierarchy-superalgos-project.html
       output: web
 
-    - title: Crypto ecosystem
-      url: /suite-hierarchy-crypto-ecosystem.html
+    - title: Design space
+      url: /suite-hierarchy-design-space.html
+      output: web
+
+    - title: Network
+      url: /suite-hierarchy-network.html
       output: web
 
     - title: Charting space
@@ -725,16 +732,24 @@ entries:
       url: /suite-hierarchy-trading-system.html
       output: web
 
+    - title: Trading mine
+      url: /suite-hierarchy-trading-mine.html
+      output: web
+
     - title: Trading engine
       url: /suite-hierarchy-trading-engine.html
       output: web
 
-    - title: Network
-      url: /suite-hierarchy-network.html
+    - title: Crypto ecosystem
+      url: /suite-hierarchy-crypto-ecosystem.html
       output: web
 
     - title: Data mine
       url: /suite-hierarchy-data-mine.html
+      output: web
+
+    - title: Plugins
+      url: /suite-hierarchy-plugins.html
       output: web
 
     - title: Super Scripts

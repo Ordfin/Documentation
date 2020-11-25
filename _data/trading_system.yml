@@ -1,6 +1,6 @@
 trading_system: "A trading system is a framework handling the low-level logic that serves to structure the processes and methods used to implement and deploy trading strategies."
 
-trading_strategy: "A trading strategy is a set of actions occurring in stages, designed to achieve a specific goal within a broader plan, via taking and managing positions."
+trading_strategy: "A trading strategy is the description of a set of actions or events run in stages. Events are triggered upon the validation of precise conditions describing specific market situations. Trading strategies are designed to achieve a specific goal within the broader plan of a trading system via taking and managing positions."
 
 trigger_stage: "The trigger stage deals with monitoring the market in search of trading opportunities with the corresponding strategy."
 
