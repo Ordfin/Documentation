@@ -11,8 +11,6 @@ permalink: suite-hierarchies.html
 
 {% include important.html content="Hierarchies included in the workspace as plugins are not saved at the workspace level. As such, changes made in those hierarchies do not persist. If you wish to modify a plugin and keep working with the modified version in the future, you must either clone or backup the plugin and work on the resulting copy instead. Learn more about the differences between [backups](suite-backups.html) and [clones](suite-clones.html)." %}
 
-{% include /superalgos_project/superalgos-project.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
-
 {% include /design_space/design-space.md heading="##" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
 {% include /network/network.md heading="##" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}

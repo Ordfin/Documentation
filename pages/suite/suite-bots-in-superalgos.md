@@ -14,7 +14,7 @@ While sometimes people use the terms *trading bot*, *trading strategy*, and *tra
 
 * **Trading Bot**: {{site.data.trading_mine.trading_bot}}
 
-{% include callout.html type="success" content="In Superalgos, trading systems and trading strategies are definitions that feature the trading logic, while the trading bot is the computer program that uses the trading logic to test strategies, produce simulations, and trade." %}
+{% include callout.html type="success" content="In Superalgos, trading systems and trading strategies are definitions describing trading logic, while the trading bot is the computer program that uses the trading logic to test strategies, produce simulations, and trade." %}
 
 {% include note.html content='This documentation expands extensively on these three concepts. For the time being, the above distinction is sufficient to continue.' %}
 

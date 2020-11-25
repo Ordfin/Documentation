@@ -1,6 +1,6 @@
 trading_mine: "A trading mine is a hierarchy that contains definitions of trading bots and their plotters. These definitions make up the actual programs of such bots&mdash;the source code."
 
-trading_bot: "Based on datasets exposed as products by other bots (counting sensors, indicators and even other trading bots), a trading bot applies the trading logic defined on a trading system to, on one side, generate a complete trading simulation (outputting datasets that include trades, the action of strategies, validation of conditions, etc.), and on the other side, manage the execution of orders when on a forward testing or live trading session."
+trading_bot: "A trading bot is a computer program that&mdash;based on datasets exposed as products by other bots (counting sensors, indicators and even other trading bots)&mdash;applies the trading logic defined on a trading system to, on one side, generate a complete trading simulation (outputting datasets that include trades, the action of strategies, validation of conditions, etc.), and on the other side, manage the execution of orders when on a forward testing or live trading session."
 
 process_definition: "The process definition node groups all definitions required for a process to function. The Multi-Period-Market Process deals with time frames of one hour and above. The Multi-Period-Daily Process deals with time frames of 45 minutes and below."
 
