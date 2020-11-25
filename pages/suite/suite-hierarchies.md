@@ -13,7 +13,7 @@ permalink: suite-hierarchies.html
 
 {% include /superalgos_project/superalgos-project.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /crypto_ecosystem/crypto-ecosystem.md heading="##" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+{% include /design_space/design-space.md heading="##" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
 {% include /network/network.md heading="##" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
 
@@ -21,10 +21,14 @@ permalink: suite-hierarchies.html
 
 {% include /trading_system/trading-system.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
-{% include /trading_engine/trading-engine.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
-
 {% include /trading_mine/trading-mine.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
+{% include /trading_engine/trading-engine.md heading="##" icon="150" adding="####" configuring="" starting="" content="yes" definition="bold" table="yes" more="yes"%}
+
+{% include /crypto_ecosystem/crypto-ecosystem.md heading="##" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
+
 {% include /data_mine/data-mine.md heading="##" icon="150" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="yes"%}
+
+{% include /plugins/plugins.md heading="##" icon="150" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="yes"%}
 
 {% include /super_scripts/super-scripts.md heading="##" icon="150" adding="####" configuring="####" starting="" content="yes" definition="bold" table="yes" more="yes"%}
