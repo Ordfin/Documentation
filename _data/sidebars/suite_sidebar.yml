@@ -713,6 +713,10 @@ entries:
       url: /suite-hierarchy-superalgos-project.html
       output: web
 
+    - title: Design space
+      url: /suite-hierarchy-design-space.html
+      output: web
+
     - title: Crypto ecosystem
       url: /suite-hierarchy-crypto-ecosystem.html
       output: web
@@ -735,6 +739,10 @@ entries:
 
     - title: Data mine
       url: /suite-hierarchy-data-mine.html
+      output: web
+
+    - title: Plugins
+      url: /suite-hierarchy-plugins.html
       output: web
 
     - title: Super Scripts
