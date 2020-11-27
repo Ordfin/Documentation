@@ -676,6 +676,14 @@ entries:
       url: /community-contributions.html
       output: web
 
+  - title: Tutorials
+    output: web
+    folderitems:
+
+    - title: Tutorials
+      url: /suite-tutorials.html
+      output: web
+
   - title: Integrations
     output: web
     folderitems:
@@ -750,6 +758,10 @@ entries:
 
     - title: Plugins
       url: /suite-hierarchy-plugins.html
+      output: web
+
+    - title: Tutorial
+      url: /suite-hierarchy-tutorial.html
       output: web
 
     - title: Super Scripts
