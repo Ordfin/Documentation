@@ -1,0 +1,5 @@
+tutorial: "The tutorial hierarchy features a free arrangement of tutorial topic and tutorial step nodes that make up a tutorial. Each node in the hierarchy, including the parent tutorial node, represents a HTML page that is overlaid on top of both the design space and the charting space. "
+
+tutorial_topic: "A tutorial topic is an organizational device that helps to keep tutorial step nodes arranged in a logical hierarchy by topics and subtopics."
+
+tutorial_step: "A tutorial step is a type of node within a tutorial that may not have offspring. As such, it is the smallest unit of information in the hierarchy."

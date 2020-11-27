@@ -55,7 +55,15 @@ Not all tested exchanges are set up in the default workspace. If you wish to use
 
 {% include note.html content="If the exchange you are looking for is not available there, it means it can not be setup in Superalgos at this point, likely for either or both of the following reasons: 1. The exchange does not provide one-minute candles; 2. The exchange does not provide a list of markets. Not all exchanges supported by the CCXT library comply in full with the standards proposed." %}
 
+{% include tip.html content="There are over 60 exchanges complying with the <a href='https://github.com/ccxt/ccxt' rel='nofollow' rel='noopener' target='_blank'>CCXT library API standard</a>, an open-source effort to standardize communications with crypto exchanges, to the level required by Superalgos. If your exchange is not among those 60 plus exchanges, you may want to consider trading somewhere else. This is why: automating trading at your exchange requires building and maintaining a custom connector to speak with their API. It is unlikely that you will find an open-source project&mdash;or even a commercial solution&mdash;willing to do that, unless your exchange is in the top-10 list of exchanges in the world by volume traded." %}
+
+{% include tip.html content="Alternative approach 1: Convince your exchange to comply with the standard." %}
+
+{% include tip.html content="Alternative approach 2: Develop your own connector." %}
+
 {% include /how_to/install-a-new-market.md heading="more" icon="no" extended="no" content="more" definition="" table="no" more="yes"%}
+
+
 
 <!--------------------------------------------- CONTENT ends -->
 
