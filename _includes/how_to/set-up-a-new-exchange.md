@@ -59,7 +59,7 @@ Not all tested exchanges are set up in the default workspace. If you wish to use
 
 {% include tip.html content="Alternative approach 1: Convince your exchange to comply with the standard." %}
 
-{% include tip.html content="Alternative approach 2: Develop your own connector." %}
+{% include tip.html content="Alternative approach 2: Develop your own connector. We'll be happy to guide you and help you along the way!" %}
 
 {% include /how_to/install-a-new-market.md heading="more" icon="no" extended="no" content="more" definition="" table="no" more="yes"%}
 
