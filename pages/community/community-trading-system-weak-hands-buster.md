@@ -9,7 +9,7 @@ Weak-hands Buster was released in the <a href="https://t.me/superalgoscommunity"
 
 The trading system conforms to the Superalgos Trading Protocol, therefore, it may function as a fully automated trading system. People not interested in trading automation may still obtain the strategy's rules (situations, conditions, and formulas) from the design space and use the set of rules as they see fit.
 
-{% include note.html content="WHB is available on the ```Backup - Workspace - Binance - WHB - BBTB.json``` workspace." %}
+{% include note.html content="Weak-hands Buster v2 is available on the ```Weak-Hands-Buster v2.json``` plugin workspace shipping with Superalgos." %}
 
 {% include live-trading-warning.html %}
 
