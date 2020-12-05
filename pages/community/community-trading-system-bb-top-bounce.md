@@ -11,7 +11,7 @@ The trading system conforms to the Superalgos Trading Protocol, therefore, it ma
 
 {% include note.html content="BB Top Bounce is available on the ```BB-Top-Bounce.json``` plugin workspace shipping with Superalgos." %}
 
-{% include live-trading-warning.html %}
+{% include shared-strategies-warning.html %}
 
 ## BBTB Performance in Backtests (Binance)
 
@@ -293,3 +293,9 @@ The specific conditions for switching from one phase to another phase may vary i
 * **Move to Close Phase Event**: A convergence between EMA 7 and EMA 14 signals that the downward move is losing steam, thus a switch to the close phase for a tighter take profit target is in order. The close phase may cancel when the convergence recedes and divergence is spotted.
 
 * **Move to Run Phase Event**: A divergence between EMA 7 and EMA 14, confirmed by a divergence between EMA 14 and EMA 21 indicates that the downward trend is deepening and gaining momentum, thus, allowing the trade to run is the best bet, always with a tight top trailing behind the EMA 7. A run may cancel when the divergence recedes and convergence is spotted.
+
+## Warning and Disclaimer
+
+{% include live-trading-warning.html %}
+
+{% include shared-strategies-important.html %}

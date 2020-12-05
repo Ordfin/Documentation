@@ -1,38 +1,50 @@
-{
-    "title": "",
-    "summary": "",
-    "subTitle": "",
+{ 
+    "subTitle": "BB On the Charts!",
     "gif": "",
-    "image": "",
-    "definition": "",
-    "bulletListIntro": "",
-    "bulletArray": [
-        [
-            "",
-            ""
-        ],
-        [
-            "",
-            ""
-        ],
-        [
-            "",
-            ""
-        ]
-    ],
-    "paragraph1": "",
+    "image": "layer-bands",
+    "definition": "Let's take a quick look at the Bollinger Bands! If it's not on already, find the Bollinger Bands layer in the Masters ->LayerManager->.",
+    "paragraph1": "The indicator features a 20-period moving average in the center. It features a line on top located two standard deviations above the moving average. We call this line the upper band. And it also features a line two standard deviations below the moving average. We call this one the lower band. Together, they are the Bollinger Bands.",
     "callOut": "",
-    "externalLink": [
-        "",
-        ""
-    ],
     "paragraph2": "",
-    "note": "",
+    "note": "Notice how the price ranges sideways bouncing off the upper and the lower bands. Sometimes it may go out of the boundaries of the bands, either higher or lower, but most of the time it stays within the range of the bands.",
     "tip": "",
     "important": "",
-    "warning": "",
-    "position": "",
-    "slider": "toTop",
+    "warning": "", 
+    "position": "Right",
+    "slider": "toBottom",
     "pressButton": "",
-    "documentationURL": ""
-}
+    "documentationURL": "",
+    "repositionAtTimeMachineReferenceParent": true,
+    "batchConfigChangesReferenceParent": [
+        {
+            "nodePath": "referenceParent.timeScale",
+            "properties": {
+                "autoMinScale": false,
+                "autoMaxScale": false,
+                "fromDate": "2020-04-14T12:19:32.669Z",
+                "toDate": "2020-04-24T22:36:06.989Z"
+            }
+        },
+        {
+            "nodePath": "referenceParent.rateScale",
+            "properties": {
+                "autoMinScale": false,
+                "autoMaxScale": false,
+                "minValue": 6309.911126811459,
+                "maxValue": 7824.566413643572
+            }
+        },
+        {
+            "nodePath": "referenceParent.timeFrameScale",
+            "properties": {
+                "value": "01-hs"
+            }
+        },
+        {
+            "nodePath": "referenceParent.timeFrameScale",
+            "properties": {
+                "value": "01-hs"
+            }
+        }
+    ]
+ }

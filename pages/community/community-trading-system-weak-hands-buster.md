@@ -11,7 +11,7 @@ The trading system conforms to the Superalgos Trading Protocol, therefore, it ma
 
 {% include note.html content="Weak-hands Buster v2 is available on the ```Weak-Hands-Buster v2.json``` plugin workspace shipping with Superalgos." %}
 
-{% include live-trading-warning.html %}
+{% include shared-strategies-warning.html %}
 
 ## WHB V.2 Performance in Backtests (Binance)
 
@@ -131,3 +131,9 @@ The following bots must be running and up to date to run paper trading, forward 
 #### Mar 2020
 
 ![8th Mar  2020](https://user-images.githubusercontent.com/13994516/79866599-4eb95000-83dd-11ea-9c51-66ffd99b41bd.PNG)
+
+## Warning and Disclaimer
+
+{% include live-trading-warning.html %}
+
+{% include shared-strategies-important.html %}
