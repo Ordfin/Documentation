@@ -800,6 +800,11 @@ entries:
       output: web
       class: childItem
 
+    - title: Superalgos fails to connect via websockets
+      url: /suite-troubleshooting-superalgos-failed-to-connect-via-websockets.html
+      output: web
+      class: childItem
+
     - title: Perception issues
       url: /#
       output: web

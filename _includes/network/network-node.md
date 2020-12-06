@@ -86,17 +86,17 @@ To add a network node, select *Add Network Node* on the *Superalgos Network* nod
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-Select *Configure Network Node* on the menu to access the configuration.
+Select *Configure* on the menu to access the configuration.
 
 ```json
 { 
-"host": "0.0.0.0", 
+"host": "localhost", 
 "webPort": "34248", 
 "webSocketsPort": "18041"
 }
 ```
 
-* ```host``` is the machine or hardware represented by the network node, which must be identified by its IP address.
+* ```host``` is the machine or hardware represented by the network node. The default parameter is ```localhost```, but if you intend to access the backend services of this node from a remote computer, then you must change ```localhost``` for the IP Address of the machine on which the node is running, for example, to ```147.0.0.1```.
 
 * ```webPort``` is the port used by the Web Server, at this stage ```34248```.
 
