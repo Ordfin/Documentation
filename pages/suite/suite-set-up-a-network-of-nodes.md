@@ -28,7 +28,7 @@ Also, you may want to plan which nodes in the network should run which data-mini
 
 **1. Set up Superalgos on each machine**. Once Superalgos is installed, run the system for the first time using the ```node run noBrowser``` command. The ```noBrowser``` parameter runs the backend without firing up the frontend. 
 
-{% include tip.html content="On computers with less than 8 GB of RAM, such as minicomputers or single-board computers like the Raspberry Pi, use ```node run noBrowser minMemo``` to run the app. ```minMemo``` sets up the system to run with minimal RAM requirements." %}
+{% include tip.html content="On computers with 8 GB of RAM or less, such as minicomputers or single-board computers like the Raspberry Pi, use ```node run noBrowser minMemo``` to run the app. ```minMemo``` sets up the system to run with minimal RAM requirements." %}
 
 Leave the machine online, with the backend running.
 
@@ -44,7 +44,7 @@ You may access the home node locally, that is, running the browser on the machin
 
 **3. Add and configure a network node for each machine**.
 
-{% include /network/network-node.md heading="" icon="no" adding="####" configuring="####" starting="" content="no" definition="no" table="no" more="yes"%}
+{% include /network/network-node.md heading="" icon="no" adding="######" configuring="######" starting="" content="no" definition="no" table="no" more="no"%}
 
 Configure the first node and hit <kbd>F5</kbd> to refresh the page. Once the page reloads, a notice indicating the system is connecting with the new network node will show on the top of the screen. Repeat the process for each machine.
 
