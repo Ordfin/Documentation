@@ -6,6 +6,12 @@ permalink: contributing-to-superalgos.html
 toc: false
 ---
 
+## We Need Your Help Now With an Issue We Can't Solve!
+
+{% include callout.html type="success" content="When you search for <code>crypto trading bot</code> in Github.com, Superalgos is on the 4th page of the search results because the repo has too few stars and forks. For the project to advance faster, we need more developers to be able to find us! There are hundreds of people in our Community group. Let's put those stars and forks in the hundreds too! Superalgos deserves to be on the first page of the results, and it only takes a minute to put a star on and fork the repo... <a href='https://github.com/Superalgos/Superalgos' rel='nofollow' rel='noopener' target='_blank'>click this link and do it now!</a>" %}
+
+## Want to Help Superalgos Grow?
+
 **We are thrilled you are interested in contributing to Superalgos!**
 
 Superalgos is a collective project, still at an early stage. Your help is valued and you have the opportunity to play a role in the success of the project! 
@@ -22,14 +28,21 @@ The project thrives thanks to contributions, as there's only so much founders an
 
 ### Spread the Word
 
-Like with every open-source project, the more people uses the software and the more people gets to collaborate, the better the software gets over time. Spreading the word is a possitive sum game that benefits everyone. Share <a href='https://www.youtube.com/channel/UCmYSGbB151xFQPNxj7KfKBg' rel='noopener' target='_blank'>our videos</a>, retweet <a href='https://twitter.com/superalgos' rel='noopener' target='_blank'>our tweets</a>, share our <a href='https://www.facebook.com/superalgos' rel='noopener' target='_blank'>Facebook posts
-</a>, share our <a href='https://superalgos.org/media-articles.shtml' target='_blank'>articles</a>.
+Like with every open-source project, the more people uses the software and the more people gets to collaborate, the better the software gets over time. Spreading the word is a possitive sum game that benefits everyone. 
+
+<a href='https://www.youtube.com/channel/UCmYSGbB151xFQPNxj7KfKBg' rel='noopener' target='_blank'>Share our videos!</a>
+
+<a href='https://twitter.com/superalgos' rel='noopener' target='_blank'>Retweet our tweets!</a>
+
+<a href='https://www.facebook.com/superalgos' rel='noopener' target='_blank'>Share our Facebook posts!</a>
+
+<a href='https://superalgos.org/media-articles.shtml' target='_blank'>Share our articles!</a>
 
 ## Advanced Users
 
 ### Test the Unreleased Version
 
-Superalgos is always in development. We've been delivering a new version of the system every other month on average. If you are proficient using the stable version, you may be of great help in testing the new version and reporting any bugs you may find.
+Superalgos is always in development. We've been delivering a new version of the system every other month on average. If you are proficient in using the stable version, you may be of great help in testing the new version and reporting any bugs you may find.
 
 <a href='contributing-testing.html'>Start testing!</a>
 
@@ -53,9 +66,11 @@ The documentation is a crucial aspect of the project and is the bottleneck with 
 
 The new tutorials feature allows anyone to build interactive tutorials, just like the one welcoming new users, giving them a tour of the system the first time they run the app. If by using Superalgos you've mastered any big or small tasks for which there are no tutorials yet, it'd be awesome if you created one to help smooth the learning curve for users coming after you!
 
+<a href='suite-tutorials.html'>Learn how to build tutorials!</a>
+
 ### Write an Article
 
-Everyone using Superalgos benefits from a larger user base: the more users test and push the boundaries of a complex system, the faster we may get to a stable and polished version, and finally break out of the beta phase. Writing an article for Hacker Noon, a Medium publication, or the specialized media about how Superalgos helps you with your trading is a great way to spread the word.
+Everyone using Superalgos benefits from a larger user base: the more users test and push the boundaries of a complex system, the faster we may get to a stable and polished version, and finally break out of the beta phase. Writing an article for Hacker Noon, a Medium publication, or the specialized media about how Superalgos helps you with your trading is likely the most powerful way to spread the word.
 
 ## Developers
 
@@ -63,7 +78,7 @@ Everyone using Superalgos benefits from a larger user base: the more users test 
 
 Data mines and the indicators within are crucial elements of trading intelligence. Contributing a few indicators is currently the best way developers may help to realize the project's vision of a Collective Trading Intelligence. At the same time, it's the best way to dive under the hood and learn how the system works so that you may one day contribute to the code base.
 
-<a href='contributing-indicators.html'>Submit a data mine!</a>
+<a href='contributing-indicators.html'>Contribute a data mine!</a>
 
 ### Remove Bugs
 
@@ -73,4 +88,4 @@ The lead developer is usually focused on developing for the next release. Helpin
 
 Once you've gained enough experience building data mines and removing bugs, you may be ready to dive deep into the codebase. It's a large system, so take a deep breath!
 
-{% include note.html content="The activities with a link feature more information on how to proceed with your contribution. If there are no details on the topic your are intested, please talk to the *admins* in the <a href='https://t.me/superalgoscommunity' rel='nofollow' rel='noopener' target='_blank'>Community</a>." %}
+{% include note.html content="The activities with a link feature more information on how to proceed with your contribution. If there are no details on the topic your are interested in, please talk to the *admins* in the <a href='https://t.me/superalgoscommunity' rel='nofollow' rel='noopener' target='_blank'>Community</a>." %}
