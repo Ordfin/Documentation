@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
 {% assign title = "Layers Manager" %}
-{% assign definition = site.data.charting_space.layers_manager %}
+{% assign definition = site.data.charting_space.layer_manager %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 
