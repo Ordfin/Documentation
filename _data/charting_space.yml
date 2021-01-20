@@ -14,6 +14,6 @@ time_frame_scale: "The time frame scale controls the time frame setting, that is
 
 timeline_chart: "The timeline chart represents a chart within a time machine, which may have independent rate and time frame scales, as well as particular layers."
 
-layer_manager: "The layer manager determines which layers will be visible on the corresponding timeline chart."
+layers_manager: "The layer manager determines which layers will be visible on the corresponding timeline chart."
 
 layer: "A layer represents a reference to a data product in the data storage node of the network hierarchy. Conceptually, it means that a certain data product, which exists in a certain location on the network, holds the data to be rendered on the charts."

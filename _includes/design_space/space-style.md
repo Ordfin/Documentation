@@ -145,9 +145,6 @@ Select *Configure* on the menu to access the configuration.
 | ```DARK_TURQUOISE``` | 2, 149, 170 | <span style="display: block; background: RGB(2, 149, 170); border: 1px solid black;">&nbsp;</span> |
 
 
-.
-
-
 
 
 <!--------------------------------------------- CONFIGURING ends -->

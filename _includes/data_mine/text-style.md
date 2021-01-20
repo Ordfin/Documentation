@@ -96,7 +96,6 @@ Select *Configure* on the menu to access the configuration.
 
 * ```fontSize``` is self explanatory too; values above zero produce the expected results.
 
-.
 <!--------------------------------------------- CONFIGURING ends -->
 
 {% endif %}
