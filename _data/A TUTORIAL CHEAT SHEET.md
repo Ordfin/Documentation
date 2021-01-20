@@ -1,3 +1,18 @@
+,
+    "controlDocs": {
+        "panel": "Open",
+        "page": {
+            "project": "Superalgos",
+            "category": "Topic",
+            "type": "Trading System Hierarchy"
+        }
+    }
+ 
+    ,
+    "controlDocs": {
+        "panel": "Close"
+    }
+    
     "positionAtReferenceParent": true,
 
     "keyPressedTimeMachineReferenceParent": {

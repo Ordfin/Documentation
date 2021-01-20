@@ -6,10 +6,6 @@ permalink: contributing-to-superalgos.html
 toc: false
 ---
 
-## We Need Your Help Now With an Issue We Can't Solve!
-
-{% include callout.html type="success" content="When you search for <code>crypto trading bot</code> in Github.com, Superalgos is on the 4th page of the search results because the repo has too few stars and forks. For the project to advance faster, we need more developers to be able to find us! There are hundreds of people in our Community group. Let's put those stars and forks in the hundreds too! Superalgos deserves to be on the first page of the results, and it only takes a minute to put a star on and fork the repo... <a href='https://github.com/Superalgos/Superalgos' rel='nofollow' rel='noopener' target='_blank'>click this link and do it now!</a>" %}
-
 ## Want to Help Superalgos Grow?
 
 **We are thrilled you are interested in contributing to Superalgos!**
