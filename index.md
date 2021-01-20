@@ -12,33 +12,6 @@ toc: false
 
 {% include callout.html type="success" content="Superalgos is a comprehensive system managing each of the important concepts that make up trading intelligence. Learn more about the project and the complete set of system features and functions <a href='https://superalgos.org' target='_blank'>on the project's home page</a>." %}
 
-## In a Nutshell
+## Getting Started Guide
 
-### Superalgos Features
-
-* Visual scripting designer.
-* Visual strategy debugger.
-* Integrated charting system.
-* Task management across a trading farm.
-* Community-built strategies to learn and start from.
-
-### Superalgos Functions
-
-* Visually design trading strategies.
-* Visually design indicators.
-* Visually design plotters to visualize indicators or mined data.
-* Visually set up data-mining operations.
-* Download historical market data from crypto exchanges.
-* Backtest strategies against historical data.
-* Run live trading sessions.
-* Run arbitrary data-mining operations of any size.
-* Feed trading strategies with the mined data.
-
-### Superalgos is User-Centric
-
-* Free, open-source software.
-* No ads.
-* No sign-up.
-* No login.
-* No user/usage data collection of any kind.
-* Runs 100% on uncompilled code you can read and audit.
+In homage to the open-source spirit, we have moved the Getting Started Guide to our GitHub repository, where the rest of the code is. <a href='https://github.com/Superalgos/Superalgos/blob/master/README.md' target='_blank'>Take me to the Getting Started Guide!</a>
