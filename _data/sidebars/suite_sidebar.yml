@@ -36,10 +36,6 @@ entries:
       url: /suite-about-this-documentation.html
       output: web 
 
-    - title: System requirements
-      url: /suite-system-requirements.html
-      output: web
-
     - title: Community safety policy
       url: /suite-community-safety-policy.html
       output: web
