@@ -14,5 +14,3 @@ We are thrilled you are interested in contributing to Superalgos. Your help is g
 
 Superalgos is open-source software released under [Apache License 2.0](LICENSE).
 
-<iframe width="1120" height="630" src="https://www.youtube.com/embed/FbYxPSQ9Huw?rel=0&amp;autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
